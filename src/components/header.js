@@ -1,5 +1,6 @@
 import React from 'react'
-import { Link } from 'gatsby'
+//import { Link } from 'gatsby'
+import AniLink from 'gatsby-plugin-transition-link/AniLink'
 
 import headerStyles from '../styles/header.module.scss'
 
@@ -9,40 +10,44 @@ const Header = () => {
             <nav>
                 <ul className={headerStyles.navList}>
                     <li>
-                        <Link
+                        <AniLink
+                            fade
                             className={headerStyles.navItem}
                             activeClassName={headerStyles.activeNavItem}
                             to="/"
                         >
                             Home
-                        </Link>
+                        </AniLink>
                     </li>
                     <li>
-                        <Link
+                        <AniLink
+                            fade
                             className={headerStyles.navItem}
                             activeClassName={headerStyles.activeNavItem}
                             to="/projects"
                         >
                             Projects
-                        </Link>
+                        </AniLink>
                     </li>
                     <li>
-                        <Link
+                        <AniLink
+                            fade
                             className={headerStyles.navItem}
                             activeClassName={headerStyles.activeNavItem}
                             to="/cv"
                         >
                             CV
-                        </Link>
+                        </AniLink>
                     </li>
                     <li>
-                        <Link
+                        <AniLink
+                            fade
                             className={headerStyles.navItem}
                             activeClassName={headerStyles.activeNavItem}
                             to="/contact"
                         >
                             Contact Me
-                        </Link>
+                        </AniLink>
                     </li>
                 </ul>
             </nav>

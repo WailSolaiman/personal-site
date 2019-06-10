@@ -1,10 +1,13 @@
 import React from 'react'
-import '../styles/index.scss'
-import LayoutStyles from '../styles/layout.module.scss'
+import UIkit from 'uikit/dist/js/uikit'
+import Icons from 'uikit/dist/js/uikit-icons'
 import Header from './header'
 import Footer from './footer'
+import '../styles/index.scss'
+import LayoutStyles from '../styles/layout.module.scss'
 
 const Layout = ({ children }) => {
+    UIkit.use(Icons)
     return (
         <div className={LayoutStyles.container}>
             <div className={LayoutStyles.content}>
