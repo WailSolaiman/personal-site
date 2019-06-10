@@ -1,9 +1,21 @@
-/**
- * Configure your Gatsby site with this file.
- *
- * See: https://www.gatsbyjs.org/docs/gatsby-config/
- */
-
 module.exports = {
-  /* Your site config here */
+    siteMetadata: {
+        title: 'Wail Solaiman - Frontend Web-Developer',
+        author: 'Wail Solaiman',
+        email: 'contact@wailsolaiman.com',
+    },
+    plugins: [
+        `gatsby-plugin-react-helmet`,
+        `gatsby-plugin-sass`,
+        `gatsby-transformer-json`,
+        `gatsby-plugin-sharp`,
+        `gatsby-transformer-sharp`,
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: 'project',
+                path: `${__dirname}/src/data`,
+            },
+        },
+    ],
 }
