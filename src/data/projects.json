@@ -1,15 +1,19 @@
 [{
-        "title": "My Project",
-        "slug": "project-1",
-        "url": "https://example.com/",
-        "image": "./images/night-city.jpg",
-        "description": "I built this to show off my sweet skills!"
-    },
-    {
-        "title": "Another Project",
-        "slug": "project-2",
-        "url": "https://example.org/",
-        "image": "./images/fog-city.jpg",
-        "description": "This one is also good."
-    }
-]
+    "title": "BST Bau GmbH",
+    "slug": "bst-bau-gmbh",
+    "url": "https://www.bst-bau.de/",
+    "image": "./images/bst.jpeg",
+    "description": "I built this to show off my sweet skills!"
+}, {
+    "title": "Bjöerk GmbH",
+    "slug": "bjoerk-gmbh",
+    "url": "https://www.bjoerk.de/",
+    "image": "./images/bjoerk.jpeg",
+    "description": "This one is also good."
+}, {
+    "title": "Bjöerk Movies",
+    "slug": "bjoerk-movies",
+    "url": "https://www.bjoerkmovies.de/",
+    "image": "./images/bjoerk-movies.jpeg",
+    "description": "This one is also good."
+}]
