@@ -20,17 +20,22 @@ const Experience = () => {
 
     return (
         <div>
-            <h2>Berufserfahrung</h2>
+            <h2 className="uk-margin-small-top uk-text-bold">
+                Berufserfahrung
+            </h2>
             {allJobExperience.map(({ node: job }, index) => {
                 return (
                     <div key={index}>
-                        <h3>{job.community}</h3>
-                        <p>{job.start_date}</p>
-                        <p>{job.end_date}</p>
-                        <p>{job.activity}</p>
+                        <p className="uk-margin-remove-bottom">
+                            <span className="uk-text-bold">
+                                {job.community}
+                            </span>{' '}
+                            {job.start_date} - {job.end_date} ({job.activity})
+                        </p>
                     </div>
                 )
             })}
+            <p></p>
         </div>
     )
 }

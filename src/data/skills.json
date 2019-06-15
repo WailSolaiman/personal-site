@@ -1,0 +1,72 @@
+[{
+    "Frontend": [{
+            "text": "HTML5",
+            "icon": "devicon-html5-plain-wordmark"
+        },
+        {
+            "text": "CSS3",
+            "icon": "devicon-css3-plain-wordmark"
+        },
+        {
+            "text": "Javascript/ES6",
+            "icon": "devicon-javascript-plain"
+        },
+        {
+            "text": "SASS",
+            "icon": "devicon-sass-original"
+        },
+        {
+            "text": "Bootstrap",
+            "icon": "devicon-bootstrap-plain-wordmark"
+        },
+        {
+            "text": "jQuery",
+            "icon": "devicon-jquery-plain-wordmark"
+        },
+        {
+            "text": "React Js-Framework",
+            "icon": "devicon-react-original-wordmark"
+        }, {
+            "text": "Gatsby",
+            "icon": "img"
+        }
+    ]
+}, {
+    "Backend": [{
+            "text": "Node.js",
+            "icon": "devicon-nodejs-plain"
+        },
+        {
+            "text": "Express",
+            "icon": "devicon-express-original"
+        },
+        {
+            "text": "MongoDB",
+            "icon": "devicon-mongodb-plain-wordmark"
+        }
+    ]
+}, {
+    "CMS": [{
+            "text": "Wordpress",
+            "icon": "devicon-wordpress-plain-wordmark"
+        },
+        {
+            "text": "Contao",
+            "icon": "img"
+        }
+    ]
+}, {
+    "Alternative": [{
+            "text": "Git",
+            "icon": "devicon-git-plain-wordmark"
+        },
+        {
+            "text": "Gulp",
+            "icon": "devicon-gulp-plain"
+        },
+        {
+            "text": "Mysql",
+            "icon": "devicon-mysql-plain-wordmark"
+        }
+    ]
+}]

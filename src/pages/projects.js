@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Head from '../components/head'
 import Layout from '../components/layout'
+import Background from '../components/background'
 import ProjectPreview from '../components/projectPreview'
 
 const projects = () => {
@@ -32,23 +33,30 @@ const projects = () => {
     return (
         <Layout>
             <Head title="Projects" />
-            <h1>Projects</h1>
-            {projects.map(({ node: project }) => {
-                const id = project.id
-                const title = project.title
-                const slug = project.slug
-                const description = project.description
-                const imageData = project.image.childImageSharp.fluid
-                return (
-                    <ProjectPreview
-                        key={id}
-                        title={title}
-                        slug={slug}
-                        description={description}
-                        imageData={imageData}
-                    />
-                )
-            })}
+            <Background background="uk-background-default" withPadding={true}>
+                <h1>Projects</h1>
+                <div
+                    className="uk-child-width-1-3@m uk-grid-small uk-grid-match"
+                    uk-grid=""
+                >
+                    {projects.map(({ node: project }) => {
+                        const id = project.id
+                        const title = project.title
+                        const slug = project.slug
+                        const description = project.description
+                        const imageData = project.image.childImageSharp.fluid
+                        return (
+                            <ProjectPreview
+                                key={id}
+                                title={title}
+                                slug={slug}
+                                description={description}
+                                imageData={imageData}
+                            />
+                        )
+                    })}
+                </div>
+            </Background>
         </Layout>
     )
 }

@@ -1,33 +1,34 @@
 import React from 'react'
 import Layout from '../components/layout'
+import Background from '../components/background'
 import Head from '../components/head'
 import Avatar from '../components/home/avatar'
+import Skills from '../components/home/skills'
 
 const IndexPage = () => {
     return (
         <Layout>
             <Head title="Home" />
-            <Avatar />
-            <h1 className="uk-heading-2xlarge">Hello...</h1>
-            <h2>
-                I'm Wail, a Frontend Web-Developer living in Lübeck - Germany
-            </h2>
-            <button
-                className="uk-button uk-button-default"
-                type="button"
-                uk-toggle="target: .toggle"
-            >
-                Toggle
-            </button>
-            <p className="toggle">Hello!</p>
-            <p className="toggle" hidden>
-                Bazinga!
-            </p>
-            <span
-                className="uk-margin-small-right"
-                uk-icon="icon: check; ratio: 2"
-            ></span>
-            <span uk-icon="icon: check; ratio: 3.5"></span>
+            <Background background="color-bg-nr2" withPadding={true}>
+                <Avatar />
+                <h1 className="uk-text-bold uk-text-center uk-margin-small-bottom color-nr5">
+                    Wail Solaiman
+                </h1>
+                <h2 className="uk-text-center uk-margin-small-top color-nr5">
+                    Frontend Web-Developer
+                </h2>
+            </Background>
+            <Background background="uk-background-default" withPadding={true}>
+                <h2 className="uk-text-center uk-text-bold">
+                    Was kann ich {'<code>'} für Sie?
+                </h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Explicabo aliquam omnis eos nam dolore ex fugiat doloremque
+                    ipsa, natus dolores.
+                </p>
+                <Skills />
+            </Background>
         </Layout>
     )
 }

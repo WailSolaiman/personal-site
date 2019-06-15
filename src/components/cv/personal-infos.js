@@ -3,12 +3,24 @@ import React from 'react'
 const PersonalInfos = ({ address, email, mobile, birthdate, birthplace }) => {
     return (
         <div>
-            <h2>Persönliche Daten</h2>
-            <p>Handy Nr.: {mobile}</p>
-            <p>E-Mail: {email}</p>
-            <p>Geburtsdatum: {birthdate}</p>
-            <p>Geburtsort: {birthplace}</p>
-            <p>Wohnort: {address}</p>
+            <h2 className="uk-margin-small-top uk-text-bold">
+                Persönliche Daten
+            </h2>
+            <p className="uk-margin-remove-bottom">
+                <span className="uk-text-bold">Handy Nr.:</span> {mobile}
+            </p>
+            <p className="uk-margin-remove">
+                <span className="uk-text-bold">E-Mail:</span> {email}
+            </p>
+            <p className="uk-margin-remove">
+                <span className="uk-text-bold">Geburtsdatum:</span> {birthdate}
+            </p>
+            <p className="uk-margin-remove">
+                <span className="uk-text-bold">Geburtsort:</span> {birthplace}
+            </p>
+            <p className="uk-margin-remove-top">
+                <span className="uk-text-bold">Wohnort:</span> {address}
+            </p>
         </div>
     )
 }

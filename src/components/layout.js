@@ -9,13 +9,13 @@ import LayoutStyles from '../styles/layout.module.scss'
 const Layout = ({ children }) => {
     UIkit.use(Icons)
     return (
-        <div className={LayoutStyles.container}>
+        <>
             <div className={LayoutStyles.content}>
                 <Header />
                 {children}
             </div>
             <Footer />
-        </div>
+        </>
     )
 }
 
