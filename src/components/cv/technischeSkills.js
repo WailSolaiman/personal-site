@@ -34,12 +34,15 @@ const TechnischeSkills = () => {
             <p className="uk-margin-remove">
                 Serverseitige Programmiersprache: Node.js.
             </p>
-            <p className="uk-margin-remove">Node.js Module, wie ...</p>
+            <p className="uk-margin-remove">
+                Verwendung von Node.js API und verschiedenen Node.js Modules,
+                wie Express, Mongoose und Validator.js.
+            </p>
             <p className="uk-margin-remove">
                 Entwicklung von Wordpress-CMS Themes.
             </p>
             <p className="uk-margin-remove-bottom uk-text-bold">
-                Basis Kenntnisse:
+                Basiskenntnisse:
             </p>
             <p className="uk-margin-remove">Redux Framework</p>
             <p className="uk-margin-remove-top">Mongo Datenbank</p>

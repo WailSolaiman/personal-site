@@ -1,19 +1,3122 @@
 [{
-    "title": "BST Bau GmbH",
-    "slug": "bst-bau-gmbh",
-    "url": "https://www.bst-bau.de/",
-    "image": "./images/bst.jpeg",
-    "description": "I built this to show off my sweet skills!"
-}, {
-    "title": "Bjöerk GmbH",
-    "slug": "bjoerk-gmbh",
-    "url": "https://www.bjoerk.de/",
-    "image": "./images/bjoerk.jpeg",
-    "description": "This one is also good."
-}, {
-    "title": "Bjöerk Movies",
-    "slug": "bjoerk-movies",
-    "url": "https://www.bjoerkmovies.de/",
-    "image": "./images/bjoerk-movies.jpeg",
-    "description": "This one is also good."
-}]
+        "title": "Björk GmbH",
+        "slug": "bjoerk-gmbh",
+        "url": "https://www.bjoerk.de/",
+        "image": "./images/bjoerk.jpeg",
+        "community": "Anders Björk GmbH",
+        "state": "Online",
+        "development": "Wordpress",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": false
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": true
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Björk Movies",
+        "slug": "bjoerk-movies",
+        "url": "https://www.bjoerkmovies.de/",
+        "image": "./images/bjoerk-movies.jpeg",
+        "community": "Anders Björk GmbH",
+        "state": "Online",
+        "development": "Vanilla JS",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": false
+            },
+            {
+                "tool": "MySql",
+                "isUsed": false
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    },
+    {
+        "title": "BST Bau GmbH",
+        "slug": "bst-bau-gmbh",
+        "url": "https://www.bst-bau.de/",
+        "image": "./images/bst.jpeg",
+        "community": "Anders Björk GmbH",
+        "state": "Online",
+        "development": "TYPO 3",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": false
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": false
+            },
+            {
+                "tool": "MySql",
+                "isUsed": false
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    },
+    {
+        "title": "Presseball GmbH",
+        "slug": "presseball-gmbH",
+        "url": "https://www.presseball-sh.de/",
+        "image": "./images/presseball.jpeg",
+        "community": "Anders Björk GmbH",
+        "state": "Online",
+        "development": "Vanilla JS",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": false
+            },
+            {
+                "tool": "MySql",
+                "isUsed": false
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    },
+    {
+        "title": "Dorenburg",
+        "slug": "dorenburg-event",
+        "url": "https://dorenburg-event.de/",
+        "image": "./images/dorenburg.jpeg",
+        "community": "Anders Björk GmbH",
+        "state": "Online",
+        "development": "Wordpress",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": true
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    },
+    {
+        "title": "Delphos",
+        "slug": "delphos",
+        "url": "https://www.delphos.de/",
+        "image": "./images/delphos.jpeg",
+        "community": "Anders Björk GmbH",
+        "state": "Online",
+        "development": "Wordpress",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": true
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    },
+    {
+        "title": "Deswin Online Shop",
+        "slug": "deswin",
+        "url": "https://www.deswin.de/",
+        "image": "./images/deswin.jpg",
+        "community": "eTailers ISS GmbH",
+        "state": "Online",
+        "development": "Angular 2",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": true
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": false
+            },
+            {
+                "tool": "MySql",
+                "isUsed": false
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": true
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Zwei-Rad Küche",
+        "slug": "zwei-rad-kueche",
+        "url": "http://contao.zweiradkueche.de/",
+        "image": "./images/2rad.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Aerolingua",
+        "slug": "aerolingua",
+        "url": "https://www.aerolingua.de/home-de.html",
+        "image": "./images/aerolingua.jpg",
+        "community": "VICON Web Business",
+        "state": "Online",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Babenstieg",
+        "slug": "babenstieg",
+        "url": "https://www.babenstieg.de/",
+        "image": "./images/babenstieg.jpg",
+        "community": "VICON Web Business",
+        "state": "Online",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Baltic Rail Gate",
+        "slug": "balticrailgate",
+        "url": "http://balticrailgate.developcon.de/startseite.html",
+        "image": "./images/baltic.jpeg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Dr. Beckmann Website",
+        "slug": "dr-beckmann",
+        "url": "https://contao.drjuergenbeckmann.net/",
+        "image": "./images/beckmann.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Chirurgie Bad Schwartau",
+        "slug": "chirurgie-bad-schwartau",
+        "url": "http://contao.chirurgie-bad-schwartau.de/",
+        "image": "./images/chirurgie.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Elvi",
+        "slug": "elvi",
+        "url": "https://www.elvi.de/beratung/",
+        "image": "./images/elvi.jpg",
+        "community": "VICON Web Business",
+        "state": "Online",
+        "development": "Wordpress",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": true
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Erxleben",
+        "slug": "erxleben",
+        "url": "https://www.erxleben-art.com/",
+        "image": "./images/erxleben.jpg",
+        "community": "VICON Web Business",
+        "state": "Online",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Gampe",
+        "slug": "gampe",
+        "url": "http://gampe-druck-medien.developcon.de/",
+        "image": "./images/gampe.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Glücksbutze",
+        "slug": "gluecksbutze",
+        "url": "https://www.gluecksbutze.de/",
+        "image": "./images/gluecksbutze.jpg",
+        "community": "VICON Web Business",
+        "state": "Online",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Gutachtenpraxis",
+        "slug": "gutachtenpraxis",
+        "url": "https://www.gutachtenpraxis-luebeck.de/",
+        "image": "./images/gutachtenpraxis.jpg",
+        "community": "VICON Web Business",
+        "state": "Online",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Holzbau",
+        "slug": "holzbau",
+        "url": "http://shl-holzbau.developcon.de/startseite.html",
+        "image": "./images/holzbau.jpeg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Jugend GNZ",
+        "slug": "jugend-gestaltet-nachhaltige-zukunft",
+        "url": "https://www.jugend-gestaltet-nachhaltige-zukunft.de/",
+        "image": "./images/jugend-gestaltet-nachhaltige-zukunft.png",
+        "community": "VICON Web Business",
+        "state": "Online",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Kähler Galabau",
+        "slug": "kaehler-galabau",
+        "url": "https://www.kaehler-galabau.de/",
+        "image": "./images/kaehler.jpg",
+        "community": "VICON Web Business",
+        "state": "Online",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Eine Kleine Auszeit",
+        "slug": "eine-kleine-auszeit",
+        "url": "https://eine-kleine-auszeit.de/",
+        "image": "./images/kleine-auszeit.jpg",
+        "community": "VICON Web Business",
+        "state": "Online",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Klingsporn",
+        "slug": "klingsporn",
+        "url": "https://www.architekt-klingsporn.de/",
+        "image": "./images/klingsporn.jpg",
+        "community": "VICON Web Business",
+        "state": "Online",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Lacasa",
+        "slug": "lacasa",
+        "url": "https://lacasa-cc.com/lacasa-cc-anmeldung.html",
+        "image": "./images/lacasa.jpg",
+        "community": "VICON Web Business",
+        "state": "Online",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Legate",
+        "slug": "legate",
+        "url": "http://contao.legate-international.de/home.html",
+        "image": "./images/legate.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Letkemann",
+        "slug": "letkemann",
+        "url": "https://www.dr-letkeman.de/",
+        "image": "./images/letkemann.jpg",
+        "community": "VICON Web Business",
+        "state": "Online",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "FAT Photolab",
+        "slug": "photolab",
+        "url": "https://contao.fat-photolab.de/home.html",
+        "image": "./images/photolab.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "PSM",
+        "slug": "psm",
+        "url": "http://psm.developcon.de/",
+        "image": "./images/psm.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Rothaus",
+        "slug": "rothaus",
+        "url": "http://rothaus.developcon.de/",
+        "image": "./images/rothaus.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Schön Professional",
+        "slug": "schoen-professional",
+        "url": "https://schoen-professional.developcon.de/home.html",
+        "image": "./images/schoen-professional.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Schütt Gewerbebau",
+        "slug": "schuett",
+        "url": "https://contao.schuett-gewerbebau.de/",
+        "image": "./images/schuett.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Shortysbike",
+        "slug": "shortysbike",
+        "url": "https://shortys-bikeshop.de/",
+        "image": "./images/shortysbike.jpg",
+        "community": "VICON Web Business",
+        "state": "Online",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "TWS",
+        "slug": "tws",
+        "url": "https://www.tws-ruegen.de/",
+        "image": "./images/tws.jpg",
+        "community": "VICON Web Business",
+        "state": "Online",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Wohnmobilstellplatz",
+        "slug": "wohnmobilstellplatz",
+        "url": "http://contao.wohnmobilstellplatz-luebeck.de/",
+        "image": "./images/wohnmobilstellplatz.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Dr. Yagdiran Website",
+        "slug": "dr-yagdiran",
+        "url": "http://dryagdiran.developcon.de/",
+        "image": "./images/yagdiran.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }
+]

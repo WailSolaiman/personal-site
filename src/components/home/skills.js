@@ -1,8 +1,8 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import SkillsTemplate from './skills/skillsTemplate'
-import ContaoImg from '../../data/images/contao.png'
-import GatsbyImg from '../../data/images/gatsby.png'
+import ContaoImg from '../../data/images/logos/contao.png'
+import GatsbyImg from '../../data/images/logos/gatsby.png'
 import 'devicon/devicon.css'
 import 'devicon/devicon-colors.css'
 

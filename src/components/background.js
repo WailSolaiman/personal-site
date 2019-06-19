@@ -11,7 +11,7 @@ const Background = ({ background, withPadding = false, children }) => {
                         : BackgroundStyles.bgWithoutPadding
                 }
             >
-                <div className="uk-container uk-container-small">
+                <div className="uk-container uk-container-medium">
                     {children}
                 </div>
             </div>

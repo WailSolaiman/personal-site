@@ -10,7 +10,8 @@ const PersonalInfos = ({ address, email, mobile, birthdate, birthplace }) => {
                 <span className="uk-text-bold">Handy Nr.:</span> {mobile}
             </p>
             <p className="uk-margin-remove">
-                <span className="uk-text-bold">E-Mail:</span> {email}
+                <span className="uk-text-bold">E-Mail: </span>
+                <a href="mailto: contact@wailsolaiman.com">{email}</a>
             </p>
             <p className="uk-margin-remove">
                 <span className="uk-text-bold">Geburtsdatum:</span> {birthdate}
