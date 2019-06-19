@@ -46,9 +46,7 @@ const Project = ({
             <h2 className="uk-margin-small-bottom uk-margin-small-top">
                 Web-Technologien
             </h2>
-            <div
-                className={'uk-margin-medium-bottom' + ' ' + ProjectStyles.list}
-            >
+            <div className={'uk-margin-medium-bottom ' + ProjectStyles.list}>
                 {description.map((item, index) => {
                     return (
                         <p

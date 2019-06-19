@@ -1,22 +1,31 @@
 import React from 'react'
-import UIkit from 'uikit/dist/js/uikit'
-import Icons from 'uikit/dist/js/uikit-icons'
 import Header from './header'
 import Footer from './footer'
 import '../styles/index.scss'
 import LayoutStyles from '../styles/layout.module.scss'
 
-const Layout = ({ children }) => {
-    UIkit.use(Icons)
-    return (
-        <>
-            <div className={LayoutStyles.content}>
-                <Header />
-                {children}
-            </div>
-            <Footer />
-        </>
-    )
+class Layout extends React.Component {
+    componentDidMount() {
+        try {
+            this.UIkit = require('uikit/dist/js/uikit')
+            this.Icons = require('uikit/dist/js/uikit-icons')
+            this.UIkit.use(this.Icons)
+        } catch (e) {
+            console.error(e)
+        }
+    }
+
+    render() {
+        return (
+            <>
+                <div className={LayoutStyles.content}>
+                    <Header />
+                    {this.props.children}
+                </div>
+                <Footer />
+            </>
+        )
+    }
 }
 
 export default Layout
