@@ -11,7 +11,7 @@ import Languages from '../components/cv/languages'
 const CV = () => {
     return (
         <Layout>
-            <Head title="About" />
+            <Head title="Lebenslauf" />
             <Background background="uk-background-default" withPadding={false}>
                 <h1 className="uk-margin-small-bottom uk-margin-medium-top uk-text-bold">
                     Lebenslauf

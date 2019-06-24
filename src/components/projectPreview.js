@@ -4,7 +4,7 @@ import Image from 'gatsby-image'
 
 function ProjectPreview({ slug, imageData, title }) {
     return (
-        <div className="uk-width-1-3">
+        <div className="uk-width-1-1 uk-width-1-2@m uk-width-1-3@xl">
             <AniLink fade to={`/${slug}/`}>
                 <div className="uk-card uk-card-default color-bg-nr2">
                     <div className="uk-card-media-top">

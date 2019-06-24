@@ -4,5 +4,13 @@
     p {
         color: white;
         margin-bottom: 1rem;
+
+        a {
+            transition: all .2s ease-in-out;
+
+            &:hover {
+                color: white;
+            }
+        }
     }
 }

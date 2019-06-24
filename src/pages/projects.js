@@ -2,11 +2,11 @@ import React, { useState } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Head from '../components/head'
 import Layout from '../components/layout'
-import Background from '../components/background'
+import BackgroundImage from '../components/backgroundImage'
 import ProjectPreview from '../components/projectPreview'
 import Checkboxes from '../components/projects/checkboxes'
 
-const getDatafromGraphQL = () => {
+const projects = () => {
     const data = useStaticQuery(graphql`
         {
             allProjectsJson {
@@ -26,26 +26,33 @@ const getDatafromGraphQL = () => {
                     }
                 }
             }
+            file(relativePath: { eq: "images/header/projects.jpg" }) {
+                childImageSharp {
+                    fluid(maxWidth: 1920) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
         }
     `)
-    return data.allProjectsJson.edges
-}
-
-const projects = () => {
-    const projects = getDatafromGraphQL()
+    const imageData = data.file.childImageSharp.fluid
+    const projects = data.allProjectsJson.edges
     const [filterdString, setFilterString] = useState('')
     const [isWPChecked, toggleWP] = useState(false)
     const [isContaoChecked, toggleContao] = useState(false)
     const [isVanillaJSChecked, toggleVanillaJS] = useState(false)
+    const [isReactChecked, toggleReact] = useState(false)
 
     return (
         <Layout>
-            <Head title="Projects" />
-            <Background background="uk-background-default" withPadding={true}>
-                <h1>Projects</h1>
+            <Head title="Projekte" />
+            <BackgroundImage imageData={imageData} withPadding={true}>
+                <h1 className="uk-text-bold uk-text-center uk-margin-large-bottom">
+                    Projekte
+                </h1>
                 <div className="uk-margin-small-bottom">
                     <input
-                        className="uk-input"
+                        className="uk-input uk-form-large"
                         type="text"
                         placeholder="Projekte nach Titel filtern"
                         onChange={e => setFilterString(e.target.value)}
@@ -60,6 +67,7 @@ const projects = () => {
                             toggleWP(!isWPChecked)
                             toggleContao(false)
                             toggleVanillaJS(false)
+                            toggleReact(false)
                         }}
                     />
                     <Checkboxes
@@ -69,6 +77,7 @@ const projects = () => {
                             toggleContao(!isContaoChecked)
                             toggleWP(false)
                             toggleVanillaJS(false)
+                            toggleReact(false)
                         }}
                     />
                     <Checkboxes
@@ -78,6 +87,17 @@ const projects = () => {
                             toggleVanillaJS(!isVanillaJSChecked)
                             toggleWP(false)
                             toggleContao(false)
+                            toggleReact(false)
+                        }}
+                    />
+                    <Checkboxes
+                        projectdev="React Projekte"
+                        checked={isReactChecked}
+                        onChange={() => {
+                            toggleReact(!isReactChecked)
+                            toggleWP(false)
+                            toggleContao(false)
+                            toggleVanillaJS(false)
                         }}
                     />
                 </div>
@@ -92,13 +112,16 @@ const projects = () => {
                             if (
                                 (!isWPChecked &&
                                     !isContaoChecked &&
-                                    !isVanillaJSChecked) ||
+                                    !isVanillaJSChecked &&
+                                    !isReactChecked) ||
                                 (isContaoChecked &&
                                     project.development === 'Contao') ||
                                 (isWPChecked &&
                                     project.development === 'Wordpress') ||
                                 (isVanillaJSChecked &&
-                                    project.development === 'Vanilla JS')
+                                    project.development === 'Vanilla JS') ||
+                                (isReactChecked &&
+                                    project.development === 'React Framework')
                             )
                                 return (
                                     <ProjectPreview
@@ -116,7 +139,7 @@ const projects = () => {
                         }
                     })}
                 </div>
-            </Background>
+            </BackgroundImage>
         </Layout>
     )
 }

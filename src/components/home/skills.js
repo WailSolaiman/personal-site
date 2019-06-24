@@ -3,6 +3,7 @@ import { graphql, useStaticQuery } from 'gatsby'
 import SkillsTemplate from './skills/skillsTemplate'
 import ContaoImg from '../../data/images/logos/contao.png'
 import GatsbyImg from '../../data/images/logos/gatsby.png'
+// import Uikit from '../../data/images/logos/uikit.png'
 import 'devicon/devicon.css'
 import 'devicon/devicon-colors.css'
 
@@ -20,25 +21,13 @@ const Skills = () => {
                             text
                             icon
                         }
-                        CMS {
-                            text
-                            icon
-                        }
-                        Alternative {
-                            text
-                            icon
-                        }
                     }
                 }
             }
         }
     `)
-
     const { Frontend } = data.allSkillsJson.edges[0].node
     const { Backend } = data.allSkillsJson.edges[1].node
-    const { CMS } = data.allSkillsJson.edges[2].node
-    // const { Alternative } = data.allSkillsJson.edges[3].node
-
     return (
         <div>
             <SkillsTemplate
@@ -47,14 +36,12 @@ const Skills = () => {
                 img={GatsbyImg}
                 imgAlt="Gatsby"
             />
-            <SkillsTemplate title="Backend Fähigkeiten" skills={Backend} />
             <SkillsTemplate
-                title="CMS Fähigkeiten"
-                skills={CMS}
+                title="Backend/CMS Fähigkeiten"
+                skills={Backend}
                 img={ContaoImg}
                 imgAlt="Contao"
             />
-            {/* <SkillsTemplate title="Erste Kenntnisse" skills={Alternative} /> */}
         </div>
     )
 }

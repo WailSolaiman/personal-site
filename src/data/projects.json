@@ -176,6 +176,184 @@
                 "isUsed": false
             }
         ]
+    }, {
+        "title": "Personal: Smartphones Web-Shop",
+        "slug": "smartphones-web-shop",
+        "url": "https://smartphones-webshop-solaiman.herokuapp.com/",
+        "image": "./images/smartphones-react.jpg",
+        "community": "Personal",
+        "state": "Online",
+        "development": "React Framework",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": true
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": false
+            },
+            {
+                "tool": "MySql",
+                "isUsed": false
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": true
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": true
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": true
+            },
+            {
+                "tool": "Express",
+                "isUsed": true
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": true
+            }
+        ]
+    }, {
+        "title": "Personal: Expensify React-App",
+        "slug": "expensify-react-app",
+        "url": "https://expensify-app-solaiman.herokuapp.com/",
+        "image": "./images/expensify-react.jpg",
+        "community": "Personal",
+        "state": "Online",
+        "development": "React Framework",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": true
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": false
+            },
+            {
+                "tool": "MySql",
+                "isUsed": false
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": true
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": true
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": true
+            },
+            {
+                "tool": "Express",
+                "isUsed": true
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": true
+            }
+        ]
     },
     {
         "title": "BST Bau GmbH",
@@ -3036,6 +3214,95 @@
         "image": "./images/yagdiran.jpg",
         "community": "VICON Web Business",
         "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Ki-Sigs",
+        "slug": "ki-sigs",
+        "url": "https://ki-sigs.de/",
+        "image": "./images/ki-sigs.jpg",
+        "community": "VICON Web Business",
+        "state": "Online",
         "development": "Contao",
         "description": [{
                 "tool": "HTML5",

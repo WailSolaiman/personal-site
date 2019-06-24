@@ -21,24 +21,24 @@ const Project = ({
                 alt={title}
                 className="uk-box-shadow-xlarge"
             />
-            <h2 className="uk-margin-remove-bottom">Arbeitsplatz</h2>
-            <p className="uk-text-bold uk-margin-remove">{community}</p>
+            <h2 className="uk-margin-remove-bottom">Agentur</h2>
+            <p className="uk-margin-remove">{community}</p>
             <h2 className="uk-margin-remove-bottom uk-margin-small-top">
                 Projekt
             </h2>
-            <p className="uk-text-bold uk-margin-remove">{development}</p>
+            <p className="uk-margin-remove">{development}</p>
             <h2 className="uk-margin-remove-bottom uk-margin-small-top">
                 Kunde
             </h2>
-            <p className="uk-text-bold uk-margin-remove">{title}</p>
+            <p className="uk-margin-remove">{title}</p>
             <h2 className="uk-margin-remove-bottom uk-margin-small-top">
                 Zustand
             </h2>
             <p
                 className={
                     state === 'Online'
-                        ? 'uk-text-success uk-margin-remove uk-text-bold uk-text-uppercase'
-                        : 'uk-text-danger uk-margin-remove uk-text-bold uk-text-uppercase'
+                        ? 'uk-text-success uk-margin-remove uk-text-uppercase'
+                        : 'uk-text-danger uk-margin-remove uk-text-uppercase'
                 }
             >
                 {state}
@@ -49,10 +49,7 @@ const Project = ({
             <div className={'uk-margin-medium-bottom ' + ProjectStyles.list}>
                 {description.map((item, index) => {
                     return (
-                        <p
-                            key={index}
-                            className="uk-text-bold uk-margin-remove"
-                        >
+                        <p key={index} className="uk-margin-remove">
                             <span
                                 className={
                                     item.isUsed

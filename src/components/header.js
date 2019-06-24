@@ -8,9 +8,11 @@ const Header = () => {
         <Background background="color-bg-nr3" withPadding={false}>
             <div className={headerStyles.row}>
                 <div className={headerStyles.leftColumn}>
-                    <h2 className="color-nr5 uk-text-bold uk-margin-remove">
-                        Wail Solaiman
-                    </h2>
+                    <AniLink fade to="/">
+                        <h2 className="color-nr5 uk-text-bold uk-margin-remove">
+                            Wail Solaiman
+                        </h2>
+                    </AniLink>
                 </div>
                 <div className={headerStyles.rightColumn}>
                     <header className={headerStyles.header}>
@@ -37,7 +39,7 @@ const Header = () => {
                                         }
                                         to="/projects"
                                     >
-                                        Projects
+                                        Projekte
                                     </AniLink>
                                 </li>
                                 <li>
@@ -49,7 +51,7 @@ const Header = () => {
                                         }
                                         to="/cv"
                                     >
-                                        CV
+                                        Lebenslauf
                                     </AniLink>
                                 </li>
                                 <li>
@@ -61,7 +63,7 @@ const Header = () => {
                                         }
                                         to="/contact"
                                     >
-                                        Contact Me
+                                        Kontakt
                                     </AniLink>
                                 </li>
                             </ul>

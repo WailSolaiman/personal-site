@@ -32,7 +32,7 @@ const TechnischeSkills = () => {
                 und HTTPS-Protokolls.
             </p>
             <p className="uk-margin-remove">
-                Serverseitige Programmiersprache: Node.js.
+                Serverseitige Programmiersprache: Node.js und MongoDB.
             </p>
             <p className="uk-margin-remove">
                 Verwendung von Node.js API und verschiedenen Node.js Modules,
