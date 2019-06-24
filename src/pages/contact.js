@@ -31,7 +31,7 @@ const ContactPage = () => {
                     method="POST"
                     data-netlify-recaptcha="true"
                     data-netlify="true"
-                    action="./success.js"
+                    action="./success"
                 >
                     <fieldset className="uk-fieldset">
                         <div className="uk-margin">
