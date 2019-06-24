@@ -61,7 +61,7 @@ const ContactPage = () => {
                             <p>
                                 Bitte beachten Sie die{' '}
                                 <AniLink fade to="/dataPrivacy">
-                                    Datenschutzerklärung
+                                    Datenschutzerklärung.
                                 </AniLink>
                             </p>
                         </div>
