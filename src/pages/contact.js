@@ -27,8 +27,10 @@ const ContactPage = () => {
                 </h1>
                 <h2>Was kann ich für Sie tun?</h2>
                 <form
-                    action="https://formsubmit.co/contact@wailsolaiman.com"
+                    name="contact"
                     method="POST"
+                    data-netlify-recaptcha="true"
+                    data-netlify="true"
                 >
                     <fieldset className="uk-fieldset">
                         <div className="uk-margin">
@@ -62,6 +64,9 @@ const ContactPage = () => {
                                     Datenschutzerklärung
                                 </AniLink>
                             </p>
+                        </div>
+                        <div className="uk-margin">
+                            <div data-netlify-recaptcha="true"></div>
                         </div>
                         <div className="uk-margin">
                             <input
