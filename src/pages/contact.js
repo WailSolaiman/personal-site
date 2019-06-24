@@ -27,7 +27,7 @@ const ContactPage = () => {
                 </h1>
                 <h2>Was kann ich für Sie tun?</h2>
                 <form
-                    action="https://formspree.io/contact@wailsolaiman.com"
+                    action="https://formsubmit.co/contact@wailsolaiman.com"
                     method="POST"
                 >
                     <fieldset className="uk-fieldset">
@@ -44,7 +44,7 @@ const ContactPage = () => {
                                 className="uk-input"
                                 type="email"
                                 placeholder="E-Mail"
-                                name="_replyto"
+                                name="email"
                             />
                         </div>
                         <div className="uk-margin">
