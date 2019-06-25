@@ -26,13 +26,7 @@ const ContactPage = () => {
                     Kontakt
                 </h1>
                 <h2>Was kann ich für Sie tun?</h2>
-                <form
-                    name="contact"
-                    method="POST"
-                    data-netlify-recaptcha="true"
-                    data-netlify="true"
-                    action="/src/pages/success"
-                >
+                <form action="POST" name="contact" data-netlify="true">
                     <p>
                         <label>
                             Name: <input type="text" name="name" />
@@ -54,10 +48,7 @@ const ContactPage = () => {
                             Datenschutzerklärung.
                         </AniLink>
                     </p>
-                    <div
-                        class="g-recaptcha"
-                        data-sitekey="6LeMq6oUAAAAAIv7RWer04VJnvpLio28b3pqhjj6"
-                    ></div>
+                    <div data-netlify-recaptcha="true"></div>
                     <p>
                         <button type="submit">Send</button>
                     </p>
