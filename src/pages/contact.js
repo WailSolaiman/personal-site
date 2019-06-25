@@ -54,6 +54,10 @@ const ContactPage = () => {
                             Datenschutzerklärung.
                         </AniLink>
                     </p>
+                    <div
+                        class="g-recaptcha"
+                        data-sitekey="6LeMq6oUAAAAAIv7RWer04VJnvpLio28b3pqhjj6"
+                    ></div>
                     <p>
                         <button type="submit">Send</button>
                     </p>
