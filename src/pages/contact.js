@@ -33,50 +33,26 @@ const ContactPage = () => {
                     data-netlify="true"
                     action="./success"
                 >
-                    <fieldset className="uk-fieldset">
-                        <div className="uk-margin">
-                            <input
-                                className="uk-input"
-                                type="text"
-                                placeholder="Name und Vorname"
-                                name="name"
-                            />
-                        </div>
-                        <div className="uk-margin">
-                            <input
-                                className="uk-input"
-                                type="email"
-                                placeholder="E-Mail"
-                                name="email"
-                            />
-                        </div>
-                        <div className="uk-margin">
-                            <textarea
-                                className="uk-textarea"
-                                rows="5"
-                                placeholder="Nachricht"
-                                name="message"
-                            ></textarea>
-                        </div>
-                        <div>
-                            <p>
-                                Bitte beachten Sie die{' '}
-                                <AniLink fade to="/dataPrivacy">
-                                    Datenschutzerklärung.
-                                </AniLink>
-                            </p>
-                        </div>
-                        <div className="uk-margin">
-                            <div data-netlify-recaptcha="true"></div>
-                        </div>
-                        <div className="uk-margin">
-                            <input
-                                className="uk-button uk-button-default"
-                                type="submit"
-                                value="Send"
-                            />
-                        </div>
-                    </fieldset>
+                    <p>
+                        <label>
+                            Email: <input type="text" name="name" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Message: <textarea name="message"></textarea>
+                        </label>
+                    </p>
+                    <p>
+                        Bitte beachten Sie die{' '}
+                        <AniLink fade to="/dataPrivacy">
+                            Datenschutzerklärung.
+                        </AniLink>
+                    </p>
+                    <div data-netlify-recaptcha="true"></div>
+                    <p>
+                        <button type="submit">Send</button>
+                    </p>
                 </form>
             </BackgroundImage>
         </Layout>
