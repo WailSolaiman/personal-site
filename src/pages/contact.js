@@ -26,7 +26,7 @@ const ContactPage = () => {
                     Kontakt
                 </h1>
                 <h2>Was kann ich für Sie tun?</h2>
-                <form action="POST" name="contact" data-netlify="true">
+                <form method="POST" name="contact" data-netlify="true">
                     <p>
                         <label>
                             Name: <input type="text" name="name" />
