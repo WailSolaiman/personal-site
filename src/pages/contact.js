@@ -35,12 +35,17 @@ const ContactPage = () => {
                 >
                     <p>
                         <label>
-                            Email: <input type="text" name="name" />
+                            Name: <input type="text" name="name" />
                         </label>
                     </p>
                     <p>
                         <label>
-                            Message: <textarea name="message"></textarea>
+                            E-mail: <input type="email" name="email" />
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            Nachricht: <textarea name="message"></textarea>
                         </label>
                     </p>
                     <p>
@@ -49,7 +54,6 @@ const ContactPage = () => {
                             Datenschutzerklärung.
                         </AniLink>
                     </p>
-                    <div data-netlify-recaptcha="true"></div>
                     <p>
                         <button type="submit">Send</button>
                     </p>
