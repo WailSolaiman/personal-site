@@ -28,11 +28,12 @@ const ContactPage = () => {
                 <h2>Was kann ich für Sie tun?</h2>
                 <form
                     name="contact"
-                    method="POST"
+                    method="post"
                     data-netlify-recaptcha="true"
                     data-netlify="true"
-                    action="/success"
+                    action="/success/"
                 >
+                    <input type="hidden" name="form-name" value="contact" />
                     <p>
                         <label>
                             Name: <input type="text" name="name" />
