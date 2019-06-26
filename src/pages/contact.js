@@ -35,7 +35,7 @@ const ContactPage = () => {
                     data-netlify-recaptcha="true"
                     action="/success/"
                     onSubmit={() => {
-                        recaptchaRef.current.execute()
+                        recaptchaRef.current.getValue()
                     }}
                 >
                     <input type="hidden" name="form-name" value="contact" />
