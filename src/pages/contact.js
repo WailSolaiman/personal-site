@@ -1,5 +1,6 @@
 import React from 'react'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
+import Recaptcha from 'react-google-recaptcha'
 import Layout from '../components/layout'
 import BackgroundImage from '../components/backgroundImage'
 import Head from '../components/head'
@@ -18,6 +19,7 @@ const ContactPage = () => {
         }
     `)
     const imageData = data.file.childImageSharp.fluid
+    const recaptchaRef = React.createRef()
     return (
         <Layout>
             <Head title="Kontakt" />
@@ -29,9 +31,12 @@ const ContactPage = () => {
                 <form
                     name="contact"
                     method="post"
-                    data-netlify-recaptcha="true"
                     data-netlify="true"
+                    data-netlify-recaptcha="true"
                     action="/success/"
+                    onSubmit={() => {
+                        recaptchaRef.current.execute()
+                    }}
                 >
                     <input type="hidden" name="form-name" value="contact" />
                     <p>
@@ -55,10 +60,10 @@ const ContactPage = () => {
                             Datenschutzerklärung.
                         </AniLink>
                     </p>
-                    <div
-                        className="g-recaptcha"
-                        data-sitekey="6LeMq6oUAAAAAIv7RWer04VJnvpLio28b3pqhjj6"
-                    ></div>
+                    <Recaptcha
+                        ref={recaptchaRef}
+                        sitekey={'6LeMq6oUAAAAAIv7RWer04VJnvpLio28b3pqhjj6'}
+                    />
                     <p>
                         <button type="submit">Send</button>
                     </p>
