@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import Recaptcha from 'react-google-recaptcha'
 import Layout from '../components/layout'
@@ -20,6 +20,25 @@ const ContactPage = () => {
     `)
     const imageData = data.file.childImageSharp.fluid
     const recaptchaRef = React.createRef()
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [message, setMessage] = useState('')
+    const handleNameChange = e => {
+        setName(e.target.value)
+    }
+    const emailRegularExp = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/
+    const isDisabled = () => {
+        if (
+            !name ||
+            name.length === 0 ||
+            !emailRegularExp.test(email) ||
+            !message ||
+            message.length < 10
+        ) {
+            return true
+        }
+        return false
+    }
     return (
         <Layout>
             <Head title="Kontakt" />
@@ -39,21 +58,30 @@ const ContactPage = () => {
                     }}
                 >
                     <input type="hidden" name="form-name" value="contact" />
-                    <p>
-                        <label>
-                            Name: <input type="text" name="name" />
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            E-mail: <input type="email" name="email" />
-                        </label>
-                    </p>
-                    <p>
-                        <label>
-                            Nachricht: <textarea name="message"></textarea>
-                        </label>
-                    </p>
+                    <input
+                        type="text"
+                        name="name"
+                        value={name}
+                        onChange={handleNameChange}
+                        className="uk-input uk-margin-small-bottom"
+                        placeholder="Name"
+                    />
+                    <input
+                        type="email"
+                        name="email"
+                        value={email}
+                        onChange={e => setEmail(e.target.value)}
+                        className="uk-input uk-margin-small-bottom"
+                        placeholder="E-Mail"
+                    />
+                    <textarea
+                        name="message"
+                        value={message}
+                        onChange={e => setMessage(e.target.value)}
+                        className="uk-textarea uk-margin-small-bottom"
+                        rows="5"
+                        placeholder="Nachricht"
+                    ></textarea>
                     <p>
                         Bitte beachten Sie die{' '}
                         <AniLink fade to="/dataPrivacy">
@@ -64,9 +92,13 @@ const ContactPage = () => {
                         ref={recaptchaRef}
                         sitekey={'6LeMq6oUAAAAAIv7RWer04VJnvpLio28b3pqhjj6'}
                     />
-                    <p>
-                        <button type="submit">Send</button>
-                    </p>
+                    <button
+                        type="submit"
+                        disabled={isDisabled()}
+                        className="uk-button uk-button-primary uk-margin-small-top"
+                    >
+                        Send
+                    </button>
                 </form>
             </BackgroundImage>
         </Layout>
