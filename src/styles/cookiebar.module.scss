@@ -1,0 +1,21 @@
+@import './variables.scss';
+
+.cookiebar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: $color-nr2;
+    right: 0;
+    left: 0;
+
+    @media (max-width: 1199.98px) {
+        flex-direction: column;
+
+        button {
+            width: 200px;
+            margin: 0 auto;
+            margin-top: 15px;
+        }
+    }
+}

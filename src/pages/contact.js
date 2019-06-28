@@ -63,7 +63,7 @@ const ContactPage = () => {
                         name="name"
                         value={name}
                         onChange={handleNameChange}
-                        className="uk-input uk-margin-small-bottom"
+                        className="uk-input uk-margin-medium-bottom"
                         placeholder="Name"
                     />
                     <input
@@ -71,7 +71,7 @@ const ContactPage = () => {
                         name="email"
                         value={email}
                         onChange={e => setEmail(e.target.value)}
-                        className="uk-input uk-margin-small-bottom"
+                        className="uk-input uk-margin-medium-bottom"
                         placeholder="E-Mail"
                     />
                     <textarea
@@ -95,7 +95,7 @@ const ContactPage = () => {
                     <button
                         type="submit"
                         disabled={isDisabled()}
-                        className="uk-button uk-button-primary uk-margin-small-top"
+                        className="uk-button uk-button-primary uk-margin-medium-top"
                     >
                         Send
                     </button>

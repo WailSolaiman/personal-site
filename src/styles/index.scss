@@ -80,3 +80,11 @@ p {
 .color-bg-nr6 {
     background-color: $color-nr6;
 }
+
+.cookie-bar-link {
+    color: $color-nr6;
+
+    &:hover {
+        color: $color-nr5;
+    }
+}
