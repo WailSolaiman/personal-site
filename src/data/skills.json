@@ -1,11 +1,11 @@
 [{
     "Frontend": [{
             "text": "HTML5",
-            "icon": "devicon-html5-plain-wordmark"
+            "icon": "devicon-html5-plain"
         },
         {
             "text": "CSS3",
-            "icon": "devicon-css3-plain-wordmark"
+            "icon": "devicon-css3-plain"
         },
         {
             "text": "Javascript/ES6",
@@ -17,18 +17,24 @@
         },
         {
             "text": "Bootstrap",
-            "icon": "devicon-bootstrap-plain-wordmark"
+            "icon": "devicon-bootstrap-plain"
         },
         {
             "text": "jQuery",
-            "icon": "devicon-jquery-plain-wordmark"
+            "icon": "devicon-jquery-plain"
         },
         {
-            "text": "React Js-Framework",
-            "icon": "devicon-react-original-wordmark"
+            "text": "React Framework",
+            "icon": "devicon-react-original"
         }, {
             "text": "Gatsby",
             "icon": "img"
+        }, {
+            "text": "VS Code",
+            "icon": "devicon-visualstudio-plain"
+        }, {
+            "text": "Chrome DevTools",
+            "icon": "devicon-chrome-plain"
         }
     ]
 }, {
@@ -42,11 +48,11 @@
         },
         {
             "text": "MongoDB",
-            "icon": "devicon-mongodb-plain-wordmark"
+            "icon": "devicon-mongodb-plain"
         },
         {
             "text": "Wordpress",
-            "icon": "devicon-wordpress-plain-wordmark"
+            "icon": "devicon-wordpress-plain"
         }, {
             "text": "Contao",
             "icon": "img"

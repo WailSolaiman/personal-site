@@ -121,7 +121,9 @@ const projects = () => {
                                 (isVanillaJSChecked &&
                                     project.development === 'Vanilla JS') ||
                                 (isReactChecked &&
-                                    project.development === 'React Framework')
+                                    (project.development ===
+                                        'React Framework' ||
+                                        project.development === 'MERN-Stack'))
                             )
                                 return (
                                     <ProjectPreview

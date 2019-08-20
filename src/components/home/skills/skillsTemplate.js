@@ -19,6 +19,9 @@ const SkillsTemplate = ({ title, skills, img = '', imgAlt = '' }) => {
                                     width="128"
                                     height="128"
                                 />
+                                <p className="uk-text-secondary uk-text-bold">
+                                    {skill.text}
+                                </p>
                             </div>
                         )
                     }
@@ -34,6 +37,9 @@ const SkillsTemplate = ({ title, skills, img = '', imgAlt = '' }) => {
                                     SkillsStyles.icon
                                 }
                             ></i>
+                            <p className="uk-text-secondary uk-text-bold">
+                                {skill.text}
+                            </p>
                         </div>
                     )
                 })}

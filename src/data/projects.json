@@ -1,4 +1,94 @@
 [{
+        "title": "Personal Website",
+        "slug": "personal-website",
+        "url": "https://wailsolaiman.com/",
+        "image": "./images/personal.jpg",
+        "community": "Personal",
+        "state": "Online",
+        "development": "React Framework",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": false
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": true
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": false
+            },
+            {
+                "tool": "MySql",
+                "isUsed": false
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": true
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": true
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": true
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": true
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": true
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    },
+    {
         "title": "Björk GmbH",
         "slug": "bjoerk-gmbh",
         "url": "https://www.bjoerk.de/",
@@ -328,6 +418,95 @@
             {
                 "tool": "Redux Framework",
                 "isUsed": true
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": true
+            },
+            {
+                "tool": "Express",
+                "isUsed": true
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": true
+            }
+        ]
+    }, {
+        "title": "ExcerTracker MERN-Stack",
+        "slug": "excer-tracker-app",
+        "url": "https://excer-tracker-solaiman.herokuapp.com/",
+        "image": "./images/excer-tracker.jpg",
+        "community": "Personal",
+        "state": "Online",
+        "development": "MERN-Stack",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": true
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": false
+            },
+            {
+                "tool": "MySql",
+                "isUsed": false
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": true
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
             },
             {
                 "tool": "Gatsby",
@@ -2320,10 +2499,10 @@
     }, {
         "title": "Legate",
         "slug": "legate",
-        "url": "http://contao.legate-international.de/home.html",
+        "url": "https://www.legate-international.com/home.html",
         "image": "./images/legate.jpg",
         "community": "VICON Web Business",
-        "state": "under Development",
+        "state": "Online",
         "development": "Contao",
         "description": [{
                 "tool": "HTML5",
@@ -2765,10 +2944,10 @@
     }, {
         "title": "Schön Professional",
         "slug": "schoen-professional",
-        "url": "https://schoen-professional.developcon.de/home.html",
+        "url": "https://www.schoen-professional.de/",
         "image": "./images/schoen-professional.jpg",
         "community": "VICON Web Business",
-        "state": "under Development",
+        "state": "Online",
         "development": "Contao",
         "description": [{
                 "tool": "HTML5",
@@ -3303,6 +3482,362 @@
         "image": "./images/ki-sigs.jpg",
         "community": "VICON Web Business",
         "state": "Online",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Ostsee Urlaub Sierksdorf",
+        "slug": "ostsee-urlaub-sierksdorf",
+        "url": "http://contao.ostsee-urlaub-sierksdorf.de/home.html",
+        "image": "./images/sierksdorf.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "South Baltic Trans. Loops",
+        "slug": "south-baltic",
+        "url": "http://contao.southbaltictransportloops.eu/",
+        "image": "./images/south-baltic.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Chili Studios",
+        "slug": "chili-studios",
+        "url": "http://contao.chilistudios.de/",
+        "image": "./images/chili-studios.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
+        "development": "Contao",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": true
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": false
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": true
+            },
+            {
+                "tool": "PHP",
+                "isUsed": true
+            },
+            {
+                "tool": "MySql",
+                "isUsed": true
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": false
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    }, {
+        "title": "Tontalente",
+        "slug": "tontalente",
+        "url": "http://contao.tontalente.de/start.html",
+        "image": "./images/tontalente.jpg",
+        "community": "VICON Web Business",
+        "state": "under Development",
         "development": "Contao",
         "description": [{
                 "tool": "HTML5",

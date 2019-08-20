@@ -3,7 +3,6 @@ import { graphql, useStaticQuery } from 'gatsby'
 import SkillsTemplate from './skills/skillsTemplate'
 import ContaoImg from '../../data/images/logos/contao.png'
 import GatsbyImg from '../../data/images/logos/gatsby.png'
-// import Uikit from '../../data/images/logos/uikit.png'
 import 'devicon/devicon.css'
 import 'devicon/devicon-colors.css'
 
@@ -31,13 +30,13 @@ const Skills = () => {
     return (
         <div>
             <SkillsTemplate
-                title="Frontend Fähigkeiten"
+                title="Front-End skills / Tools"
                 skills={Frontend}
                 img={GatsbyImg}
                 imgAlt="Gatsby"
             />
             <SkillsTemplate
-                title="Backend/CMS Fähigkeiten"
+                title="Back-End skills / CMS"
                 skills={Backend}
                 img={ContaoImg}
                 imgAlt="Contao"
