@@ -355,7 +355,188 @@
                 "isUsed": true
             }
         ]
-    }, {
+    },
+    {
+        "title": "Backroads - Explore Tours",
+        "slug": "backroads",
+        "url": "https://backroads-ws.netlify.com/",
+        "image": "./images/backroads.jpg",
+        "community": "Personal",
+        "state": "Online",
+        "development": "React Framework",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": true
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": false
+            },
+            {
+                "tool": "MySql",
+                "isUsed": false
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": true
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": true
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": true
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": true
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    },
+    {
+        "title": "MERN SocialMedia",
+        "slug": "mern-social-media",
+        "url": "https://mern-social-media-solaiman.herokuapp.com/",
+        "image": "./images/mern-social-media.jpg",
+        "community": "Personal",
+        "state": "Online",
+        "development": "React Framework",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "Bootstrap 4",
+                "isUsed": false
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": true
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": false
+            },
+            {
+                "tool": "MySql",
+                "isUsed": false
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": true
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": true
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": true
+            },
+            {
+                "tool": "Express",
+                "isUsed": true
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": true
+            }
+        ]
+    },
+    {
         "title": "Personal: Expensify React-App",
         "slug": "expensify-react-app",
         "url": "https://expensify-app-solaiman.herokuapp.com/",
