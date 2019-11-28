@@ -447,6 +447,96 @@
         ]
     },
     {
+        "title": "Themeforest React Template",
+        "slug": "themeforest-react-template-portfolio",
+        "url": "https://themeforest-react-portfolio-template.netlify.com",
+        "image": "./images/themeforest-react-template-portfolio.jpg",
+        "community": "Personal",
+        "state": "Online / Under Construction",
+        "development": "React Framework",
+        "description": [{
+                "tool": "HTML5",
+                "isUsed": true
+            },
+            {
+                "tool": "CSS3",
+                "isUsed": true
+            },
+            {
+                "tool": "SASS",
+                "isUsed": true
+            },
+            {
+                "tool": "Bootstrap 3",
+                "isUsed": false
+            },
+            {
+                "tool": "ANT Design",
+                "isUsed": true
+            },
+            {
+                "tool": "jQuery",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES5",
+                "isUsed": false
+            },
+            {
+                "tool": "Javascript/ES6",
+                "isUsed": true
+            },
+            {
+                "tool": "Wordpress",
+                "isUsed": false
+            },
+            {
+                "tool": "Contao",
+                "isUsed": false
+            },
+            {
+                "tool": "PHP",
+                "isUsed": false
+            },
+            {
+                "tool": "MySql",
+                "isUsed": false
+            },
+            {
+                "tool": "React Framework",
+                "isUsed": true
+            },
+            {
+                "tool": "Redux Framework",
+                "isUsed": false
+            },
+            {
+                "tool": "Gatsby",
+                "isUsed": false
+            },
+            {
+                "tool": "GrapQL",
+                "isUsed": false
+            },
+            {
+                "tool": "Uikit",
+                "isUsed": false
+            },
+            {
+                "tool": "Node.js",
+                "isUsed": true
+            },
+            {
+                "tool": "Express",
+                "isUsed": false
+            },
+            {
+                "tool": "MongoDB",
+                "isUsed": false
+            }
+        ]
+    },
+    {
         "title": "MERN SocialMedia",
         "slug": "mern-social-media",
         "url": "https://mern-social-media-solaiman.herokuapp.com/",
