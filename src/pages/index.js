@@ -8,7 +8,7 @@ import Avatar from '../components/home/avatar'
 import Skills from '../components/home/skills'
 import ProjectPreview from '../components/projectPreview'
 
-const getDatafromGraphQL = () => {
+const GetDatafromGraphQL = () => {
     const data = useStaticQuery(graphql`
         {
             allProjectsJson {
@@ -34,7 +34,7 @@ const getDatafromGraphQL = () => {
 }
 
 const IndexPage = () => {
-    const projects = getDatafromGraphQL()
+    const projects = GetDatafromGraphQL()
     const latest = ['Erxleben', 'Aerolingua', 'Babenstieg']
 
     return (

@@ -6,7 +6,7 @@ import BackgroundImage from '../components/backgroundImage'
 import ProjectPreview from '../components/projectPreview'
 import Checkboxes from '../components/projects/checkboxes'
 
-const projects = () => {
+const Projects = () => {
     const data = useStaticQuery(graphql`
         {
             allProjectsJson {
@@ -146,4 +146,4 @@ const projects = () => {
     )
 }
 
-export default projects
+export default Projects
