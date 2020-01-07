@@ -31,6 +31,7 @@
     "rules": {
         "no-console": "warn",
         "no-unused-vars": "warn",
+        "react/no-array-index-key": "off",
         "react/prop-types": 0,
         "no-underscore-dangle": 0,
         "import/imports-first": ["error", "absolute-first"],

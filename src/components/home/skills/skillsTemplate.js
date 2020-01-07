@@ -32,11 +32,9 @@ const SkillsTemplate = ({ title, skills, img = '', imgAlt = '' }) => {
                         >
                             <i
                                 className={
-                                    `${skill.icon} colored` +
-                                    ' ' +
-                                    SkillsStyles.icon
+                                    `${skill.icon} colored ${SkillsStyles.icon}`
                                 }
-                            ></i>
+                            />
                             <p className="uk-text-secondary uk-text-bold">
                                 {skill.text}
                             </p>

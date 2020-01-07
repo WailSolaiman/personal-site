@@ -7,7 +7,7 @@ const DataPrivacy = () => {
 return (
     <Layout title="Data Privacy Policy">
         <Head title="Data Privacy Policy" />
-        <Background background="uk-background-default" withPadding={true}>
+        <Background background="uk-background-default" withPadding>
             <h1 className="uk-text-bold uk-text-center uk-margin-large-bottom">
                 Datenschutz
             </h1>
@@ -73,13 +73,13 @@ return (
                 <br />
                 - Reichweitenmessung/Marketing
                 <br />
-                <span className="tsmcom"></span>
+                <span className="tsmcom" />
             </p>
             <h3 id="dsg-general-terms">Verwendete Begrifflichkeiten </h3>
             <p>
-                „Personenbezogene Daten“ sind alle Informationen, die sich auf
+                Personenbezogene Daten sind alle Informationen, die sich auf
                 eine identifizierte oder identifizierbare natürliche Person (im
-                Folgenden „betroffene Person“) beziehen; als identifizierbar
+                Folgenden betroffene Person) beziehen; als identifizierbar
                 wird eine natürliche Person angesehen, die direkt oder indirekt,
                 insbesondere mittels Zuordnung zu einer Kennung wie einem Namen,
                 zu einer Kennnummer, zu Standortdaten, zu einer Online-Kennung
@@ -89,12 +89,12 @@ return (
                 kulturellen oder sozialen Identität dieser natürlichen Person
                 sind.
                 <br />
-                „Verarbeitung“ ist jeder mit oder ohne Hilfe automatisierter
+                Verarbeitung ist jeder mit oder ohne Hilfe automatisierter
                 Verfahren ausgeführte Vorgang oder jede solche Vorgangsreihe im
                 Zusammenhang mit personenbezogenen Daten. Der Begriff reicht
                 weit und umfasst praktisch jeden Umgang mit Daten.
                 <br />
-                „Pseudonymisierung“ die Verarbeitung personenbezogener Daten in
+                Pseudonymisierung die Verarbeitung personenbezogener Daten in
                 einer Weise, dass die personenbezogenen Daten ohne Hinzuziehung
                 zusätzlicher Informationen nicht mehr einer spezifischen
                 betroffenen Person zugeordnet werden können, sofern diese
@@ -104,7 +104,7 @@ return (
                 identifizierten oder identifizierbaren natürlichen Person
                 zugewiesen werden.
                 <br />
-                „Profiling“ jede Art der automatisierten Verarbeitung
+                Profiling jede Art der automatisierten Verarbeitung
                 personenbezogener Daten, die darin besteht, dass diese
                 personenbezogenen Daten verwendet werden, um bestimmte
                 persönliche Aspekte, die sich auf eine natürliche Person
@@ -114,13 +114,13 @@ return (
                 Aufenthaltsort oder Ortswechsel dieser natürlichen Person zu
                 analysieren oder vorherzusagen.
                 <br />
-                Als „Verantwortlicher“ wird die natürliche oder juristische
+                Als Verantwortlicher wird die natürliche oder juristische
                 Person, Behörde, Einrichtung oder andere Stelle, die allein oder
                 gemeinsam mit anderen über die Zwecke und Mittel der
                 Verarbeitung von personenbezogenen Daten entscheidet,
                 bezeichnet.
                 <br />
-                „Auftragsverarbeiter“ eine natürliche oder juristische Person,
+                Auftragsverarbeiter eine natürliche oder juristische Person,
                 Behörde, Einrichtung oder andere Stelle, die personenbezogene
                 Daten im Auftrag des Verantwortlichen verarbeitet.
             </p>
@@ -220,7 +220,7 @@ return (
                 Vorbehaltlich ausdrücklicher Einwilligung oder vertraglich
                 erforderlicher Übermittlung, verarbeiten oder lassen wir die
                 Daten nur in Drittländern mit einem anerkannten
-                Datenschutzniveau, zu denen die unter dem "Privacy-Shield"
+                Datenschutzniveau, zu denen die unter dem Privacy-Shield
                 zertifizierten US-Verarbeiter gehören oder auf Grundlage
                 besonderer Garantien, wie z.B. vertraglicher Verpflichtung durch
                 sogenannte Standardschutzklauseln der EU-Kommission, dem
@@ -393,7 +393,7 @@ return (
                     vertraglicher-/vorvertraglicher Beziehungen), Art. 6 Abs. 1
                     lit. f. (andere Anfragen) DSGVO verarbeitet.. Die Angaben
                     der Nutzer können in einem Customer-Relationship-Management
-                    System ("CRM System") oder vergleichbarer
+                    System (CRM System) oder vergleichbarer
                     Anfragenorganisation gespeichert werden.
                     <br />
                     Wir löschen die Anfragen, sofern diese nicht mehr

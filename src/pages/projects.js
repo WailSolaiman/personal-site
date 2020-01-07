@@ -46,7 +46,7 @@ const Projects = () => {
     return (
         <Layout>
             <Head title="Projekte" />
-            <BackgroundImage imageData={imageData} withPadding={true}>
+            <BackgroundImage imageData={imageData} withPadding>
                 <h1 className="uk-text-bold uk-text-center uk-margin-large-bottom">
                     Projekte
                 </h1>
@@ -136,9 +136,8 @@ const Projects = () => {
                                     />
                                 )
                             return null
-                        } else {
-                            return null
                         }
+                        return null
                     })}
                 </div>
             </BackgroundImage>

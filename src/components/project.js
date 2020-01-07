@@ -1,7 +1,7 @@
 import React from 'react'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import Image from 'gatsby-image'
-import Background from '../components/background'
+import Background from './background'
 import ProjectStyles from '../styles/project.module.scss'
 
 const Project = ({
@@ -14,7 +14,7 @@ const Project = ({
     development,
 }) => {
     return (
-        <Background background="color-bg-nr6" withPadding={true}>
+        <Background background="color-bg-nr6" withPadding>
             <h1>{title}</h1>
             <Image
                 fluid={imageData}
@@ -46,7 +46,7 @@ const Project = ({
             <h2 className="uk-margin-small-bottom uk-margin-small-top">
                 Web-Technologien
             </h2>
-            <div className={'uk-margin-medium-bottom ' + ProjectStyles.list}>
+            <div className={`uk-margin-medium-bottom ${ProjectStyles.list}`}>
                 {description.map((item, index) => {
                     return (
                         <p key={index} className="uk-margin-remove">
@@ -57,7 +57,7 @@ const Project = ({
                                         : 'uk-text-danger uk-margin-small-right'
                                 }
                                 uk-icon={item.isUsed ? 'check' : 'close'}
-                            ></span>
+                            />
                             {item.tool}
                         </p>
                     )

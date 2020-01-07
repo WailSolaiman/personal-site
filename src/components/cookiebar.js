@@ -8,7 +8,7 @@ const Cookiebar = () => {
         <CookieConsent
             location="bottom"
             buttonText="akzeptieren!"
-            disableStyles={true}
+            disableStyles
             containerClasses={CookiebarStyles.cookiebar}
             buttonClasses="uk-button uk-button-primary"
         >

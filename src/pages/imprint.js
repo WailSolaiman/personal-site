@@ -7,7 +7,7 @@ const Imprint = () => {
     return (
         <Layout title="Impressum">
             <Head title="Impressum" />
-            <Background background="uk-background-default" withPadding={true}>
+            <Background background="uk-background-default" withPadding>
                 <h1 className="uk-text-bold uk-text-center uk-margin-large-bottom">
                     Impressum
                 </h1>

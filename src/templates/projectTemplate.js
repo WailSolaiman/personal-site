@@ -28,12 +28,7 @@ export const query = graphql`
 
 const projectTemplate = ({ data }) => {
     const project = data.projectsJson
-    const title = project.title
-    const description = project.description
-    const url = project.url
-    const community = project.community
-    const state = project.state
-    const development = project.development
+    const {title, description, url, community, state, development} = project
     const imageData = project.image.childImageSharp.fluid
     return (
         <Layout>

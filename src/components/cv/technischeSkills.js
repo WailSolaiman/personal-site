@@ -11,7 +11,7 @@ const TechnischeSkills = () => {
             </p>
             <p className="uk-margin-remove">HTML5, CSS3, jQuery und SASS.</p>
             <p className="uk-margin-remove">
-                CSS Frameworks: Bootstrap, uikit und Ant Design -> (favourite).
+                CSS Frameworks: Bootstrap, uikit und Ant Design.
             </p>
             <p className="uk-margin-remove">
                 Entwicklung von Contao-CMS Themes/Templates.

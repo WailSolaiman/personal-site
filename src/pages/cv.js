@@ -17,7 +17,7 @@ const CV = () => {
                     Lebenslauf
                 </h1>
                 <h2 className="uk-margin-small-top uk-margin-medium-bottom uk-text-bold">
-                    Wail Solaiman - Bachelor's Degree Of Software Engineering
+                    Wail Solaiman - Bachelor Degree Of Software Engineering
                 </h2>
             </Background>
             <Background background="uk-background-muted" withPadding={false}>

@@ -1,6 +1,6 @@
 import React from 'react'
-import BackgroundImageStyles from '../styles/background-image.module.scss'
 import Image from 'gatsby-image'
+import BackgroundImageStyles from '../styles/background-image.module.scss'
 
 const BackgroundImage = ({ imageData = '', withPadding = false, children }) => {
     return (

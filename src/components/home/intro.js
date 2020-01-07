@@ -1,7 +1,6 @@
 import React from 'react'
 
 const Intro = () => {
-    console.log('test')
     return (
         <div uk-grid="">
             <div className="uk-width-1-1">

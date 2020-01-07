@@ -40,7 +40,7 @@ const IndexPage = () => {
     return (
         <Layout>
             <Head title="Home" />
-            <Background background="color-bg-nr2" withPadding={true}>
+            <Background background="color-bg-nr2" withPadding>
                 <Avatar />
                 <h1 className="uk-text-bold uk-text-center uk-margin-small-bottom color-nr5">
                     Wail Solaiman
@@ -49,13 +49,13 @@ const IndexPage = () => {
                     Frontend Webentwickler
                 </h2>
             </Background>
-            <Background background="color-bg-nr5" withPadding={true}>
+            <Background background="color-bg-nr5" withPadding>
                 <Intro />
             </Background>
-            <Background background="uk-background-default" withPadding={true}>
+            <Background background="uk-background-default" withPadding>
                 <Skills />
             </Background>
-            <Background background="color-bg-nr3" withPadding={true}>
+            <Background background="color-bg-nr3" withPadding>
                 <h1 className="uk-text-center uk-text-bold uk-margin-medium-bottom color-nr6">
                     Letzte Projekte
                 </h1>

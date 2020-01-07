@@ -1,7 +1,7 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
-import Cookiebar from '../components/cookiebar'
+import Cookiebar from './cookiebar'
 import Background from './background'
 import footerStyles from '../styles/footer.module.scss'
 

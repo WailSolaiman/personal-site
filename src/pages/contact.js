@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import Recaptcha from 'react-google-recaptcha'
 import Layout from '../components/layout'
 import BackgroundImage from '../components/backgroundImage'
 import Head from '../components/head'
-import { graphql, useStaticQuery } from 'gatsby'
 
 const ContactPage = () => {
     const data = useStaticQuery(graphql`
@@ -42,7 +42,7 @@ const ContactPage = () => {
     return (
         <Layout>
             <Head title="Kontakt" />
-            <BackgroundImage imageData={imageData} withPadding={true}>
+            <BackgroundImage imageData={imageData} withPadding>
                 <h1 className="uk-text-bold uk-text-center uk-margin-large-bottom">
                     Kontakt
                 </h1>
@@ -81,7 +81,7 @@ const ContactPage = () => {
                         className="uk-textarea uk-margin-small-bottom"
                         rows="5"
                         placeholder="Nachricht"
-                    ></textarea>
+                    />
                     <p>
                         Bitte beachten Sie die{' '}
                         <AniLink fade to="/dataPrivacy">
@@ -90,7 +90,7 @@ const ContactPage = () => {
                     </p>
                     <Recaptcha
                         ref={recaptchaRef}
-                        sitekey={'6LeMq6oUAAAAAIv7RWer04VJnvpLio28b3pqhjj6'}
+                        sitekey='6LeMq6oUAAAAAIv7RWer04VJnvpLio28b3pqhjj6'
                     />
                     <button
                         type="submit"
