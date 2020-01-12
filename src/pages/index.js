@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/layout'
 import Background from '../components/background'
@@ -34,9 +34,14 @@ const GetDatafromGraphQL = () => {
 }
 
 const IndexPage = () => {
+    const [loading, setLoading] = useState(true)
     const projects = GetDatafromGraphQL()
     const latest = ['Erxleben', 'Aerolingua', 'Babenstieg']
-
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false)
+        }, 1000)
+    })
     return (
         <Layout>
             <Head title="Home" />
@@ -49,36 +54,48 @@ const IndexPage = () => {
                     Frontend Webentwickler
                 </h2>
             </Background>
-            <Background background="color-bg-nr5" withPadding>
-                <Intro />
-            </Background>
-            <Background background="uk-background-default" withPadding>
-                <Skills />
-            </Background>
-            <Background background="color-bg-nr3" withPadding>
-                <h1 className="uk-text-center uk-text-bold uk-margin-medium-bottom color-nr6">
-                    Letzte Projekte
-                </h1>
-                <div uk-grid="">
-                    {projects.map(({ node: project }) => {
-                        return latest.map(item => {
-                            if (project.title === item) {
-                                return (
-                                    <ProjectPreview
-                                        key={project.id}
-                                        title={project.title}
-                                        slug={project.slug}
-                                        imageData={
-                                            project.image.childImageSharp.fluid
-                                        }
-                                    />
-                                )
-                            }
-                            return null
-                        })
-                    })}
+            {loading ? (
+                <div className="spinner-container">
+                    <span
+                        className="uk-margin-small-right color-nr1"
+                        uk-spinner="ratio: 3"
+                    />
                 </div>
-            </Background>
+            ) : (
+                <>
+                    <Background background="color-bg-nr5" withPadding>
+                        <Intro />
+                    </Background>
+                    <Background background="uk-background-default" withPadding>
+                        <Skills />
+                    </Background>
+                    <Background background="color-bg-nr3" withPadding>
+                        <h1 className="uk-text-center uk-text-bold uk-margin-medium-bottom color-nr6">
+                            Letzte Projekte
+                        </h1>
+                        <div uk-grid="">
+                            {projects.map(({ node: project }) => {
+                                return latest.map(item => {
+                                    if (project.title === item) {
+                                        return (
+                                            <ProjectPreview
+                                                key={project.id}
+                                                title={project.title}
+                                                slug={project.slug}
+                                                imageData={
+                                                    project.image
+                                                        .childImageSharp.fluid
+                                                }
+                                            />
+                                        )
+                                    }
+                                    return null
+                                })
+                            })}
+                        </div>
+                    </Background>
+                </>
+            )}
         </Layout>
     )
 }

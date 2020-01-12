@@ -9,15 +9,14 @@ const BackgroundImage = ({ imageData = '', withPadding = false, children }) => {
                 fluid={imageData}
                 alt="header"
                 className="uk-box-shadow-xlarge"
-                style={{ minHeight: '250px' }}
+                style={{ maxHeight: '550px' }}
             />
             <div
                 className={
                     withPadding
                         ? BackgroundImageStyles.bgWithPadding
                         : BackgroundImageStyles.bgWithoutPadding
-                }
-            >
+                }>
                 <div className="uk-container uk-container-medium">
                     {children}
                 </div>

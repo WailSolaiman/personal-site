@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import Recaptcha from 'react-google-recaptcha'
@@ -18,6 +18,7 @@ const ContactPage = () => {
             }
         }
     `)
+    const [loading, setLoading] = useState(true)
     const imageData = data.file.childImageSharp.fluid
     const recaptchaRef = React.createRef()
     const [name, setName] = useState('')
@@ -39,67 +40,85 @@ const ContactPage = () => {
         }
         return false
     }
+    useEffect(() => {
+        setTimeout(() => {
+            setLoading(false)
+        }, 500)
+    })
     return (
         <Layout>
             <Head title="Kontakt" />
             <BackgroundImage imageData={imageData} withPadding>
-                <h1 className="uk-text-bold uk-text-center uk-margin-large-bottom">
-                    Kontakt
-                </h1>
-                <h2>Was kann ich für Sie tun?</h2>
-                <form
-                    name="contact"
-                    method="post"
-                    data-netlify="true"
-                    data-netlify-recaptcha="true"
-                    action="/success/"
-                    onSubmit={() => {
-                        recaptchaRef.current.getValue()
-                    }}
-                >
-                    <input type="hidden" name="form-name" value="contact" />
-                    <input
-                        type="text"
-                        name="name"
-                        value={name}
-                        onChange={handleNameChange}
-                        className="uk-input uk-margin-medium-bottom"
-                        placeholder="Name"
-                    />
-                    <input
-                        type="email"
-                        name="email"
-                        value={email}
-                        onChange={e => setEmail(e.target.value)}
-                        className="uk-input uk-margin-medium-bottom"
-                        placeholder="E-Mail"
-                    />
-                    <textarea
-                        name="message"
-                        value={message}
-                        onChange={e => setMessage(e.target.value)}
-                        className="uk-textarea uk-margin-small-bottom"
-                        rows="5"
-                        placeholder="Nachricht"
-                    />
-                    <p>
-                        Bitte beachten Sie die{' '}
-                        <AniLink fade to="/dataPrivacy">
-                            Datenschutzerklärung.
-                        </AniLink>
-                    </p>
-                    <Recaptcha
-                        ref={recaptchaRef}
-                        sitekey='6LeMq6oUAAAAAIv7RWer04VJnvpLio28b3pqhjj6'
-                    />
-                    <button
-                        type="submit"
-                        disabled={isDisabled()}
-                        className="uk-button uk-button-primary uk-margin-medium-top"
-                    >
-                        Send
-                    </button>
-                </form>
+                {loading ? (
+                    <div className="spinner-container">
+                        <span
+                            className="uk-margin-small-right color-nr1"
+                            uk-spinner="ratio: 3"
+                        />
+                    </div>
+                ) : (
+                    <>
+                        <h1 className="uk-text-bold uk-text-center uk-margin-large-bottom">
+                            Kontakt
+                        </h1>
+                        <h2>Was kann ich für Sie tun?</h2>
+                        <form
+                            name="contact"
+                            method="post"
+                            data-netlify="true"
+                            data-netlify-recaptcha="true"
+                            action="/success/"
+                            onSubmit={() => {
+                                recaptchaRef.current.getValue()
+                            }}>
+                            <input
+                                type="hidden"
+                                name="form-name"
+                                value="contact"
+                            />
+                            <input
+                                type="text"
+                                name="name"
+                                value={name}
+                                onChange={handleNameChange}
+                                className="uk-input uk-margin-medium-bottom"
+                                placeholder="Name"
+                            />
+                            <input
+                                type="email"
+                                name="email"
+                                value={email}
+                                onChange={e => setEmail(e.target.value)}
+                                className="uk-input uk-margin-medium-bottom"
+                                placeholder="E-Mail"
+                            />
+                            <textarea
+                                name="message"
+                                value={message}
+                                onChange={e => setMessage(e.target.value)}
+                                className="uk-textarea uk-margin-small-bottom"
+                                rows="5"
+                                placeholder="Nachricht"
+                            />
+                            <p>
+                                Bitte beachten Sie die{' '}
+                                <AniLink fade to="/dataPrivacy">
+                                    Datenschutzerklärung.
+                                </AniLink>
+                            </p>
+                            <Recaptcha
+                                ref={recaptchaRef}
+                                sitekey="6LeMq6oUAAAAAIv7RWer04VJnvpLio28b3pqhjj6"
+                            />
+                            <button
+                                type="submit"
+                                disabled={isDisabled()}
+                                className="uk-button uk-button-primary uk-margin-medium-top">
+                                Send
+                            </button>
+                        </form>
+                    </>
+                )}
             </BackgroundImage>
         </Layout>
     )

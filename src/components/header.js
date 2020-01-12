@@ -1,5 +1,6 @@
 import React from 'react'
-import AniLink from 'gatsby-plugin-transition-link/AniLink'
+// import AniLink from 'gatsby-plugin-transition-link/AniLink'
+import { Link } from 'gatsby'
 import Background from './background'
 import headerStyles from '../styles/header.module.scss'
 
@@ -8,63 +9,55 @@ const Header = () => {
         <Background background="color-bg-nr3" withPadding={false}>
             <div className={headerStyles.row}>
                 <div className={headerStyles.leftColumn}>
-                    <AniLink fade to="/">
+                    <Link to="/">
                         <h2 className="color-nr5 uk-text-bold uk-margin-remove">
                             Wail Solaiman
                         </h2>
-                    </AniLink>
+                    </Link>
                 </div>
                 <div className={headerStyles.rightColumn}>
                     <header className={headerStyles.header}>
                         <nav>
                             <ul className={headerStyles.navList}>
                                 <li>
-                                    <AniLink
-                                        fade
+                                    <Link
                                         className={headerStyles.navItem}
                                         activeClassName={
                                             headerStyles.activeNavItem
                                         }
-                                        to="/"
-                                    >
+                                        to="/">
                                         Home
-                                    </AniLink>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <AniLink
-                                        fade
+                                    <Link
                                         className={headerStyles.navItem}
                                         activeClassName={
                                             headerStyles.activeNavItem
                                         }
-                                        to="/projects"
-                                    >
+                                        to="/projects">
                                         Projekte
-                                    </AniLink>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <AniLink
-                                        fade
+                                    <Link
                                         className={headerStyles.navItem}
                                         activeClassName={
                                             headerStyles.activeNavItem
                                         }
-                                        to="/cv"
-                                    >
+                                        to="/cv">
                                         Lebenslauf
-                                    </AniLink>
+                                    </Link>
                                 </li>
                                 <li>
-                                    <AniLink
-                                        fade
+                                    <Link
                                         className={headerStyles.navItem}
                                         activeClassName={
                                             headerStyles.activeNavItem
                                         }
-                                        to="/contact"
-                                    >
+                                        to="/contact">
                                         Kontakt
-                                    </AniLink>
+                                    </Link>
                                 </li>
                             </ul>
                         </nav>
