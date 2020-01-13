@@ -11,7 +11,7 @@ function ProjectPreview({ slug, imageData, title }) {
                         <Image fluid={imageData} alt={title} />
                     </div>
                     <div className="uk-card-body uk-card-small uk-padding">
-                        <h4 className="uk-margin-remove uk-text-bold color-nr6">
+                        <h4 className="uk-margin-remove uk-text-center color-nr6">
                             {title}
                         </h4>
                     </div>

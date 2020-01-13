@@ -19,7 +19,7 @@ const SkillsTemplate = ({ title, skills, img = '', imgAlt = '' }) => {
                                     width="128"
                                     height="128"
                                 />
-                                <p className="uk-text-secondary uk-text-bold">
+                                <p className="uk-text-secondary">
                                     {skill.text}
                                 </p>
                             </div>
@@ -35,7 +35,7 @@ const SkillsTemplate = ({ title, skills, img = '', imgAlt = '' }) => {
                                     `${skill.icon} colored ${SkillsStyles.icon}`
                                 }
                             />
-                            <p className="uk-text-secondary uk-text-bold">
+                            <p className="uk-text-secondary">
                                 {skill.text}
                             </p>
                         </div>

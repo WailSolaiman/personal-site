@@ -30,13 +30,13 @@ const Skills = () => {
     return (
         <div>
             <SkillsTemplate
-                title="Front-End skills / Tools"
+                title="Frontend Tech. and Tools"
                 skills={Frontend}
                 img={GatsbyImg}
                 imgAlt="Gatsby"
             />
             <SkillsTemplate
-                title="Back-End skills / CMS"
+                title="Backend Tech. and CMS"
                 skills={Backend}
                 img={ContaoImg}
                 imgAlt="Contao"

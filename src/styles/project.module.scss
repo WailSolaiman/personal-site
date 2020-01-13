@@ -1,8 +1,9 @@
 .list {
-    p {
-        display: inline-block;
-        width: 240px;
-    }
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: baseline;
+    margin-bottom: 3rem;
 }
 
 .flexContainer {

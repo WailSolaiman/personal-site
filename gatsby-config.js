@@ -19,6 +19,14 @@ module.exports = {
             },
         },
         {
+            resolve: 'gatsby-plugin-web-font-loader',
+            options: {
+                google: {
+                families: ['Quicksand:500,700']
+                }
+            }
+        },
+        {
             resolve: `gatsby-transformer-remark`,
             options: {
                 plugins: [

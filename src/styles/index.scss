@@ -3,6 +3,16 @@
 @import 'node_modules/uikit/src/scss/uikit.scss';
 @import './variables.scss';
 
+body {
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 500;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif !important;
+    font-weight: 700;
+}
+
 h1,
 h4 {
     color: $color-nr1;

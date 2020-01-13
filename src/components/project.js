@@ -17,6 +17,11 @@ const Project = ({
     return (
         <Background background="color-bg-nr6" withPadding>
             <h1>{title}</h1>
+            <Image
+                fluid={imageData}
+                alt={title}
+                className="uk-box-shadow-xlarge"
+            />
             <div className={`${ProjectStyles.flexContainer}`}>
                 <div>
                     <h2 className="uk-margin-remove-bottom">Agentur</h2>
@@ -48,15 +53,10 @@ const Project = ({
                     </p>
                 </div>
             </div>
-            <Image
-                fluid={imageData}
-                alt={title}
-                className="uk-box-shadow-xlarge"
-            />
             <h2 className="uk-margin-small-bottom uk-margin-big-top">
                 Web-Technologien
             </h2>
-            <div className={`uk-margin-medium-bottom ${ProjectStyles.list}`}>
+            <div className={`${ProjectStyles.list}`}>
                 {description.map((item, index) => {
                     return (
                         <p key={index} className="uk-margin-remove">

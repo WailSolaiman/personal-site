@@ -4,7 +4,7 @@ const Intro = () => {
     return (
         <div className="uk-child-width-expand@s" uk-grid="">
             <div className="uk-width-1-1">
-                <h1 className="uk-text-bold uk-text-center uk-margin-small-bottom color-nr4">
+                <h1 className="uk-text-center uk-margin-small-bottom color-nr4">
                     Webentwickler gesucht?
                 </h1>
             </div>
