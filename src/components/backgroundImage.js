@@ -17,9 +17,7 @@ const BackgroundImage = ({ imageData = '', withPadding = false, children }) => {
                         ? BackgroundImageStyles.bgWithPadding
                         : BackgroundImageStyles.bgWithoutPadding
                 }>
-                <div className="uk-container uk-container-medium">
-                    {children}
-                </div>
+                {children}
             </div>
         </div>
     )

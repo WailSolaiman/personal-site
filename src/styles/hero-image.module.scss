@@ -1,0 +1,54 @@
+@import './variables.scss';
+
+.heroImage {
+    position: relative;
+    height: 100vh;
+
+    img {
+        @media (max-width: 767.98px) {
+            min-height: 500px;
+        }
+    }
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    background: rgba(128, 43, 177, 0.5);
+}
+
+.media {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -70%);
+}
+
+.toIntroBtnContainer {
+    position: absolute;
+    width: 100%;
+    bottom: 5%;
+    text-align: center;
+}
+
+.toIntroBtn {
+    color: $color-nr2;
+    background-color: $color-nr6;
+    border-radius: 50%;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}

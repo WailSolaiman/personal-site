@@ -1,5 +1,5 @@
 import React from 'react'
-import AniLink from 'gatsby-plugin-transition-link/AniLink'
+// import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import { Link } from 'gatsby'
 import Image from 'gatsby-image'
 import Background from './background'

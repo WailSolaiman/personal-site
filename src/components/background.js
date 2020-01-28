@@ -1,7 +1,7 @@
 import React from 'react'
 import BackgroundStyles from '../styles/background.module.scss'
 
-const Background = ({ background, withPadding = false, children }) => {
+const Background = ({ background = '', withPadding = false, children }) => {
     return (
         <div className={background}>
             <div
@@ -9,11 +9,8 @@ const Background = ({ background, withPadding = false, children }) => {
                     withPadding
                         ? BackgroundStyles.bgWithPadding
                         : BackgroundStyles.bgWithoutPadding
-                }
-            >
-                <div className="uk-container uk-container-medium">
-                    {children}
-                </div>
+                }>
+                {children}
             </div>
         </div>
     )

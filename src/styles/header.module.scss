@@ -1,5 +1,14 @@
 @import './variables.scss';
 
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+    background-color: transparent;
+}
+
 .row {
     width: 100%;
     display: flex;
@@ -73,19 +82,44 @@
 }
 
 .nav-item {
-    color: $color-nr5;
+    position: relative;
+    color: $color-nr6 !important;
     font-size: 1.2rem;
-    font-weight: 400;
+    font-weight: 700;
     margin-right: 1.3rem;
     text-decoration: none;
+    text-transform: lowercase;
     cursor: pointer;
-}
 
-.nav-item:hover {
-    color: $color-nr6;
-    text-decoration: none;
+    &:hover {
+        color: $color-nr8 !important;
+    }
+
+    &::after {
+        content: '';
+        position: absolute;
+        left: 0;
+        display: inline-block;
+        height: 1em;
+        width: 100%;
+        border-bottom: 1px solid;
+        margin-top: 10px;
+        opacity: 0;
+        transition: opacity 0.35s, transform 0.35s;
+        transform: scale(0, 1);
+    }
+
+    &:hover::after {
+        opacity: 1;
+        transform: scale(1);
+    }
 }
 
 .active-nav-item {
-    color: $color-nr6;
+    color: $color-nr8 !important;
+
+    &::after {
+        opacity: 1;
+        transform: scale(1);
+    }
 }

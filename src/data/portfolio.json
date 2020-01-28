@@ -1,0 +1,91 @@
+[{
+        "title": "Aerolingua",
+        "image": "./images/portfolio/aerolingua.jpg",
+        "state": "Online",
+        "development": "Contao"
+    },
+    {
+        "title": "Babenstieg",
+        "image": "./images/portfolio/babenstieg1.jpg",
+        "state": "Online",
+        "development": "Contao"
+    },
+    {
+        "title": "Backroads - Explore Tours",
+        "image": "./images/portfolio/backroads.jpg",
+        "state": "under Development",
+        "development": "React"
+    },
+    {
+        "title": "Björk GmbH",
+        "image": "./images/portfolio/bjoerk.jpg",
+        "state": "Online",
+        "development": "WordPress"
+    },
+    {
+        "title": "BST Bau GmbH",
+        "image": "./images/portfolio/bst.jpg",
+        "state": "Online",
+        "development": "JavaScript"
+    },
+    {
+        "title": "Delphos",
+        "image": "./images/portfolio/delphos.jpg",
+        "state": "Online",
+        "development": "WordPress"
+    },
+    {
+        "title": "Björk Movies",
+        "image": "./images/portfolio/bjoerk_movies.jpg",
+        "state": "Online",
+        "development": "JavaScript"
+    },
+    {
+        "title": "Dorenburg",
+        "image": "./images/portfolio/dorenburg.jpg",
+        "state": "Online",
+        "development": "WordPress"
+    },
+    {
+        "title": "Eine Kleine Auszeit",
+        "image": "./images/portfolio/eine-kleine-auszeit.jpg",
+        "state": "Online",
+        "development": "Contao"
+    },
+    {
+        "title": "Elvi",
+        "image": "./images/portfolio/elvi.jpg",
+        "state": "Online",
+        "development": "WordPress"
+    },
+    {
+        "title": "Erxleben",
+        "image": "./images/portfolio/erxleben.jpg",
+        "state": "Online",
+        "development": "Contao"
+    },
+    {
+        "title": "Klingsporn",
+        "image": "./images/portfolio/klingsporn.jpg",
+        "state": "Online",
+        "development": "Contao"
+    },
+    {
+        "title": "Rot Haus",
+        "image": "./images/portfolio/rothaus.jpg",
+        "state": "Online",
+        "development": "Contao"
+    },
+    {
+        "title": "Smartphones Web-Shop",
+        "image": "./images/portfolio/smartphones-webshop.jpg",
+        "state": "Online",
+        "development": "React"
+    },
+    {
+        "title": "Themeforest React Template",
+        "image": "./images/portfolio/themeforest-react-portfolio.jpg",
+        "state": "Online",
+        "development": "React"
+    }
+]

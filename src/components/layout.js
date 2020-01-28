@@ -1,29 +1,35 @@
-import React from 'react'
+import UIkit from 'uikit/dist/js/uikit'
+import Icons from 'uikit/dist/js/uikit-icons'
+import React, { useState, useEffect, useRef } from 'react'
+import '../styles/index.scss'
 import Header from './header'
 import Footer from './footer'
-import '../styles/index.scss'
 import LayoutStyles from '../styles/layout.module.scss'
 
-class Layout extends React.Component {
-    componentDidMount() {
-        try {
-            this.UIkit = require('uikit/dist/js/uikit')
-            this.Icons = require('uikit/dist/js/uikit-icons')
-            this.UIkit.use(this.Icons)
-        } catch (e) {}
+const Layout = ({ children }) => {
+    const [isSticky, setSticky] = useState(false)
+    const ref = useRef(null)
+    const handleScroll = () => {
+        setSticky(ref.current.getBoundingClientRect().top <= 1000)
     }
-
-    render() {
-        return (
-            <div>
-                <div className={LayoutStyles.content}>
+    useEffect(() => {
+        UIkit.use(Icons)
+        window.addEventListener('scroll', handleScroll)
+        return () => {
+            window.removeEventListener('scroll', () => handleScroll)
+        }
+    }, [])
+    return (
+        <div>
+            <div className={LayoutStyles.content}>
+                <div className={`${isSticky ? ' sticky' : ''}`} ref={ref}>
                     <Header />
-                    {this.props.children}
                 </div>
-                <Footer />
+                {children}
             </div>
-        )
-    }
+            <Footer />
+        </div>
+    )
 }
 
 export default Layout

@@ -1,48 +1,34 @@
 import React from 'react'
+import Flickity from 'react-flickity-component'
 import SkillsStyles from '../../../styles/skills.module.scss'
 
-const SkillsTemplate = ({ title, skills, img = '', imgAlt = '' }) => {
+const SkillsTemplate = ({ skills }) => {
+    const flickityOptions = {
+        freeScroll: true,
+        wrapAround: true,
+        draggable: false,
+        groupCells: 4,
+        autoPlay: 2000,
+        pauseAutoPlayOnHover: false,
+    }
     return (
-        <>
-            <h1 className="uk-text-bold uk-text-center">{title}</h1>
-            <div className="uk-text-center" uk-grid="">
-                {skills.map((skill, index) => {
-                    if (skill.icon === 'img') {
-                        return (
-                            <div
-                                key={index}
-                                className="uk-width-1-1 uk-width-1-2@s uk-width-1-3@m uk-width-1-5@l uk-card uk-card-body color-bg-nr6"
-                            >
-                                <img
-                                    src={img}
-                                    alt={imgAlt}
-                                    width="128"
-                                    height="128"
-                                />
-                                <p className="uk-text-secondary">
-                                    {skill.text}
-                                </p>
-                            </div>
-                        )
-                    }
-                    return (
-                        <div
-                            key={index}
-                            className="uk-width-1-1 uk-width-1-2@s uk-width-1-3@m uk-width-1-5@l uk-card uk-card-body color-bg-nr6"
-                        >
-                            <i
-                                className={
-                                    `${skill.icon} colored ${SkillsStyles.icon}`
-                                }
-                            />
-                            <p className="uk-text-secondary">
-                                {skill.text}
-                            </p>
-                        </div>
-                    )
-                })}
-            </div>
-        </>
+        <Flickity
+            className="carousel"
+            elementType="div"
+            options={flickityOptions}
+            disableImagesLoaded={false}
+            reloadOnUpdate
+            static>
+            {skills.map((skill, index) => {
+                return (
+                    <div className={SkillsStyles.carouselCell} key={index}>
+                        <i
+                            className={`${skill.icon} colored ${SkillsStyles.icon}`}
+                        />
+                    </div>
+                )
+            })}
+        </Flickity>
     )
 }
 

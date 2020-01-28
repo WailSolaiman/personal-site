@@ -1,0 +1,20 @@
+@import "../styles/variables.scss";
+
+.icon {
+    color: $color-nr2;
+    font-weight: 700;
+
+    svg {
+        margin-left: 5px;
+        transition: all .2s ease-in-out;
+    }
+
+    &:hover {
+        color: $color-nr1;
+
+        svg {
+            color: $color-nr1;
+            margin-left: 10px;
+        }
+    }
+}

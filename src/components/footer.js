@@ -1,6 +1,7 @@
 import React from 'react'
 import { useStaticQuery, graphql } from 'gatsby'
 import AniLink from 'gatsby-plugin-transition-link/AniLink'
+import scrollTo from 'gatsby-plugin-smoothscroll'
 import Cookiebar from './cookiebar'
 import Background from './background'
 import footerStyles from '../styles/footer.module.scss'
@@ -17,29 +18,32 @@ const Footer = () => {
     `)
 
     return (
-        <>
+        <div>
             <Cookiebar />
-            <Background
-                background="uk-background-secondary"
-                withPadding={false}
-            >
+            <Background background="color-bg-nr10" withPadding={false}>
                 <footer className={footerStyles.footer}>
-                    <p className="uk-text-center uk-margin-remove-bottom">
-                        Created by {data.site.siteMetadata.author}. copyright
-                        2019
-                    </p>
-                    <p className="uk-text-center uk-margin-remove-top">
-                        <AniLink fade to="/imprint">
-                            Impressum
-                        </AniLink>{' '}
-                        |{' '}
-                        <AniLink fade to="/dataPrivacy">
-                            Datenschutzerklärung
-                        </AniLink>
-                    </p>
+                    <div className="uk-padding-small">
+                        <p className="uk-text-center uk-margin-small-bottom">
+                            <AniLink fade to="/imprint">
+                                Impressum
+                            </AniLink>{' '}
+                            |{' '}
+                            <AniLink fade to="/dataPrivacy">
+                                Datenschutz
+                            </AniLink>
+                        </p>
+                        <p className="uk-text-center uk-margin-remove">
+                            Created by {data.site.siteMetadata.author}. © 2020
+                        </p>
+                    </div>
                 </footer>
             </Background>
-        </>
+            <div className={footerStyles.toTopBtn}>
+                <button onClick={() => scrollTo('#nav')} type="button">
+                    <span uk-icon="chevron-up" />
+                </button>
+            </div>
+        </div>
     )
 }
 
