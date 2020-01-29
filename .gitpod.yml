@@ -1,3 +1,7 @@
 tasks:
   - init: yarn install && yarn run build
     command: yarn run start
+
+vscode:
+  extensions:
+    - azemoh.one-monokai@0.4.6:QbQ86IyMLnyitBScBr6EYg==

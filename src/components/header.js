@@ -1,12 +1,24 @@
-import React from 'react'
-// import AniLink from 'gatsby-plugin-transition-link/AniLink'
+import React, { useState, useEffect, useRef } from 'react'
 import { Link } from 'gatsby'
 import Background from './background'
 import headerStyles from '../styles/header.module.scss'
 
 const Header = () => {
+    const [isSticky, setSticky] = useState(true)
+    const ref = useRef(null)
+    const handleScroll = () => {
+        if (ref.current.getBoundingClientRect().top > -100) {
+            setSticky(true)
+        } else setSticky(false)
+    }
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll)
+        return () => {
+            window.removeEventListener('scroll', () => handleScroll)
+        }
+    }, [])
     return (
-        <div id="nav">
+        <div id="nav" className={`${isSticky ? 'top' : ''}`} ref={ref}>
             <div className={headerStyles.fixed}>
                 <Background withPadding={false}>
                     <div className="uk-container uk-container-medium">

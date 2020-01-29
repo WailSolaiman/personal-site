@@ -64,9 +64,9 @@ const IndexPage = () => {
             }
 
             <HeroImage imageData={imageData} btnText="intro" btnLink="#intro">
-                <p className="uk-text-center uk-margin-big uk-text-bold uk-text-capitalize color-nr8">
+                <h2 className="uk-text-center uk-margin-big uk-text-bold uk-text-capitalize color-nr8">
                     Diese Seite befindet sich derzeit noch im Aufbau.
-                </p>
+                </h2>
                 <Avatar />
                 <h1 className="uk-text-center uk-margin-small color-nr7">
                     Wail Solaiman
