@@ -5,7 +5,7 @@ import Image from 'gatsby-image'
 function ProjectPreview({ imageData, title, development }) {
     return (
         <li
-            className="uk-width-1-1 uk-width-1-3@m uk-width-1-5@xl"
+            className="uk-width-1-3 uk-width-1-5@m"
             data-dev={`${development}`}>
             <div className="uk-card uk-card-default color-bg-nr2">
                 <div className="uk-card-media-top">

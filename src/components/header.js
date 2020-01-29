@@ -1,13 +1,12 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Link } from 'gatsby'
 import Background from './background'
-import headerStyles from '../styles/header.module.scss'
+import '../styles/header.scss'
 
 const Header = () => {
     const [isSticky, setSticky] = useState(true)
-    const ref = useRef(null)
     const handleScroll = () => {
-        if (ref.current.getBoundingClientRect().top > -100) {
+        if (window.pageYOffset < 200) {
             setSticky(true)
         } else setSticky(false)
     }
@@ -18,12 +17,12 @@ const Header = () => {
         }
     }, [])
     return (
-        <div id="nav" className={`${isSticky ? 'top' : ''}`} ref={ref}>
-            <div className={headerStyles.fixed}>
+        <div id="nav">
+            <div className={`fixed ${isSticky ? 'top' : ''}`}>
                 <Background withPadding={false}>
                     <div className="uk-container uk-container-medium">
-                        <div className={headerStyles.row}>
-                            <div className={headerStyles.leftColumn}>
+                        <div className="row">
+                            <div className="left-column">
                                 <Link to="/">
                                     <h2 className="color-nr7 uk-margin-remove">
                                         <span className="color-nr8 uk-text-bold">
@@ -33,60 +32,42 @@ const Header = () => {
                                     </h2>
                                 </Link>
                             </div>
-                            <div className={headerStyles.rightColumn}>
-                                <header className={headerStyles.header}>
+                            <div className="right-column">
+                                <header className="header">
                                     <nav>
-                                        <ul className={headerStyles.navList}>
+                                        <ul className="nav-list">
                                             <li>
                                                 <Link
-                                                    className={
-                                                        headerStyles.navItem
-                                                    }
-                                                    activeClassName={
-                                                        headerStyles.activeNavItem
-                                                    }
+                                                    className="nav-item"
+                                                    activeClassName="active-nav-item"
                                                     to="/">
                                                     Home
                                                 </Link>
                                             </li>
-                                            {
-                                                //     <li>
-                                                //     <Link
-                                                //         className={
-                                                //             headerStyles.navItem
-                                                //         }
-                                                //         activeClassName={
-                                                //             headerStyles.activeNavItem
-                                                //         }
-                                                //         to="/projects">
-                                                //         Projekte
-                                                //     </Link>
-                                                // </li>
-                                                // <li>
-                                                //     <Link
-                                                //         className={
-                                                //             headerStyles.navItem
-                                                //         }
-                                                //         activeClassName={
-                                                //             headerStyles.activeNavItem
-                                                //         }
-                                                //         to="/cv">
-                                                //         Lebenslauf
-                                                //     </Link>
-                                                // </li>
-                                                // <li>
-                                                //     <Link
-                                                //         className={
-                                                //             headerStyles.navItem
-                                                //         }
-                                                //         activeClassName={
-                                                //             headerStyles.activeNavItem
-                                                //         }
-                                                //         to="/contact">
-                                                //         Kontakt
-                                                //     </Link>
-                                                // </li>
-                                            }
+                                            <li>
+                                                <Link
+                                                    className="nav-item"
+                                                    activeClassName="active-nav-item"
+                                                    to="/projects">
+                                                    Projekte
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link
+                                                    className="nav-item"
+                                                    activeClassName="active-nav-item"
+                                                    to="/cv">
+                                                    Lebenslauf
+                                                </Link>
+                                            </li>
+                                            <li>
+                                                <Link
+                                                    className="nav-item"
+                                                    activeClassName="active-nav-item"
+                                                    to="/contact">
+                                                    Kontakt
+                                                </Link>
+                                            </li>
                                         </ul>
                                     </nav>
                                 </header>

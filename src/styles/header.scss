@@ -6,7 +6,16 @@
     left: 0;
     width: 100%;
     z-index: 5;
-    background-color: transparent;
+    background-color: $color-nr2-transparent;
+    transition: .2s all ease-in-out;
+
+    &.top {
+        background-color: transparent;
+
+        .header {
+            padding: 1rem 0;
+        }
+    }
 }
 
 .row {
@@ -57,7 +66,8 @@
 
 .header {
     width: 100%;
-    padding: 1rem 0;
+    padding: 0;
+    transition: .2s all ease-in-out;
 
     @media (max-width: 767.98px) {
         padding: 1rem 0 1.5rem;
