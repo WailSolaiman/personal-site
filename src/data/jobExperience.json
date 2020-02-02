@@ -1,21 +1,40 @@
 [{
-    "community": "Sudan Digital. (Sudan-Khartoum)",
-    "start-date": "02.2014",
-    "end-date": "11.2015",
-    "activity": "Praktikant/Angestellter"
-}, {
-    "community": "Parrot Media GmbH",
-    "start-date": "03.2016",
-    "end-date": "09.2016",
-    "activity": "Praktikant"
+    "community": "Vicon Web Business",
+    "start-date": "07.2018",
+    "end-date": "12.2019",
+    "activity": "Angestellter",
+    "tasks": [
+        "Beschäftigung als Angestellter Frontend Web-Entwickler mit Fokus auf CMS Contao",
+        "Entwicklung von Responsive Contao Themes und Templates",
+        "Pflege und Wartung der Inhalte, wie Texte, Images, Icons … usw."
+    ]
 }, {
     "community": "Anders Björk GmbH",
     "start-date": "02.2017",
     "end-date": "05.2018",
-    "activity": "Angestellter"
+    "activity": "Angestellter",
+    "tasks": [
+        "Beschäftigung als Angestellter Frontend Web-Entwickler mit Fokus auf CMS WordPress",
+        "Entwicklung von Responsive WordPress Themes",
+        "Pflege und Wartung der Inhalte, wie Texte, Images, Icons … usw."
+    ]
 }, {
-    "community": "Vicon Web Business",
-    "start-date": "07.2018",
-    "end-date": "heute",
-    "activity": "Angestellter"
+    "community": "Parrot Media GmbH",
+    "start-date": "03.2016",
+    "end-date": "09.2016",
+    "activity": "Praktikant",
+    "tasks": [
+        "Beschäftigung als Praktikant Frontend Web-Entwickler mit Fokus auf CMS Typo3",
+        "Entwicklung von Responsive Typo3 Themes",
+        "Unterstützung bei der Eingabe und Erstellung der Klienten Website-Daten"
+    ]
+}, {
+    "community": "Sudan Digital. (Sudan-Khartoum)",
+    "start-date": "02.2014",
+    "end-date": "11.2015",
+    "activity": "Praktikant/Angestellter",
+    "tasks": [
+        "Beschäftigung als Angestellter Frontend Web-Entwickler mit Fokus auf CMS WordPress",
+        "Entwicklung von Responsive WordPress Themes"
+    ]
 }]

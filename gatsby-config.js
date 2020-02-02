@@ -22,9 +22,13 @@ module.exports = {
             resolve: 'gatsby-plugin-web-font-loader',
             options: {
                 google: {
-                families: ['Quicksand:500,700']
-                }
-            }
+                    families: [
+                        'Arizonia',
+                        'Roboto:400,700',
+                        'Montserrat:400,700,900',
+                    ],
+                },
+            },
         },
         {
             resolve: `gatsby-transformer-remark`,
@@ -34,23 +38,23 @@ module.exports = {
                         resolve: `gatsby-remark-prettier`,
                         options: {
                             usePrettierrc: true,
-                            prettierOptions: {}
+                            prettierOptions: {},
                         },
                     },
                 ],
             },
         },
         {
-        resolve: 'gatsby-plugin-eslint',
+            resolve: 'gatsby-plugin-eslint',
             options: {
                 test: /\.js$|\.jsx$/,
                 exclude: /(node_modules|.cache|public)/,
                 stages: ['develop'],
                 options: {
                     emitWarning: true,
-                    failOnError: false
-                }
-            }
-        }
+                    failOnError: false,
+                },
+            },
+        },
     ],
 }

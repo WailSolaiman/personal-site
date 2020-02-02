@@ -24,12 +24,12 @@ const Header = () => {
                         <div className="row">
                             <div className="left-column">
                                 <Link to="/">
-                                    <h2 className="color-nr7 uk-margin-remove">
+                                    <h1 className="logo color-nr6 uk-margin-remove">
                                         <span className="color-nr8 uk-text-bold">
-                                            Wail
+                                            W
                                         </span>
-                                        Solaiman
-                                    </h2>
+                                        s
+                                    </h1>
                                 </Link>
                             </div>
                             <div className="right-column">
@@ -48,16 +48,16 @@ const Header = () => {
                                                 <Link
                                                     className="nav-item"
                                                     activeClassName="active-nav-item"
-                                                    to="/projects">
-                                                    Projekte
+                                                    to="/portfolio">
+                                                    Portfolio
                                                 </Link>
                                             </li>
                                             <li>
                                                 <Link
                                                     className="nav-item"
                                                     activeClassName="active-nav-item"
-                                                    to="/cv">
-                                                    Lebenslauf
+                                                    to="/about">
+                                                    About
                                                 </Link>
                                             </li>
                                             <li>
@@ -65,7 +65,7 @@ const Header = () => {
                                                     className="nav-item"
                                                     activeClassName="active-nav-item"
                                                     to="/contact">
-                                                    Kontakt
+                                                    Contact
                                                 </Link>
                                             </li>
                                         </ul>

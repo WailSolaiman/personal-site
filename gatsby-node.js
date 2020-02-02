@@ -1,33 +1,3 @@
-exports.createPages = async ({ actions, graphql, reporter }) => {
-    const result = await graphql(`
-        {
-            allProjectsJson {
-                edges {
-                    node {
-                        slug
-                    }
-                }
-            }
-        }
-    `)
-
-    if (result.error) {
-        return reporter.panic('There was a problem loading your projects!')
-    }
-
-    const projects = result.data.allProjectsJson.edges
-
-    projects.forEach(({ node: project }) => {
-        const { slug } = project
-
-        actions.createPage({
-            path: `/${slug}/`,
-            component: require.resolve('./src/templates/projectTemplate.js'),
-            context: { slug },
-        })
-    })
-}
-
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
     if (stage === 'build-html') {
         actions.setWebpackConfig({

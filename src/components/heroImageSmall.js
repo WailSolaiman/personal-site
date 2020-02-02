@@ -11,10 +11,10 @@ const HeroImageSmall = ({ imageData, title = '', subtitle = '' }) => {
                 fluid={imageData}>
                 <div className={HeroImageSmallStyles.overlay}>
                     <div className={HeroImageSmallStyles.content}>
-                        <h1 className={HeroImageSmallStyles.title}>{title}</h1>
                         <p className={HeroImageSmallStyles.subtitle}>
                             {subtitle}
                         </p>
+                        <h1 className={HeroImageSmallStyles.title}>{title}</h1>
                     </div>
                 </div>
             </BackgroundImage>

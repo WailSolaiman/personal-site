@@ -1,6 +1,5 @@
 import React from 'react'
-import { useStaticQuery, graphql } from 'gatsby'
-import AniLink from 'gatsby-plugin-transition-link/AniLink'
+import { useStaticQuery, graphql, Link } from 'gatsby'
 import scrollTo from 'gatsby-plugin-smoothscroll'
 import Cookiebar from './cookiebar'
 import Background from './background'
@@ -24,16 +23,16 @@ const Footer = () => {
                 <footer className={footerStyles.footer}>
                     <div className="uk-padding-small">
                         <p className="uk-text-center uk-margin-small-bottom">
-                            <AniLink fade to="/imprint">
+                            <Link fade to="/imprint">
                                 Impressum
-                            </AniLink>{' '}
+                            </Link>{' '}
                             |{' '}
-                            <AniLink fade to="/dataPrivacy">
+                            <Link fade to="/dataPrivacy">
                                 Datenschutz
-                            </AniLink>
+                            </Link>
                         </p>
                         <p className="uk-text-center uk-margin-remove">
-                            Created by {data.site.siteMetadata.author}. © 2020
+                            Copyright © 2019 {data.site.siteMetadata.author}
                         </p>
                     </div>
                 </footer>

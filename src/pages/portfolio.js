@@ -1,18 +1,70 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-// import Image from 'gatsby-image'
+import Image from 'gatsby-image'
 import Head from '../components/head'
 import Layout from '../components/layout'
-// import BackgroundImage from '../components/backgroundImage'
-import ProjectPreview from '../components/projectPreview'
 import HeroImageSmallStyles from '../components/heroImageSmall'
 import Background from '../components/background'
 import Section from '../components/section'
 import FooterBefore from '../components/footerBefore'
-// import Checkboxes from '../components/projects/checkboxes'
-import ProjectsStyles from '../styles/projects.module.scss'
+import '../styles/projects.scss'
 
-const Projects = () => {
+function ProjectPreview({
+    imageData,
+    title = '',
+    development = '',
+    url = '',
+    agency = '',
+    description = [],
+    state = '',
+}) {
+    return (
+        <li
+            className="uk-width-1-2 uk-width-1-3@m uk-width-1-4@xl"
+            data-dev={`${development}`}>
+            <div
+                className="uk-transition-toggle"
+                style={{ position: 'relative' }}>
+                <Image fluid={imageData} alt={title} />
+                <div className="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
+                    <div className="projects__container">
+                        <p className="projects__title">{title}</p>
+                        <p className="projects__agency">{agency}</p>
+                        <p
+                            className={
+                                state === 'Online'
+                                    ? 'uk-text-success uk-text-bold uk-margin-remove uk-text-uppercase'
+                                    : 'uk-text-danger uk-text-bold uk-margin-remove uk-text-uppercase'
+                            }>
+                            {state}
+                        </p>
+                        <div className="projects__tech">
+                            <p className="projects__tech__header">
+                                Web Technologien:
+                            </p>
+                            <div className="projects__tech__list">
+                                {description.map((item, index) => {
+                                    return (
+                                        <p
+                                            key={index}
+                                            className="projects__tech__item">
+                                            {item.tool}
+                                        </p>
+                                    )
+                                })}
+                            </div>
+                        </div>
+                        <a href={url} target="blank" className="projects__link">
+                            Projekt online ansehen
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </li>
+    )
+}
+
+const Portfolio = () => {
     const data = useStaticQuery(graphql`
         {
             allProjectsJson {
@@ -20,8 +72,13 @@ const Projects = () => {
                     node {
                         id
                         title
-                        slug
+                        url
+                        agency
+                        state
                         development
+                        description {
+                            tool
+                        }
                         image {
                             childImageSharp {
                                 fluid {
@@ -43,30 +100,19 @@ const Projects = () => {
     `)
     const imageData = data.file.childImageSharp.fluid
     const projects = data.allProjectsJson.edges
-    // const [filterdString, setFilterString] = useState('')
-    // const [isWPChecked, toggleWP] = useState(false)
-    // const [isContaoChecked, toggleContao] = useState(false)
-    // const [isVanillaJSChecked, toggleVanillaJS] = useState(false)
-    // const [isReactChecked, toggleReact] = useState(false)
-    // const [loading, setLoading] = useState(true)
-    // useEffect(() => {
-    //     setTimeout(() => {
-    //         setLoading(false)
-    //     }, 500)
-    // })
     return (
         <Layout>
             <Head title="Projekte" />
             <HeroImageSmallStyles
                 imageData={imageData}
-                title="Title"
-                subtitle="Subtitle"
+                title="Meine Kreative Arbeit..."
+                subtitle="Frontend Web-Entwicklung"
             />
             <Background background="color-bg-nr6" withPadding>
                 <div className="uk-container uk-container-medium">
                     <Section
-                        title="Check Out Our All Ready Demos"
-                        text="A great collection of beautiful website templates for your need. Choose the best suitable template and start customizing it."
+                        title="Portfolio"
+                        text="Eine kleine Auswahl meiner kreativen Arbeit als Frontend-Webentwickler in den letzten 2 Jahren ..."
                     />
                 </div>
             </Background>
@@ -112,18 +158,31 @@ const Projects = () => {
                         </ul>
                     </div>
                 </Background>
-                <div className={ProjectsStyles.projects}>
+                <div className="projects">
                     <div className="uk-container uk-container-large">
                         <ul
                             className="js-filter"
                             style={{ listStyle: 'none', padding: 0 }}
                             uk-grid="">
                             {projects.map(({ node: project }) => {
+                                const {
+                                    id,
+                                    title,
+                                    url,
+                                    agency,
+                                    state,
+                                    description,
+                                    development,
+                                } = project
                                 return (
                                     <ProjectPreview
-                                        key={project.id}
-                                        title={project.title}
-                                        development={project.development}
+                                        key={id}
+                                        title={title}
+                                        url={url}
+                                        agency={agency}
+                                        state={state}
+                                        description={description}
+                                        development={development}
                                         imageData={
                                             project.image.childImageSharp.fluid
                                         }
@@ -137,19 +196,18 @@ const Projects = () => {
             <Background background="color-bg-nr6" withPadding>
                 <div className="uk-container uk-container-medium">
                     <Section
-                        title="Check Out Our All Ready Demos"
-                        text="A great collection of beautiful website templates for your need. Choose the best suitable template and start customizing it."
+                        title="I do my BEST..."
+                        text="Webentwicklung, Webbasierte Content-Management-Systeme wie Wordpress und Contao, Single Page Applications -SPA- mit React JS-Framework und Gatsby, Optimierung auf unterschiedlichen Gerätetypen -Responsive Design-, Animationen, Re-Design, Suchmaschinenoptimierung."
                     />
                 </div>
-                <div className="uk-text-center">TecH. Skills</div>
             </Background>
             <Background background="color-bg-nr9" withPadding>
                 <div className="uk-container uk-container-medium">
                     <FooterBefore
-                        title="Check Out Our All Ready Demos"
-                        text="A great collection of beautiful website templates"
-                        btnLink="/"
-                        btnText="Home"
+                        title="Nehmen Sie Kontakt mit mir auf..."
+                        text="Ich freue mich auf Ihren Kontakt!"
+                        btnLink="/contact"
+                        btnText="Contact"
                     />
                 </div>
             </Background>
@@ -157,4 +215,4 @@ const Projects = () => {
     )
 }
 
-export default Projects
+export default Portfolio

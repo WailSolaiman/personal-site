@@ -11,6 +11,7 @@ const Experience = () => {
                         start_date
                         end_date
                         activity
+                        tasks
                     }
                 }
             }
@@ -19,19 +20,23 @@ const Experience = () => {
     const allJobExperience = data.allJobExperienceJson.edges
 
     return (
-        <div>
-            <h2 className="uk-margin-small-top uk-text-bold">
-                Berufserfahrung
-            </h2>
+        <div className="uk-width-1-2 uk-width-1-3@m uk-width-1-2@xl">
+            <p className="uk-text-bold">Berufserfahrung</p>
             {allJobExperience.map(({ node: job }, index) => {
                 return (
                     <div key={index}>
-                        <p className="uk-margin-remove-bottom">
-                            <span className="uk-text-bold">
-                                {job.community}
-                            </span>{' '}
-                            {job.start_date} - {job.end_date} ({job.activity})
+                        <p className="uk-text-small uk-margin-remove">
+                            {job.start_date} - {job.end_date}
                         </p>
+                        <p className="uk-margin-remove">{job.community}</p>
+                        <ul
+                            className="uk-margin-remove-top"
+                            style={{ listStyle: 'circle' }}>
+                            {job.tasks &&
+                                job.tasks.map((task, index2) => {
+                                    return <li key={index2}>{task}</li>
+                                })}
+                        </ul>
                     </div>
                 )
             })}

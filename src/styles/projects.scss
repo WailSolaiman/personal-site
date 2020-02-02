@@ -1,0 +1,74 @@
+@import '../styles/variables.scss';
+
+.projects {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: $color-nr7;
+
+    &__container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    &__title {
+        color: $color-nr8 !important;
+        font-size: 1.5rem;
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-weight: 700;
+        text-align: left;
+
+        &::after {
+            content: " \A ─";
+            white-space: pre-line;
+        }
+    }
+
+    &__agency {
+        color: $color-nr6;
+        font-weight: 700;
+        margin: 0;
+        line-height: 24px;
+    }
+
+    &__tech {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    &__tech__header {
+        color: $color-nr6;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+
+    }
+
+    &__tech__list {
+        text-align: left;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    &__tech__item {
+        color: $color-nr6;
+        font-size: 0.9rem;
+        margin: 0;
+        margin-right: 15px;
+    }
+
+    &__link {
+        color: $color-nr8 !important;
+        font-weight: 700;
+        transition: 0.2s all ease-in-out;
+
+        &:hover {
+            color: $color-nr6 !important;
+        }
+    }
+}
