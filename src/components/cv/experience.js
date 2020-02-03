@@ -20,7 +20,7 @@ const Experience = () => {
     const allJobExperience = data.allJobExperienceJson.edges
 
     return (
-        <div className="uk-width-1-2 uk-width-1-3@m uk-width-1-2@xl">
+        <div className="uk-width-1-1 uk-width-1-2@m">
             <p className="uk-text-bold">Berufserfahrung</p>
             {allJobExperience.map(({ node: job }, index) => {
                 return (

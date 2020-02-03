@@ -2,7 +2,7 @@ import React from 'react'
 
 const GeneralInfos = () => {
     return (
-        <div className="uk-width-1-2 uk-width-1-3@m uk-width-1-2@xl">
+        <div className="uk-width-1-1 uk-width-1-2@m">
             <div>
                 <p className="uk-text-bold">Studium</p>
                 <p className="uk-margin-remove">
