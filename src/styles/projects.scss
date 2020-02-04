@@ -7,6 +7,11 @@
     padding-right: 15px;
     background-color: $color-nr7;
 
+    @media (max-width: 767.98px) {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
     &__container {
         height: 100%;
         display: flex;
@@ -23,6 +28,10 @@
         font-weight: 700;
         text-align: left;
 
+        @media (max-width: 767.98px) {
+            font-size: 0.9rem;
+        }
+
         &::after {
             content: " \A ─";
             white-space: pre-line;
@@ -34,17 +43,37 @@
         font-weight: 700;
         margin: 0;
         line-height: 24px;
+
+        @media (max-width: 767.98px) {
+            font-size: 0.9rem;
+        }
     }
+
+        &__state {
+        
+            @media (max-width: 767.98px) {
+                font-size: 0.9rem;
+            }
+        }
 
     &__tech {
         margin-top: 2rem;
         margin-bottom: 2rem;
+
+        @media (max-width: 767.98px) {
+            margin-top: 0;
+            margin-bottom: 1rem;
+        }
     }
 
     &__tech__header {
         color: $color-nr6;
         font-weight: 700;
         margin-bottom: 0.5rem;
+
+        @media (max-width: 767.98px) {
+            font-size: 0.9rem;
+        }
 
     }
 
@@ -60,12 +89,20 @@
         font-size: 0.9rem;
         margin: 0;
         margin-right: 15px;
+
+        @media (max-width: 767.98px) {
+            font-size: 0.8rem;
+        }
     }
 
     &__link {
         color: $color-nr8 !important;
         font-weight: 700;
         transition: 0.2s all ease-in-out;
+
+        @media (max-width: 767.98px) {
+            font-size: 0.9rem;
+        }
 
         &:hover {
             color: $color-nr6 !important;

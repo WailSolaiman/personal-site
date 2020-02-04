@@ -20,7 +20,7 @@ function ProjectPreview({
 }) {
     return (
         <li
-            className="uk-width-1-2 uk-width-1-3@m uk-width-1-4@xl"
+            className="uk-width-1-1 uk-width-1-3@m uk-width-1-4@xl"
             data-dev={`${development}`}>
             <div
                 className="uk-transition-toggle"
@@ -33,8 +33,8 @@ function ProjectPreview({
                         <p
                             className={
                                 state === 'Online'
-                                    ? 'uk-text-success uk-text-bold uk-margin-remove uk-text-uppercase'
-                                    : 'uk-text-danger uk-text-bold uk-margin-remove uk-text-uppercase'
+                                    ? 'uk-text-success uk-text-bold uk-margin-remove uk-text-uppercase projects__state'
+                                    : 'uk-text-danger uk-text-bold uk-margin-remove uk-text-uppercase projects__state'
                             }>
                             {state}
                         </p>
