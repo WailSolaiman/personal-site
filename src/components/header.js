@@ -1,30 +1,43 @@
 import React, { useState, useEffect } from 'react'
 import { Link } from 'gatsby'
 import Background from './background'
-import '../styles/header.scss'
+import HeaderNav from './headerNav'
+import HeaderStyles from '../styles/header.module.scss'
 
 const Header = () => {
     const [isSticky, setSticky] = useState(true)
+    const [size, setSize] = useState(false)
     const handleScroll = () => {
         if (window.pageYOffset < 200) {
             setSticky(true)
         } else setSticky(false)
     }
+    const updateSize = () => {
+        if (window.innerWidth <= 768) {
+            setSize(true)
+        } else setSize(false)
+    }
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
+        window.addEventListener('resize', updateSize)
         return () => {
             window.removeEventListener('scroll', () => handleScroll)
+            window.removeEventListener('resize', () => updateSize)
         }
     }, [])
     return (
         <div id="nav">
-            <div className={`fixed ${isSticky ? 'top' : ''}`}>
+            <div
+                className={`${HeaderStyles.fixed} ${
+                    isSticky ? HeaderStyles.top : ''
+                }`}>
                 <Background withPadding={false}>
                     <div className="uk-container uk-container-medium">
-                        <div className="row">
-                            <div className="left-column">
+                        <div className={HeaderStyles.row}>
+                            <div className={HeaderStyles.leftColumn}>
                                 <Link to="/">
-                                    <h1 className="logo color-nr6 uk-margin-remove">
+                                    <h1
+                                        className={`${HeaderStyles.logo} color-nr6 uk-margin-remove`}>
                                         <span className="color-nr8 uk-text-bold">
                                             W
                                         </span>
@@ -32,45 +45,37 @@ const Header = () => {
                                     </h1>
                                 </Link>
                             </div>
-                            <div className="right-column">
-                                <header className="header">
-                                    <nav>
-                                        <ul className="nav-list">
-                                            <li>
-                                                <Link
-                                                    className="nav-item"
-                                                    activeClassName="active-nav-item"
-                                                    to="/">
-                                                    Home
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link
-                                                    className="nav-item"
-                                                    activeClassName="active-nav-item"
-                                                    to="/portfolio">
-                                                    Portfolio
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link
-                                                    className="nav-item"
-                                                    activeClassName="active-nav-item"
-                                                    to="/about">
-                                                    About
-                                                </Link>
-                                            </li>
-                                            <li>
-                                                <Link
-                                                    className="nav-item"
-                                                    activeClassName="active-nav-item"
-                                                    to="/contact">
-                                                    Contact
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </nav>
-                                </header>
+                            <div className={HeaderStyles.rightColumn}>
+                                {size ? (
+                                    <div>
+                                        <a
+                                            href="#offcanvas-usage"
+                                            className={`uk-navbar-toggle ${HeaderStyles.hamburger}`}
+                                            uk-navbar-toggle-icon=""
+                                            uk-toggle=""
+                                        />
+                                        <div
+                                            id="offcanvas-usage"
+                                            uk-offcanvas="">
+                                            <div className="uk-offcanvas-bar">
+                                                <button
+                                                    className="uk-offcanvas-close"
+                                                    type="button"
+                                                    uk-close=""
+                                                />
+
+                                                <header
+                                                    className={
+                                                        HeaderStyles.header
+                                                    }>
+                                                    <HeaderNav />
+                                                </header>
+                                            </div>
+                                        </div>
+                                    </div>
+                                ) : (
+                                    <HeaderNav />
+                                )}
                             </div>
                         </div>
                     </div>

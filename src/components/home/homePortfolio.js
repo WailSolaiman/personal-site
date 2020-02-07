@@ -1,11 +1,10 @@
 import React from 'react'
-// import AniLink from 'gatsby-plugin-transition-link/AniLink'
 import Image from 'gatsby-image'
 import '../../styles/portfolio.scss'
 
 function PortfolioPreview({ imageData, title, development, agency }) {
     return (
-        <li className="uk-width-1-3 uk-width-1-5@m" data-dev={`${development}`}>
+        <li className="uk-width-1-2 uk-width-1-3@s" data-dev={`${development}`}>
             <div className="uk-transition-toggle">
                 <Image fluid={imageData} alt={title} />
                 <div className="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary uk-flex uk-flex-column uk-flex-center uk-flex-middle">

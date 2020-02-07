@@ -28,10 +28,6 @@
         font-weight: 700;
         text-align: left;
 
-        @media (max-width: 767.98px) {
-            font-size: 0.9rem;
-        }
-
         &::after {
             content: " \A ─";
             white-space: pre-line;
@@ -49,12 +45,12 @@
         }
     }
 
-        &__state {
-        
-            @media (max-width: 767.98px) {
-                font-size: 0.9rem;
-            }
+    &__state {
+
+        @media (max-width: 767.98px) {
+            font-size: 0.9rem;
         }
+    }
 
     &__tech {
         margin-top: 2rem;

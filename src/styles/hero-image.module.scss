@@ -4,12 +4,6 @@
     position: relative;
     z-index: 1;
     height: 100vh;
-
-    img {
-        @media (max-width: 767.98px) {
-            min-height: 500px;
-        }
-    }
 }
 
 .overlay {

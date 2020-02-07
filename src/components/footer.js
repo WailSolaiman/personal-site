@@ -23,13 +23,8 @@ const Footer = () => {
                 <footer className={footerStyles.footer}>
                     <div className="uk-padding-small">
                         <p className="uk-text-center uk-margin-small-bottom">
-                            <Link fade to="/imprint">
-                                Impressum
-                            </Link>{' '}
-                            |{' '}
-                            <Link fade to="/dataPrivacy">
-                                Datenschutz
-                            </Link>
+                            <Link to="/imprint">Impressum</Link> |{' '}
+                            <Link to="/dataPrivacy">Datenschutz</Link>
                         </p>
                         <p className="uk-text-center uk-margin-remove">
                             Copyright © 2019 {data.site.siteMetadata.author}

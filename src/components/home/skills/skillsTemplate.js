@@ -7,7 +7,6 @@ const SkillsTemplate = ({ skills }) => {
         freeScroll: true,
         wrapAround: true,
         draggable: false,
-        groupCells: 4,
         autoPlay: 2000,
         pauseAutoPlayOnHover: false,
     }

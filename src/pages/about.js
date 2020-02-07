@@ -24,7 +24,7 @@ const About = () => {
     return (
         <Layout>
             <Head title="Lebenslauf" />
-            <HeroImageSmallStyles imageData={imageData} />
+            <HeroImageSmallStyles imageData={imageData} imagePosition="95%" />
             <Background withPadding={false}>
                 <div className="uk-container uk-container-medium">
                     <h1 className="uk-margin-small-bottom uk-margin-medium-top uk-text-bold">

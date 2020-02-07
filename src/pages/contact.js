@@ -150,7 +150,7 @@ const ContactPage = () => {
                             <div className="uk-width-1-1">
                                 <p>
                                     Bitte beachten Sie die{' '}
-                                    <Link fade to="/dataPrivacy">
+                                    <Link to="/dataPrivacy">
                                         Datenschutzerklärung.
                                     </Link>
                                 </p>

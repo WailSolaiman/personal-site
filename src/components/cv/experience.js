@@ -30,7 +30,7 @@ const Experience = () => {
                         </p>
                         <p className="uk-margin-remove">{job.community}</p>
                         <ul
-                            className="uk-margin-remove-top"
+                            className="uk-margin-remove"
                             style={{ listStyle: 'circle' }}>
                             {job.tasks &&
                                 job.tasks.map((task, index2) => {
