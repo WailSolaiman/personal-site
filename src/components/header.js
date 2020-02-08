@@ -6,23 +6,15 @@ import HeaderStyles from '../styles/header.module.scss'
 
 const Header = () => {
     const [isSticky, setSticky] = useState(true)
-    const [size, setSize] = useState(false)
     const handleScroll = () => {
         if (window.pageYOffset < 200) {
             setSticky(true)
         } else setSticky(false)
     }
-    const updateSize = () => {
-        if (window.innerWidth <= 768) {
-            setSize(true)
-        } else setSize(false)
-    }
     useEffect(() => {
         window.addEventListener('scroll', handleScroll)
-        window.addEventListener('resize', updateSize)
         return () => {
             window.removeEventListener('scroll', () => handleScroll)
-            window.removeEventListener('resize', () => updateSize)
         }
     }, [])
     return (
@@ -46,36 +38,9 @@ const Header = () => {
                                 </Link>
                             </div>
                             <div className={HeaderStyles.rightColumn}>
-                                {size ? (
-                                    <div>
-                                        <a
-                                            href="#offcanvas-usage"
-                                            className={`uk-navbar-toggle ${HeaderStyles.hamburger}`}
-                                            uk-navbar-toggle-icon=""
-                                            uk-toggle=""
-                                        />
-                                        <div
-                                            id="offcanvas-usage"
-                                            uk-offcanvas="">
-                                            <div className="uk-offcanvas-bar">
-                                                <button
-                                                    className="uk-offcanvas-close"
-                                                    type="button"
-                                                    uk-close=""
-                                                />
-
-                                                <header
-                                                    className={
-                                                        HeaderStyles.header
-                                                    }>
-                                                    <HeaderNav />
-                                                </header>
-                                            </div>
-                                        </div>
-                                    </div>
-                                ) : (
+                                <header className={HeaderStyles.header}>
                                     <HeaderNav />
-                                )}
+                                </header>
                             </div>
                         </div>
                     </div>

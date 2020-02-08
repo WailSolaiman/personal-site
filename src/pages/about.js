@@ -37,7 +37,7 @@ const About = () => {
             </Background>
             <Background withPadding={false}>
                 <div className="uk-container uk-container-medium">
-                    <div className="uk-section">
+                    <div className="uk-section uk-padding-remove-top">
                         <div uk-grid="">
                             <AboutMe />
                             <Experience />

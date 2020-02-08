@@ -45,9 +45,6 @@ const IndexPage = () => {
         <Layout>
             <Head title="Home" />
             <HeroImage imageData={imageData} btnText="intro" btnLink="#intro">
-                <h2 className="uk-text-center uk-margin-big uk-text-bold color-nr8">
-                    - Diese Seite befindet sich derzeit noch im Aufbau -
-                </h2>
                 <Avatar />
                 <h1 className="uk-text-center uk-margin-small color-nr7">
                     Wail Solaiman

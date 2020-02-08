@@ -54,6 +54,7 @@ const Intro = () => {
                     </a>
                 </div>
             </div>
+            <div className="uk-margin-xlarge" />
             <div
                 className="uk-child-width-1-1@s uk-child-width-1-2@m"
                 uk-grid="">

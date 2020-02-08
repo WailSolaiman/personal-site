@@ -4,7 +4,7 @@ const GeneralInfos = () => {
     return (
         <div className="uk-width-1-1 uk-width-1-2@m">
             <div>
-                <p className="uk-text-bold">Studium</p>
+                <h3>Studium</h3>
                 <p className="uk-margin-remove">
                     FH Lübeck, University of Applied Science 2008 – 2013
                 </p>
@@ -13,7 +13,7 @@ const GeneralInfos = () => {
                 </p>
             </div>
             <div>
-                <p className="uk-text-bold">Skills</p>
+                <h3>Skills</h3>
                 <ul
                     className="uk-margin-remove-top"
                     style={{ listStyle: 'circle' }}>

@@ -21,7 +21,7 @@ const Experience = () => {
 
     return (
         <div className="uk-width-1-1 uk-width-1-2@m">
-            <p className="uk-text-bold">Berufserfahrung</p>
+            <h3>Berufserfahrung</h3>
             {allJobExperience.map(({ node: job }, index) => {
                 return (
                     <div key={index}>

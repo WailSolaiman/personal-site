@@ -3,7 +3,7 @@ import React from 'react'
 const aboutMe = () => {
     return (
         <div className="uk-width-1-1">
-            <p className="uk-text-bold">Über mich</p>
+            <h3>Über mich</h3>
             <p>
                 Mein Name ist Wail Solaiman, ich komme aus dem Sudan, ich bin 37
                 Jahre alt und lebe heutzutage in Lübeck (Schleswig-Holstein), wo
