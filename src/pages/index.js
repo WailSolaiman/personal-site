@@ -49,11 +49,11 @@ const IndexPage = () => {
                 <h1 className="uk-text-center uk-margin-small color-nr7">
                     Wail Solaiman
                 </h1>
-                <p className="uk-text-center uk-margin-small color-nr7">
+                <h2 className="uk-text-center uk-margin-small color-nr7">
                     <span>{'<'}</span>
                     Frontend Web-Developer
-                    <span>{'>'}</span>
-                </p>
+                    <span>{'/>'}</span>
+                </h2>
             </HeroImage>
             <div id="intro">
                 <Background background="color-bg-nr6" withPadding>

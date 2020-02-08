@@ -1,7 +1,12 @@
 .avatar {
-    width: 250px;
-    height: 250px;
+    width: 350px;
+    height: 350px;
     margin: 0 auto;
+
+    @media (max-width: 767.98px) {
+        width: 200px;
+        height: 200px;
+    }
 
     img {
         border-radius: 50%;
