@@ -28,6 +28,10 @@
         font-weight: 700;
         text-align: left;
 
+        @media (max-width: 1199.98px) {
+            font-size: 1.2rem;
+        }
+
         &::after {
             content: " \A ─";
             white-space: pre-line;
@@ -56,7 +60,7 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
 
-        @media (max-width: 767.98px) {
+        @media (max-width: 1199.98px) {
             margin-top: 0;
             margin-bottom: 1rem;
         }

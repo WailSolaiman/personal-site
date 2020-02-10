@@ -20,7 +20,7 @@ function ProjectPreview({
 }) {
     return (
         <li
-            className="uk-width-1-1 uk-width-1-2@s uk-width-1-4@xl"
+            className="uk-width-1-1 uk-width-1-2@s uk-width-1-3@m uk-width-1-4@xl"
             data-dev={`${development}`}>
             <div
                 className="uk-transition-toggle"

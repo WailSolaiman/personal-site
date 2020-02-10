@@ -2,20 +2,25 @@
 
 .cookiebar {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     padding: 15px;
     background-color: $color-nr2;
     right: 0;
     left: 0;
 
-    @media (max-width: 1199.98px) {
-        flex-direction: column;
+    button {
+        width: 200px;
+        margin: 0 auto;
+        margin-top: 15px;
+        border-radius: 30px;
+        border: 2px solid $color-nr1;
+        color: $color-nr6 !important;
+        background-color: $color-nr1;
 
-        button {
-            width: 200px;
-            margin: 0 auto;
-            margin-top: 15px;
+        &:hover {
+            color: $color-nr1 !important;
+            background-color: $color-nr2;
         }
     }
 }
