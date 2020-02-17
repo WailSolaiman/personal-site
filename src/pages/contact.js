@@ -72,6 +72,7 @@ class ContactPage extends React.Component {
                             name="contact"
                             method="post"
                             data-netlify="true"
+                             data-netlify-recaptcha="true"
                             action="/success/"
                             >
                             <input
@@ -146,7 +147,7 @@ class ContactPage extends React.Component {
                                         Datenschutzerklärung.
                                     </Link>
                                 </p>
-                                
+                                 <div data-netlify-recaptcha="true" />
                                 <button
                                     type="submit"
                                     disabled={this.isDisabled()}
