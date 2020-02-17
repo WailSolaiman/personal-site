@@ -4,16 +4,7 @@ import Layout from '../components/layout'
 import HeroImageSmallStyles from '../components/heroImageSmall'
 import Background from '../components/background'
 import Head from '../components/head'
-import Success from './success'
 import '../styles/contact.scss'
-
-const encode = data => {
-    return Object.keys(data)
-        .map(
-            key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
-        )
-        .join('&')
-}
 
 class ContactPage extends React.Component {
     constructor(props) {
@@ -24,15 +15,6 @@ class ContactPage extends React.Component {
             email: '',
             message: '',
         }
-    }
-
-    handleSubmit = e => {
-        fetch('/', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-            body: encode({ 'form-name': 'contact', ...this.state }),
-        }).then(() => <Success />)
-        e.preventDefault()
     }
 
     handleChange = e => this.setState({ [e.target.name]: e.target.value })
@@ -95,7 +77,11 @@ class ContactPage extends React.Component {
                             <form
                                 uk-grid=""
                                 className="uk-grid-medium"
-                                onSubmit={this.handleSubmit}>
+                                name="contact"
+                                method="post"
+                                data-netlify="true"
+                                data-netlify-recaptcha="true"
+                                action="/success/">
                                 <input
                                     type="hidden"
                                     name="form-name"
