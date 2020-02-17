@@ -23,6 +23,7 @@ const ContactPage = () => {
     const [name, setName] = useState('')
     const [email, setEmail] = useState('')
     const [message, setMessage] = useState('')
+    const [captchaValue, setCaptchaValue] = useState('')
     const handleNameChange = e => {
         setName(e.target.value)
     }
@@ -33,14 +34,15 @@ const ContactPage = () => {
             name.length === 0 ||
             !emailRegularExp.test(email) ||
             !message ||
-            message.length < 1
+            message.length < 1 ||
+            captchaValue !== ''
         ) {
             return true
         }
         return false
     }
     const onRecaptchaChange = value => {
-        console.log('Captcha value:', value)
+        setCaptchaValue(value)
     }
     return (
         <Layout>
