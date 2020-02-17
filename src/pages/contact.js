@@ -18,25 +18,9 @@ class ContactPage extends React.Component {
         }
     }
     
-    // data = graphql`
-    //     {
-    //         file(relativePath: { eq: "images/header/contact-me.jpg" }) {
-    //             childImageSharp {
-    //                 fluid(maxWidth: 1920) {
-    //                     ...GatsbyImageSharpFluid
-    //                 }
-    //             }
-    //         }
-    //     }
-    // `
-    
-    // imageData = this.data.file.childImageSharp.fluid
-
     recaptchaRef = () => React.createRef()
 
-    handleChange = e => this.setState({ [e.target.name]: e.target.value })
-
-    emailRegularExp = () => /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/
+    handleChange = e => this.setState({ [e.target.name]: e.target.value }) 
 
     isDisabled = () => {
         const { firstname, lastname, email, message } = this.state
@@ -45,7 +29,7 @@ class ContactPage extends React.Component {
             firstname.length === 0 ||
             !lastname ||
             lastname.length === 0 ||
-            !this.emailRegularExp.test(email) ||
+            !(/^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/).test(email) ||
             !message
         ) {
             return true
@@ -104,13 +88,13 @@ class ContactPage extends React.Component {
                             <div className="uk-width-1-2@m">
                                 <label
                                     className="uk-form-label"
-                                    htmlFor="vorname">
+                                    htmlFor="firstname">
                                     Vorname
                                     <input
                                         className="uk-input"
-                                        id="vorname"
+                                        id="firstname"
                                         type="text"
-                                        name="name"
+                                        name="firstname"
                                         value={firstname}
                                         onChange={this.handleChange}
                                     />
@@ -125,7 +109,7 @@ class ContactPage extends React.Component {
                                         className="uk-input"
                                         id="lastname"
                                         type="text"
-                                        name="name"
+                                        name="lastname"
                                         value={lastname}
                                         onChange={this.handleChange}
                                     />
