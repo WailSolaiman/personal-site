@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import { graphql, useStaticQuery, Link } from 'gatsby'
+import React from 'react'
+import { graphql, StaticQuery, Link } from 'gatsby'
 import Recaptcha from 'react-google-recaptcha'
 import Layout from '../components/layout'
 import HeroImageSmallStyles from '../components/heroImageSmall'
@@ -7,48 +7,71 @@ import Background from '../components/background'
 import Head from '../components/head'
 import '../styles/contact.scss'
 
-const ContactPage = () => {
-    const data = useStaticQuery(graphql`
-        {
-            file(relativePath: { eq: "images/header/contact-me.jpg" }) {
-                childImageSharp {
-                    fluid(maxWidth: 1920) {
-                        ...GatsbyImageSharpFluid
-                    }
-                }
-            }
+class ContactPage extends React.Component {
+    constructor(props) {
+        super(props)
+        this.state = {
+            firstname: '',
+            lastname: '',
+            email: '',
+            message: ''
         }
-    `)
-    const imageData = data.file.childImageSharp.fluid
-    const recaptchaRef = React.createRef()
-    const [firstname, setFirstName] = useState('')
-    const [lastname, setLastName] = useState('')
-    const [email, setEmail] = useState('')
-    const [message, setMessage] = useState('')
-    const handleFirstNameChange = e => {
-        setFirstName(e.target.value)
     }
-    const handleLastNameChange = e => {
-        setLastName(e.target.value)
-    }
-    const emailRegularExp = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/
-    const isDisabled = () => {
+    
+    // data = graphql`
+    //     {
+    //         file(relativePath: { eq: "images/header/contact-me.jpg" }) {
+    //             childImageSharp {
+    //                 fluid(maxWidth: 1920) {
+    //                     ...GatsbyImageSharpFluid
+    //                 }
+    //             }
+    //         }
+    //     }
+    // `
+    
+    // imageData = this.data.file.childImageSharp.fluid
+
+    recaptchaRef = () => React.createRef()
+
+    handleChange = e => this.setState({ [e.target.name]: e.target.value })
+
+    emailRegularExp = () => /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/
+
+    isDisabled = () => {
+        const { firstname, lastname, email, message } = this.state
         if (
             !firstname ||
             firstname.length === 0 ||
             !lastname ||
             lastname.length === 0 ||
-            !emailRegularExp.test(email) ||
+            !this.emailRegularExp.test(email) ||
             !message
         ) {
             return true
         }
         return false
     }
-    return (
+
+    render() {
+        const { firstname, lastname, email, message } = this.state
+        return (
         <Layout>
             <Head title="Kontakt" />
-            <HeroImageSmallStyles imageData={imageData} />
+            <StaticQuery
+                query={graphql`
+                    {
+                        file(relativePath: { eq: "images/header/contact-me.jpg" }) {
+                            childImageSharp {
+                                fluid(maxWidth: 1920) {
+                                    ...GatsbyImageSharpFluid
+                                }
+                            }
+                        }
+                    }
+                `}
+                render={data => <HeroImageSmallStyles imageData={data.file.childImageSharp.fluid} />}
+            />
             <Background withPadding={false}>
                 <div className="contact uk-section">
                     <div className="uk-container uk-container-medium">
@@ -71,7 +94,7 @@ const ContactPage = () => {
                             data-netlify-recaptcha="true"
                             action="/success/"
                             onSubmit={() => {
-                                recaptchaRef.current.getValue()
+                                this.recaptchaRef.current.getValue()
                             }}>
                             <input
                                 type="hidden"
@@ -89,7 +112,7 @@ const ContactPage = () => {
                                         type="text"
                                         name="name"
                                         value={firstname}
-                                        onChange={handleFirstNameChange}
+                                        onChange={this.handleChange}
                                     />
                                 </label>
                             </div>
@@ -104,7 +127,7 @@ const ContactPage = () => {
                                         type="text"
                                         name="name"
                                         value={lastname}
-                                        onChange={handleLastNameChange}
+                                        onChange={this.handleChange}
                                     />
                                 </label>
                             </div>
@@ -119,7 +142,7 @@ const ContactPage = () => {
                                         type="email"
                                         name="email"
                                         value={email}
-                                        onChange={e => setEmail(e.target.value)}
+                                        onChange={this.handleChange}
                                     />
                                 </label>
                             </div>
@@ -132,9 +155,7 @@ const ContactPage = () => {
                                         id="message"
                                         name="message"
                                         value={message}
-                                        onChange={e =>
-                                            setMessage(e.target.value)
-                                        }
+                                        onChange={this.handleChange}
                                         className="uk-textarea uk-margin-small-bottom"
                                         rows="5"
                                     />
@@ -148,12 +169,12 @@ const ContactPage = () => {
                                     </Link>
                                 </p>
                                 <Recaptcha
-                                    ref={recaptchaRef}
+                                    ref={this.recaptchaRef}
                                     sitekey="6LeMq6oUAAAAAIv7RWer04VJnvpLio28b3pqhjj6"
                                 />
                                 <button
                                     type="submit"
-                                    disabled={isDisabled()}
+                                    disabled={this.isDisabled()}
                                     className="uk-button uk-button-primary uk-margin-medium-top">
                                     Send
                                 </button>
@@ -164,6 +185,7 @@ const ContactPage = () => {
             </Background>
         </Layout>
     )
+    }
 }
 
 export default ContactPage
