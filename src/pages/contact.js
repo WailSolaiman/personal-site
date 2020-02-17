@@ -39,6 +39,9 @@ const ContactPage = () => {
         }
         return false
     }
+    const onRecaptchaChange = value => {
+        console.log('Captcha value:', value)
+    }
     return (
         <Layout>
             <Head title="Kontakt" />
@@ -91,13 +94,12 @@ const ContactPage = () => {
                         />
                         <p>
                             Bitte beachten Sie die{' '}
-                            <Link fade to="/dataPrivacy">
-                                Datenschutzerklärung.
-                            </Link>
+                            <Link to="/dataPrivacy">Datenschutzerklärung.</Link>
                         </p>
                         <Recaptcha
                             ref={recaptchaRef}
                             sitekey="6Lfwv9kUAAAAAGi_hcTsjGndlNQafDMHT5VnJmv4"
+                            onChange={onRecaptchaChange}
                         />
                         <button
                             type="submit"
