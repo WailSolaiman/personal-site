@@ -31,11 +31,9 @@ const ContactPage = () => {
     const isDisabled = () => {
         if (
             !name ||
-            name.length === 0 ||
             !emailRegularExp.test(email) ||
             !message ||
-            message.length < 1 ||
-            captchaValue !== ''
+            !captchaValue
         ) {
             return true
         }
