@@ -39,8 +39,7 @@ const ContactPage = () => {
             !lastname ||
             lastname.length === 0 ||
             !emailRegularExp.test(email) ||
-            !message ||
-            message.length < 10
+            !message
         ) {
             return true
         }
