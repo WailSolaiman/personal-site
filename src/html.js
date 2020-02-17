@@ -12,7 +12,11 @@ export default function HTML(props) {
                     content="width=device-width, initial-scale=1, shrink-to-fit=no"
                 />
                 {props.headComponents}
-                <script src="https://www.google.com/recaptcha/api.js" />
+                <script
+                    src="https://www.google.com/recaptcha/api.js"
+                    async
+                    defer
+                />
             </head>
             <body {...props.bodyAttributes}>
                 {props.preBodyComponents}
