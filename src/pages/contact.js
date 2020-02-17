@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { graphql, useStaticQuery, Link } from 'gatsby'
 import Recaptcha from 'react-google-recaptcha'
 import Layout from '../components/layout'
@@ -19,7 +19,6 @@ const ContactPage = () => {
             }
         }
     `)
-    const [loading, setLoading] = useState(true)
     const imageData = data.file.childImageSharp.fluid
     const recaptchaRef = React.createRef()
     const [firstname, setFirstName] = useState('')
@@ -47,11 +46,6 @@ const ContactPage = () => {
         }
         return false
     }
-    useEffect(() => {
-        setTimeout(() => {
-            setLoading(false)
-        }, 500)
-    })
     return (
         <Layout>
             <Head title="Kontakt" />
