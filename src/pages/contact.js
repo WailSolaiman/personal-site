@@ -55,7 +55,7 @@ const ContactPage = () => {
                         Füllen Sie das untere Formular aus, ich werde mich
                         umgehend bei Ihnen melden.
                     </p>
-                    <p className="uk-text-center uk-margin-remove-top uk-margin-large-bottom">
+                    <p className="uk-text-center uk-margin-remove-top uk-margin-medium-bottom">
                         Ich freue mich auf Ihren Kontakt!
                     </p>
                     <form

@@ -8,12 +8,21 @@
         border: 1px solid $color-nr5;
     }
 
+    form {
+        width: 60%;
+        margin: 0 auto;
+
+        @media (max-width: 767.98px) {
+            width: 100%;
+        }
+    }
+
     .sendButton {
         display: block;
         width: 200px;
         min-width: 200px;
         margin: 2rem 0 0 0 !important;
-        
+
         &:not(:disabled) {
             border: 2px solid $color-nr1;
             color: $color-nr6;
