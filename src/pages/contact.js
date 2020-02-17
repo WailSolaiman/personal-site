@@ -1,6 +1,5 @@
 import React from 'react'
 import { graphql, StaticQuery, Link } from 'gatsby'
-import Recaptcha from 'react-google-recaptcha'
 import Layout from '../components/layout'
 import HeroImageSmallStyles from '../components/heroImageSmall'
 import Background from '../components/background'
@@ -17,8 +16,6 @@ class ContactPage extends React.Component {
             message: ''
         }
     }
-    
-    recaptchaRef = () => React.createRef()
 
     handleChange = e => this.setState({ [e.target.name]: e.target.value }) 
 
@@ -75,11 +72,8 @@ class ContactPage extends React.Component {
                             name="contact"
                             method="post"
                             data-netlify="true"
-                            data-netlify-recaptcha="true"
                             action="/success/"
-                            onSubmit={() => {
-                                this.recaptchaRef.current.getValue()
-                            }}>
+                            >
                             <input
                                 type="hidden"
                                 name="form-name"
@@ -152,14 +146,11 @@ class ContactPage extends React.Component {
                                         Datenschutzerklärung.
                                     </Link>
                                 </p>
-                                <Recaptcha
-                                    ref={this.recaptchaRef}
-                                    sitekey="6LeMq6oUAAAAAIv7RWer04VJnvpLio28b3pqhjj6"
-                                />
+                                
                                 <button
                                     type="submit"
                                     disabled={this.isDisabled()}
-                                    className="uk-button uk-button-primary uk-margin-medium-top">
+                                    className="uk-button uk-button-default uk-margin-medium-top sendButton">
                                     Send
                                 </button>
                             </div>
