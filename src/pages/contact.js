@@ -1,4 +1,5 @@
 import React from 'react'
+import Recaptcha from 'react-google-recaptcha'
 import { graphql, StaticQuery, Link } from 'gatsby'
 import Layout from '../components/layout'
 import HeroImageSmallStyles from '../components/heroImageSmall'
@@ -6,7 +7,11 @@ import Background from '../components/background'
 import Head from '../components/head'
 import '../styles/contact.scss'
 
+const RECAPTCHA_KEY = process.env.SITE_RECAPTCHA_KEY
+
 class ContactPage extends React.Component {
+    recaptchaRef = React.createRef()
+
     constructor(props) {
         super(props)
         this.state = {
@@ -81,7 +86,10 @@ class ContactPage extends React.Component {
                                 method="post"
                                 data-netlify="true"
                                 data-netlify-recaptcha="true"
-                                action="/success/">
+                                action="/success/"
+                                onSubmit={() =>
+                                    this.recaptchaRef.current.getValue()
+                                }>
                                 <input
                                     type="hidden"
                                     name="form-name"
@@ -154,7 +162,10 @@ class ContactPage extends React.Component {
                                             Datenschutzerklärung.
                                         </Link>
                                     </p>
-                                    <div data-netlify-recaptcha="true" />
+                                    <Recaptcha
+                                        ref={this.recaptchaRef}
+                                        sitekey={RECAPTCHA_KEY}
+                                    />
                                     <button
                                         type="submit"
                                         disabled={this.isDisabled()}
