@@ -27,7 +27,7 @@ const ContactPage = () => {
     const handleNameChange = e => {
         setName(e.target.value)
     }
-    const emailRegularExp = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/
+    const emailRegularExp = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?(?:\.[a-zA-Z0-9](?:[a-zA-Z0-9-]{0,61}[a-zA-Z0-9])?)*$/
     const isDisabled = () => {
         if (
             !name ||
