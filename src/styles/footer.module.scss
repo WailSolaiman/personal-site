@@ -1,38 +1,38 @@
 @import '../styles/variables.scss';
 
 .footer {
-    position: relative;
-    margin: 0;
+	position: relative;
+	margin: 0;
 
-    p {
-        color: $color-nr6 !important;
-        margin-bottom: 1rem;
+	p {
+		color: $color-nr6 !important;
+		margin-bottom: 1rem;
 
-        a {
-            transition: all .2s ease-in-out;
+		a {
+			transition: all .2s ease-in-out;
 
-            &:hover {
-                color: $color-nr8 !important;
-            }
-        }
-    }
+			&:hover {
+				color: $color-nr8 !important;
+			}
+		}
+	}
 }
 
 .toTopBtn {
-    display: block;
+	display: block;
 
-    button {
-        position: fixed;
-        right: 2%;
-        bottom: 2%;
-        cursor: pointer;
-        padding: 5px;
-        color: $color-nr6;
-        border: 1px solid $color-nr1;
-        background-color: $color-nr1;
+	button {
+		position: fixed;
+		right: 2%;
+		bottom: 2%;
+		cursor: pointer;
+		padding: 5px;
+		color: $color-nr6;
+		border: 1px solid $color-nr1;
+		background-color: $color-nr1;
 
-        &:focus {
-            outline: none;
-        }
-    }
+		&:focus {
+			outline: none;
+		}
+	}
 }

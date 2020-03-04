@@ -1,16 +1,16 @@
 .avatar {
-    width: 350px;
-    height: 350px;
-    margin: 0 auto;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
 
-    @media (max-width: 1199.98px) {
-        width: 200px;
-        height: 200px;
-    }
+	@media (max-width: 1199.98px) {
+		width: 200px;
+		height: 200px;
+	}
 
-    img {
-        border-radius: 50%;
-        border: 5px solid white;
-    }
+	img {
+		border-radius: 50%;
+		border: 5px solid white;
+	}
 
 }

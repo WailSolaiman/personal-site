@@ -2,36 +2,27 @@
 
 .contact {
 
-    input,
-    textarea {
-        background: $color-nr6;
-        border: 1px solid $color-nr5;
-    }
+	input,
+	textarea {
+		background: $color-nr6;
+		border: 1px solid $color-nr5;
+	}
 
-    form {
-        width: 60%;
-        margin: 0 auto;
+	.sendButton {
+		display: block;
+		width: 200px;
+		min-width: 200px;
+		margin: 2rem 0 0 0 !important;
 
-        @media (max-width: 767.98px) {
-            width: 100%;
-        }
-    }
+		&:not(:disabled) {
+			border: 2px solid $color-nr1;
+			color: $color-nr6;
+			background-color: $color-nr1;
 
-    .sendButton {
-        display: block;
-        width: 200px;
-        min-width: 200px;
-        margin: 2rem 0 0 0 !important;
-
-        &:not(:disabled) {
-            border: 2px solid $color-nr1;
-            color: $color-nr6;
-            background-color: $color-nr1;
-
-            &:hover {
-                color: $color-nr1;
-                background-color: $color-nr6;
-            }
-        }
-    }
+			&:hover {
+				color: $color-nr1;
+				background-color: $color-nr6;
+			}
+		}
+	}
 }

@@ -1,52 +1,52 @@
 @import './variables.scss';
 
 .heroImage {
-    position: relative;
-    height: 50vh;
+	position: relative;
+	height: 800px;
 
-    img {
-        @media (max-width: 767.98px) {
-            min-height: 500px;
-        }
-    }
+	img {
+		@media (max-width: 767.98px) {
+			min-height: 500px;
+		}
+	}
 }
 
 .overlay {
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    background: rgba(128, 43, 177, 0.5);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	background: rgba(128, 43, 177, 0.5);
 }
 
 .media {
-    width: 100%;
-    height: 50vh;
-    background-size: cover;
+	width: 100%;
+	height: 800px;
+	background-size: cover;
 }
 
 .content {
-    width: 100%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -70%);
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -60%);
 }
 
 .title {
-    text-align: center;
-    color: $color-nr6 !important;
-    font-size: 4rem;
-    margin: 0;
+	text-align: center;
+	color: $color-nr6 !important;
+	font-size: 4rem;
+	margin: 0;
 
-    @media (max-width: 767.98px) {
-        font-size: 2.5rem;
-    }
+	@media (max-width: 767.98px) {
+		font-size: 2.5rem;
+	}
 }
 
 .subtitle {
-    text-align: center;
-    color: $color-nr6 !important;
+	text-align: center;
+	color: $color-nr6 !important;
 }

@@ -1,57 +1,74 @@
 @import './variables.scss';
 
-.navList {
-    display: flex;
-    justify-content: flex-end;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+.nav {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
 
-    @media (max-width: 767.98px) {
-        justify-content: center;
-    }
+	@media (max-width: 767.98px) {
+		justify-content: center;
+		flex-direction: column;
+	}
+}
+
+.navList {
+	display: flex;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+
+	@media (max-width: 767.98px) {
+		justify-content: center;
+		margin-bottom: 1rem;
+
+		li {
+			&:last-child {
+				a {
+					margin: 0;
+				}
+			}
+		}
+
+	}
 }
 
 .navItem {
-    font-family: 'Roboto', sans-serif !important;
-    position: relative;
-    color: $color-nr6 !important;
-    font-size: 1.2rem;
-    font-weight: 700;
-    margin-right: 1.3rem;
-    text-decoration: none;
-    text-transform: lowercase;
-    cursor: pointer;
+	font-family: 'Tajawal', sans-serif !important;
+	position: relative;
+	color: $color-nr6 !important;
+	margin-right: 1.3rem;
+	text-decoration: none;
+	cursor: pointer;
 
-    &:hover {
-        color: $color-nr8 !important;
-    }
+	&:hover {
+		color: $color-nr8 !important;
+	}
 
-    &::after {
-        content: '';
-        position: absolute;
-        left: 0;
-        display: inline-block;
-        height: 1em;
-        width: 100%;
-        border-bottom: 1px solid;
-        margin-top: 10px;
-        opacity: 0;
-        transition: opacity 0.35s, transform 0.35s;
-        transform: scale(0, 1);
-    }
+	&::after {
+		content: '';
+		position: absolute;
+		left: 0;
+		display: inline-block;
+		height: 1em;
+		width: 100%;
+		border-bottom: 1px solid;
+		margin-top: 10px;
+		opacity: 0;
+		transition: opacity 0.35s, transform 0.35s;
+		transform: scale(0, 1);
+	}
 
-    &:hover::after {
-        opacity: 1;
-        transform: scale(1);
-    }
+	&:hover::after {
+		opacity: 1;
+		transform: scale(1);
+	}
 }
 
 .activeNavItem {
-    color: $color-nr8 !important;
+	color: $color-nr8 !important;
 
-    &::after {
-        opacity: 1;
-        transform: scale(1);
-    }
+	&::after {
+		opacity: 1;
+		transform: scale(1);
+	}
 }

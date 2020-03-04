@@ -1,60 +1,71 @@
 module.exports = {
-    siteMetadata: {
-        title: 'Wail Solaiman - Frontend Web-Developer',
-        author: 'Wail Solaiman',
-        email: 'contact@wailsolaiman.com',
+  siteMetadata: {
+    title: 'Wail Solaiman - Frontend Web-Developer',
+    author: 'Wail Solaiman',
+    email: 'contact@wailsolaiman.com',
+  },
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-sass`,
+    `gatsby-transformer-json`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-transition-link`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: 'project',
+        path: `${__dirname}/src/data`,
+      },
     },
-    plugins: [
-        `gatsby-plugin-react-helmet`,
-        `gatsby-plugin-sass`,
-        `gatsby-transformer-json`,
-        `gatsby-plugin-sharp`,
-        `gatsby-transformer-sharp`,
-        `gatsby-plugin-transition-link`,
-        {
-            resolve: `gatsby-source-filesystem`,
-            options: {
-                name: 'project',
-                path: `${__dirname}/src/data`,
-            },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: [
+            'Arizonia',
+            'Roboto:400,700',
+            'Montserrat:400,700',
+            'Changa:400,700',
+            'Tajawal:400,700',
+          ],
         },
-        {
-            resolve: 'gatsby-plugin-web-font-loader',
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-prettier`,
             options: {
-                google: {
-                    families: [
-                        'Arizonia',
-                        'Roboto:400,700',
-                        'Montserrat:400,700,900',
-                    ],
-                },
+              usePrettierrc: true,
+              prettierOptions: {},
             },
+          },
+        ],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-eslint',
+      options: {
+        test: /\.js$|\.jsx$/,
+        exclude: /(node_modules|.cache|public)/,
+        stages: ['develop'],
+        options: {
+          emitWarning: true,
+          failOnError: false,
         },
-        {
-            resolve: `gatsby-transformer-remark`,
-            options: {
-                plugins: [
-                    {
-                        resolve: `gatsby-remark-prettier`,
-                        options: {
-                            usePrettierrc: true,
-                            prettierOptions: {},
-                        },
-                    },
-                ],
-            },
-        },
-        {
-            resolve: 'gatsby-plugin-eslint',
-            options: {
-                test: /\.js$|\.jsx$/,
-                exclude: /(node_modules|.cache|public)/,
-                stages: ['develop'],
-                options: {
-                    emitWarning: true,
-                    failOnError: false,
-                },
-            },
-        },
-    ],
+      },
+    },
+    {
+      resolve: 'gatsby-source-graphql',
+      options: {
+        typeName: 'GraphCMS',
+        fieldName: 'gcms',
+        url:
+          'https://api-euwest.graphcms.com/v1/ck74oo2id0iws01cyf8f0ch1w/master',
+      },
+    },
+  ],
 }

@@ -1,111 +1,111 @@
 @import '../styles/variables.scss';
 
 .projects {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
-    padding-left: 15px;
-    padding-right: 15px;
-    background-color: $color-nr7;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: $color-nr11;
 
-    @media (max-width: 767.98px) {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-    }
+	@media (max-width: 767.98px) {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
 
-    &__container {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
+	&__container {
+		height: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
 
-    &__title {
-        color: $color-nr8 !important;
-        font-size: 1.5rem;
-        margin: 0;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        font-weight: 700;
-        text-align: left;
+	&__title {
+		color: $color-nr8 !important;
+		font-size: 1.5rem;
+		margin: 0;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		font-weight: 700;
+		text-align: left;
 
-        @media (max-width: 1199.98px) {
-            font-size: 1.2rem;
-        }
+		@media (max-width: 1199.98px) {
+			font-size: 1.2rem;
+		}
 
-        &::after {
-            content: " \A ─";
-            white-space: pre-line;
-        }
-    }
+		&::after {
+			content: " \A ─";
+			white-space: pre-line;
+		}
+	}
 
-    &__agency {
-        color: $color-nr6;
-        font-weight: 700;
-        margin: 0;
-        line-height: 24px;
+	&__agency {
+		color: $color-nr6;
+		font-weight: 700;
+		margin: 0;
+		line-height: 24px;
 
-        @media (max-width: 767.98px) {
-            font-size: 0.9rem;
-        }
-    }
+		@media (max-width: 767.98px) {
+			font-size: 0.9rem;
+		}
+	}
 
-    &__state {
+	&__state {
 
-        @media (max-width: 767.98px) {
-            font-size: 0.9rem;
-        }
-    }
+		@media (max-width: 767.98px) {
+			font-size: 0.9rem;
+		}
+	}
 
-    &__tech {
-        margin-top: 2rem;
-        margin-bottom: 2rem;
+	&__tech {
+		margin-top: 2rem;
+		margin-bottom: 2rem;
 
-        @media (max-width: 1199.98px) {
-            margin-top: 0;
-            margin-bottom: 1rem;
-        }
-    }
+		@media (max-width: 1199.98px) {
+			margin-top: 0;
+			margin-bottom: 1rem;
+		}
+	}
 
-    &__tech__header {
-        color: $color-nr6;
-        font-weight: 700;
-        margin-bottom: 0.5rem;
+	&__tech__header {
+		color: $color-nr6;
+		font-weight: 700;
+		margin-bottom: 0.5rem;
 
-        @media (max-width: 767.98px) {
-            font-size: 0.9rem;
-        }
+		@media (max-width: 767.98px) {
+			font-size: 0.9rem;
+		}
 
-    }
+	}
 
-    &__tech__list {
-        text-align: left;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
+	&__tech__list {
+		text-align: left;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
 
-    &__tech__item {
-        color: $color-nr6;
-        font-size: 0.9rem;
-        margin: 0;
-        margin-right: 15px;
+	&__tech__item {
+		color: $color-nr6;
+		font-size: 0.9rem;
+		margin: 0;
+		margin-right: 15px;
 
-        @media (max-width: 767.98px) {
-            font-size: 0.8rem;
-        }
-    }
+		@media (max-width: 767.98px) {
+			font-size: 0.8rem;
+		}
+	}
 
-    &__link {
-        color: $color-nr8 !important;
-        font-weight: 700;
-        transition: 0.2s all ease-in-out;
+	&__link {
+		color: $color-nr8 !important;
+		font-weight: 700;
+		transition: 0.2s all ease-in-out;
 
-        @media (max-width: 767.98px) {
-            font-size: 0.9rem;
-        }
+		@media (max-width: 767.98px) {
+			font-size: 0.9rem;
+		}
 
-        &:hover {
-            color: $color-nr6 !important;
-        }
-    }
+		&:hover {
+			color: $color-nr6 !important;
+		}
+	}
 }
