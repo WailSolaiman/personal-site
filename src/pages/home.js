@@ -40,13 +40,17 @@ const Home = () => {
       }
       gcms {
         personalWebsiteHomes {
-          status
-          slug
-          id
           title
           subTitle
           firstIntroHeader
           firstIntroFirstParagraph
+          firstIntroSecondParagraph
+          firstIntroLink
+          secondIntroHeader
+          secondIntroFirstParagraph
+          secondIntroSecondParagraph
+          secondIntroLink
+          portfolioTitleHome
         }
       }
     }
@@ -68,7 +72,7 @@ const Home = () => {
   return (
     <div>
       <Head title="Home" />
-      <HeroImage imageData={imageData} btnText="intro" btnLink="#intro">
+      <HeroImage imageData={imageData}>
         <Avatar />
         <h1 className="uk-text-center uk-margin-small color-nr7">
           {locale.title}
@@ -85,6 +89,12 @@ const Home = () => {
             <Intro
               firstIntroHeader={locale.firstIntroHeader}
               firstIntroFirstParagraph={locale.firstIntroFirstParagraph}
+              firstIntroSecondParagraph={locale.firstIntroSecondParagraph}
+              firstIntroLink={locale.firstIntroLink}
+              secondIntroHeader={locale.secondIntroHeader}
+              secondIntroFirstParagraph={locale.secondIntroFirstParagraph}
+              secondIntroSecondParagraph={locale.secondIntroSecondParagraph}
+              secondIntroLink={locale.secondIntroLink}
             />
           </div>
         </Background>
@@ -95,7 +105,10 @@ const Home = () => {
         </Background>
         <Background background="color-bg-nr6" withPadding>
           <div className="uk-container uk-container-medium">
-            <HomePortfolio portfolios={portfolios} />
+            <HomePortfolio
+              portfolios={portfolios}
+              portfolioTitleHome={locale.portfolioTitleHome}
+            />
           </div>
         </Background>
         <Background background="color-bg-nr9" withPadding>

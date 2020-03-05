@@ -1,8 +1,8 @@
 import React from 'react'
 import Layout from '../components/layout'
-import Index from '../components/cv/index'
+import Index from '../components/projects/index'
 
-const About = () => {
+const Projects = () => {
   return (
     <Layout>
       <Index />
@@ -10,4 +10,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Projects

@@ -1,8 +1,14 @@
 import React, { useState } from 'react'
 import { Link } from 'gatsby'
 import Recaptcha from 'react-google-recaptcha'
+import ContactFormStyles from '../../styles/contact-form.module.scss'
 
-const ContactForm = () => {
+const ContactForm = ({
+  firstFormTitle = '',
+  secondFormTitle = '',
+  dataProtection = '',
+  dataProtectionLink = '',
+}) => {
   const recaptchaRef = React.createRef()
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
@@ -29,11 +35,11 @@ const ContactForm = () => {
     setCaptchaValue(value)
   }
   return (
-    <div className="contact uk-section">
+    <div className="uk-section">
       <div className="uk-container uk-container-medium">
         <h2 className="uk-text-center uk-margin-medium-bottom">
-          Füllen Sie das untere Formular aus, <br />
-          Ich freue mich auf Ihren Kontakt!
+          {firstFormTitle} <br />
+          {secondFormTitle}
         </h2>
         <form
           name="contact"
@@ -50,7 +56,7 @@ const ContactForm = () => {
             name="name"
             value={name}
             onChange={handleNameChange}
-            className="uk-input uk-margin-small-bottom uk-form-large"
+            className={`uk-input uk-margin-small-bottom uk-form-large ${ContactFormStyles.formElement}`}
             placeholder="Name"
           />
           <input
@@ -58,15 +64,15 @@ const ContactForm = () => {
             name="email"
             value={email}
             onChange={e => setEmail(e.target.value)}
-            className="uk-input uk-margin-small-bottom uk-form-large"
+            className={`uk-input uk-margin-small-bottom uk-form-large ${ContactFormStyles.formElement}`}
             placeholder="E-Mail"
           />
           <textarea
             name="message"
             value={message}
             onChange={e => setMessage(e.target.value)}
-            className="uk-textarea uk-margin-small-bottom uk-form-large"
-            rows="5"
+            className={`uk-textarea uk-margin-small-bottom uk-form-large ${ContactFormStyles.formElement}`}
+            rows="7"
             placeholder="Nachricht"
           />
           <label htmlFor="dataPrivacy">
@@ -77,10 +83,9 @@ const ContactForm = () => {
               checked={checked}
               onChange={() => setChecked(!checked)}
             />
-            Hiermit akzeptiere ich die von mir zur Kenntnis genommene{' '}
-            <Link to="/dataPrivacy">Datenschutzerklärung</Link>.
+            {dataProtection} <Link to="/dataPrivacy">{dataProtectionLink}</Link>
+            .
           </label>
-
           <Recaptcha
             ref={recaptchaRef}
             sitekey="6Lfwv9kUAAAAAGi_hcTsjGndlNQafDMHT5VnJmv4"
@@ -89,7 +94,7 @@ const ContactForm = () => {
           <button
             type="submit"
             disabled={isDisabled()}
-            className="uk-button uk-button-primary uk-margin-small-top sendButton">
+            className={`uk-button uk-button-primary uk-margin-small-top sendButton ${ContactFormStyles.sendButton}`}>
             Send
           </button>
         </form>

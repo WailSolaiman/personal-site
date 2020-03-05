@@ -1,8 +1,13 @@
-.flexContainer {
+.flexContainerRow {
 	display: flex;
 	flex-direction: row;
 
 	@media (max-width: 991.98px) {
 		flex-direction: column;
 	}
+}
+
+.flexContainerCol {
+	display: flex;
+	flex-direction: column;
 }

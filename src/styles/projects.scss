@@ -26,7 +26,8 @@
 		text-transform: uppercase;
 		letter-spacing: 3px;
 		font-weight: 700;
-		text-align: left;
+		text-align: left !important;
+		direction: ltr !important;
 
 		@media (max-width: 1199.98px) {
 			font-size: 1.2rem;
@@ -43,6 +44,8 @@
 		font-weight: 700;
 		margin: 0;
 		line-height: 24px;
+		text-align: left !important;
+		direction: ltr !important;
 
 		@media (max-width: 767.98px) {
 			font-size: 0.9rem;
@@ -50,6 +53,8 @@
 	}
 
 	&__state {
+		text-align: left !important;
+		direction: ltr !important;
 
 		@media (max-width: 767.98px) {
 			font-size: 0.9rem;
@@ -70,6 +75,8 @@
 		color: $color-nr6;
 		font-weight: 700;
 		margin-bottom: 0.5rem;
+		text-align: left !important;
+		direction: ltr !important;
 
 		@media (max-width: 767.98px) {
 			font-size: 0.9rem;
@@ -82,6 +89,8 @@
 		display: flex;
 		flex-direction: row;
 		flex-wrap: wrap;
+		text-align: left !important;
+		direction: ltr !important;
 	}
 
 	&__tech__item {
@@ -99,6 +108,8 @@
 		color: $color-nr8 !important;
 		font-weight: 700;
 		transition: 0.2s all ease-in-out;
+		text-align: left !important;
+		direction: ltr !important;
 
 		@media (max-width: 767.98px) {
 			font-size: 0.9rem;

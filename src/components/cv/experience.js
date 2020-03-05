@@ -1,32 +1,14 @@
 import React from 'react'
-import { graphql, useStaticQuery } from 'gatsby'
 
-const Experience = () => {
-  const data = useStaticQuery(graphql`
-    {
-      allJobExperienceJson {
-        edges {
-          node {
-            community
-            start_date
-            end_date
-            activity
-            tasks
-          }
-        }
-      }
-    }
-  `)
-  const allJobExperience = data.allJobExperienceJson.edges
-
+const Experience = ({ workExperienceHeader = '', workExperienceData = [] }) => {
   return (
     <>
-      <h3 className="uk-heading-small">Berufserfahrung</h3>
-      {allJobExperience.map(({ node: job }, index) => {
+      <h3 className="uk-heading-small">{workExperienceHeader}</h3>
+      {workExperienceData.map(job => {
         return (
-          <div key={index}>
+          <div key={job.index}>
             <h4 className="uk-margin-remove">
-              {job.start_date} - {job.end_date}
+              {job.startDate} - {job.endDate}
             </h4>
             <h3 className="uk-margin-remove">{job.community}</h3>
             <ul

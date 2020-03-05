@@ -1,6 +1,6 @@
 import React from 'react'
 import Flickity from 'react-flickity-component'
-import SkillsStyles from '../../../styles/skills.module.scss'
+import SkillsStyles from '../../../styles/skills-home.module.scss'
 
 const SkillsTemplate = ({ skills }) => {
   const flickityOptions = {

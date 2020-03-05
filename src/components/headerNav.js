@@ -19,7 +19,7 @@ const HeaderNav = () => {
           <Link
             className={HeaderNavStyles.navItem}
             activeClassName={HeaderNavStyles.activeNavItem}
-            to="/portfolio">
+            to="/projects">
             Projekte
           </Link>
         </li>

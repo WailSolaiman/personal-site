@@ -18,10 +18,10 @@ function PortfolioPreview({ imageData, title, development, agency }) {
   )
 }
 
-const Portfolio = ({ portfolios }) => {
+const Portfolio = ({ portfolios, portfolioTitleHome = '' }) => {
   return (
     <div className="portfolio">
-      <h2 className="header">Eine kleine Auswahl meiner Arbeit...</h2>
+      <h2 className="header">{portfolioTitleHome}</h2>
       <div uk-filter="target: .js-filter" style={{ minHeight: 700 }}>
         <ul className="uk-subnav uk-subnav-pill">
           <li className="uk-active" uk-filter-control="">

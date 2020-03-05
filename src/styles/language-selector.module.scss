@@ -5,12 +5,12 @@
 }
 
 .button {
-	color: white;
+	color: white !important;
 	font-weight: 100;
 	font-size: 1rem;
 	line-height: 0;
-	padding: 5px;
-	background-color: transparent;
+	padding: 5px !important;
+	background-color: transparent !important;
 	transition: .2s all ease-in-out;
 
 	&:focus,
