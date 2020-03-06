@@ -54,18 +54,18 @@ const Index = () => {
   `)
   const imageData = data.file.childImageSharp.fluid
   const projects = data.allProjectsJson.edges
-  const gcms = data.gcms.personalWebsitePortfolios
+  const websitePortfolioData = data.gcms.personalWebsitePortfolios
   const state = useContext(GlobalStateLanguageContext)
-  const [locale, setlocale] = useState(gcms[0])
+  const [locale, setlocale] = useState(websitePortfolioData[0])
   useEffect(() => {
     if (state.locale === 'De') {
-      setlocale(gcms[0])
+      setlocale(websitePortfolioData[0])
     } else if (state.locale === 'En') {
-      setlocale(gcms[1])
+      setlocale(websitePortfolioData[1])
     } else if (state.locale === 'Ar') {
-      setlocale(gcms[2])
+      setlocale(websitePortfolioData[2])
     }
-  }, [gcms, state])
+  }, [websitePortfolioData, state])
   return (
     <div>
       <Head title="Projekte" />
@@ -87,12 +87,7 @@ const Index = () => {
         </Background>
         <Background background="color-bg-nr9" withPadding>
           <div className="uk-container uk-container-medium">
-            <FooterBefore
-              title="Nehmen Sie Kontakt mit mir auf..."
-              text="Ich freue mich auf Ihren Kontakt!"
-              btnLink="/contact"
-              btnText="Contact"
-            />
+            <FooterBefore />
           </div>
         </Background>
       </Loading>

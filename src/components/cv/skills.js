@@ -20,7 +20,9 @@ const Skills = ({
                 skillsInfosFirst.map(skill => {
                   return (
                     <React.Fragment key={skill.id}>
-                      <dt>{skill.category}</dt>
+                      <dt className={SkillsStyles.dataTable}>
+                        {skill.category}
+                      </dt>
                       <dd>{skill.skillsName}</dd>
                     </React.Fragment>
                   )
@@ -33,7 +35,9 @@ const Skills = ({
                 skillsInfosSecond.map(skill => {
                   return (
                     <React.Fragment key={skill.id}>
-                      <dt>{skill.category}</dt>
+                      <dt className={SkillsStyles.dataTable}>
+                        {skill.category}
+                      </dt>
                       <dd>{skill.skillsName}</dd>
                     </React.Fragment>
                   )
@@ -53,7 +57,9 @@ const Skills = ({
                 learningProcessFirst.map(skill => {
                   return (
                     <React.Fragment key={skill.id}>
-                      <dt>{skill.category}</dt>
+                      <dt className={SkillsStyles.dataTable}>
+                        {skill.category}
+                      </dt>
                       <dd>{skill.skillsName}</dd>
                     </React.Fragment>
                   )
@@ -66,7 +72,9 @@ const Skills = ({
                 learningProcessSecond.map(skill => {
                   return (
                     <React.Fragment key={skill.id}>
-                      <dt>{skill.category}</dt>
+                      <dt className={SkillsStyles.dataTable}>
+                        {skill.category}
+                      </dt>
                       <dd>{skill.skillsName}</dd>
                     </React.Fragment>
                   )

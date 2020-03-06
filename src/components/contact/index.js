@@ -37,18 +37,18 @@ const Index = () => {
     }
   `)
   const imageData = data.file.childImageSharp.fluid
-  const gcms = data.gcms.personalWebsiteContacts
+  const websiteContactData = data.gcms.personalWebsiteContacts
   const state = useContext(GlobalStateLanguageContext)
-  const [locale, setlocale] = useState(gcms[0])
+  const [locale, setlocale] = useState(websiteContactData[0])
   useEffect(() => {
     if (state.locale === 'De') {
-      setlocale(gcms[0])
+      setlocale(websiteContactData[0])
     } else if (state.locale === 'En') {
-      setlocale(gcms[1])
+      setlocale(websiteContactData[1])
     } else if (state.locale === 'Ar') {
-      setlocale(gcms[2])
+      setlocale(websiteContactData[2])
     }
-  }, [gcms, state])
+  }, [websiteContactData, state])
   return (
     <>
       <Head title="Kontakt" />

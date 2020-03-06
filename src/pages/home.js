@@ -57,18 +57,18 @@ const Home = () => {
   `)
   const portfolios = data.allPortfolioJson.edges
   const imageData = data.file.childImageSharp.fluid
-  const gcms = data.gcms.personalWebsiteHomes
+  const websiteHomeData = data.gcms.personalWebsiteHomes
   const state = useContext(GlobalStateLanguageContext)
-  const [locale, setlocale] = useState(gcms[0])
+  const [locale, setlocale] = useState(websiteHomeData[0])
   useEffect(() => {
     if (state.locale === 'De') {
-      setlocale(gcms[0])
+      setlocale(websiteHomeData[0])
     } else if (state.locale === 'En') {
-      setlocale(gcms[1])
+      setlocale(websiteHomeData[1])
     } else if (state.locale === 'Ar') {
-      setlocale(gcms[2])
+      setlocale(websiteHomeData[2])
     }
-  }, [gcms, state])
+  }, [websiteHomeData, state])
   return (
     <div>
       <Head title="Home" />
@@ -113,12 +113,7 @@ const Home = () => {
         </Background>
         <Background background="color-bg-nr9" withPadding>
           <div className="uk-container uk-container-medium">
-            <FooterBefore
-              title="Nehmen Sie Kontakt mit mir auf..."
-              text="Ich freue mich auf Ihren Kontakt!"
-              btnLink="/contact"
-              btnText="Contact"
-            />
+            <FooterBefore />
           </div>
         </Background>
       </Loading>

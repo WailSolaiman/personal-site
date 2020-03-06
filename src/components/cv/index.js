@@ -47,18 +47,18 @@ const Index = () => {
     }
   `)
   const imageData = data.file.childImageSharp.fluid
-  const gcms = data.gcms.personalWebsiteAbouts
+  const websiteAboutData = data.gcms.personalWebsiteAbouts
   const state = useContext(GlobalStateLanguageContext)
-  const [locale, setlocale] = useState(gcms[0])
+  const [locale, setlocale] = useState(websiteAboutData[0])
   useEffect(() => {
     if (state.locale === 'De') {
-      setlocale(gcms[0])
+      setlocale(websiteAboutData[0])
     } else if (state.locale === 'En') {
-      setlocale(gcms[1])
+      setlocale(websiteAboutData[1])
     } else if (state.locale === 'Ar') {
-      setlocale(gcms[2])
+      setlocale(websiteAboutData[2])
     }
-  }, [gcms, state])
+  }, [websiteAboutData, state])
   return (
     <>
       <Head title="Lebenslauf" />
