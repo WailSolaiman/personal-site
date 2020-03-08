@@ -3,7 +3,7 @@ import { Helmet } from 'react-helmet'
 import { useStaticQuery, graphql } from 'gatsby'
 import { GlobalStateLanguageContext } from '../context/GlobalContextLanguageProvider'
 
-const Head = ({ title }) => {
+const Head = ({ title = 'Home' }) => {
   const data = useStaticQuery(graphql`
     query {
       site {
@@ -25,12 +25,12 @@ const Head = ({ title }) => {
       description={data.site.siteMetadata.description}
       author={data.site.siteMetadata.author}
       email={data.site.siteMetadata.email}
-      url={data.site.siteMetadata.url}>
-      <html
-        lang={state.locale.toLowerCase()}
-        dir={state.locale.toLowerCase() === 'ar' ? 'rtl' : ''}
-      />
-    </Helmet>
+      url={data.site.siteMetadata.url}
+      htmlAttributes={{
+        lang: state.locale.toLowerCase(),
+        dir: state.locale.toLowerCase() === 'ar' ? 'rtl' : 'ltr',
+      }}
+    />
   )
 }
 
