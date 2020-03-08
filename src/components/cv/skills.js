@@ -12,7 +12,9 @@ const Skills = ({
   return (
     <>
       <div>
-        <h3 className="uk-heading-small">{skillsHeader}</h3>
+        <h3 className="uk-margin-medium-top uk-heading-small">
+          {skillsHeader}
+        </h3>
         <div className={SkillsStyles.flexContainer}>
           <div className="uk-width-1-1 uk-width-1-2@m">
             <dl className="uk-description-list">
@@ -47,7 +49,7 @@ const Skills = ({
         </div>
       </div>
       <div>
-        <h3 className="uk-heading-small uk-margin-medium-top">
+        <h3 className="uk-margin-medium-top uk-heading-small">
           {learningProcessHeader}
         </h3>
         <div className={SkillsStyles.flexContainer}>

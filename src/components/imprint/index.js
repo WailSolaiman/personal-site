@@ -5,6 +5,7 @@ import HeroImageSmallStyles from '../heroImageSmall'
 import Background from '../background'
 import Loading from '../loading'
 import { GlobalStateLanguageContext } from '../../context/GlobalContextLanguageProvider'
+import ImprintStyles from '../../styles/imprint.module.scss'
 
 const Index = () => {
   const data = useStaticQuery(graphql`
@@ -40,12 +41,13 @@ const Index = () => {
   }, [websiteAllData, state])
   return (
     <div>
-      <Head title="Impressum" />
+      <Head title="Imprint" />
       <HeroImageSmallStyles imageData={imageData} />
       <Loading>
         <div className="uk-container uk-container-medium">
           <Background background="uk-background-default" withPadding>
             <div
+              className={ImprintStyles.container}
               // eslint-disable-next-line react/no-danger
               dangerouslySetInnerHTML={{
                 __html: imprintData.imprintContent.html,

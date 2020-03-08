@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Wail Solaiman - Frontend Web-Developer',
+    title: 'Wail Solaiman',
+    description: 'Wail Solaiman - Frontend Web-Developer Website',
     author: 'Wail Solaiman',
-    email: 'contact@wailsolaiman.com',
+    email: 'wailsolaiman@hotmail.com',
+    url: 'https://wailsolaiman.com',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

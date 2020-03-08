@@ -3,7 +3,9 @@ import React from 'react'
 const WebTechniques = ({ webTechniquesHeader = '', techniques = [] }) => {
   return (
     <div className="uk-margin-medium-bottom">
-      <h3 className="uk-heading-small">{webTechniquesHeader}</h3>
+      <h3 className="uk-margin-medium-top uk-heading-small">
+        {webTechniquesHeader}
+      </h3>
       {techniques.map((item, index) => {
         return (
           <div key={index}>

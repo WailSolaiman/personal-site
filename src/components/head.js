@@ -9,6 +9,10 @@ const Head = ({ title }) => {
       site {
         siteMetadata {
           title
+          description
+          author
+          email
+          url
         }
       }
     }
@@ -16,7 +20,12 @@ const Head = ({ title }) => {
   const state = useContext(GlobalStateLanguageContext)
 
   return (
-    <Helmet title={`${title} | ${data.site.siteMetadata.title}`}>
+    <Helmet
+      title={`${title} | ${data.site.siteMetadata.title}`}
+      description={data.site.siteMetadata.description}
+      author={data.site.siteMetadata.author}
+      email={data.site.siteMetadata.email}
+      url={data.site.siteMetadata.url}>
       <html
         lang={state.locale.toLowerCase()}
         dir={state.locale.toLowerCase() === 'ar' ? 'rtl' : ''}

@@ -51,7 +51,7 @@ const Index = () => {
   }, [websiteContactData, state])
   return (
     <>
-      <Head title="Kontakt" />
+      <Head title="Contact" />
       <HeroImageSmallStyles imageData={imageData} />
       <Loading>
         <Background background="color-bg-nr6" withPadding>

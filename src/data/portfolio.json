@@ -3,104 +3,119 @@
 		"image": "./images/portfolio/aerolingua.jpg",
 		"state": "Online",
 		"development": "Contao",
-		"agency": "VICON Web Business"
+		"agency": "VICON Web Business",
+		"link": "https://www.aerolingua.de/home-de.html"
 	},
 	{
 		"title": "Babenstieg",
 		"image": "./images/portfolio/babenstieg1.jpg",
 		"state": "Online",
 		"development": "Contao",
-		"agency": "VICON Web Business"
+		"agency": "VICON Web Business",
+		"link": "https://www.babenstieg.de/"
 	},
 	{
 		"title": "Backroads",
 		"image": "./images/portfolio/backroads.jpg",
 		"state": "under Development",
 		"development": "React",
-		"agency": "Personal -Template-"
+		"agency": "Personal -Template-",
+		"link": "https://backroads-ws.netlify.com/"
 	},
 	{
 		"title": "Björk GmbH",
 		"image": "./images/portfolio/bjoerk.jpg",
 		"state": "Online",
 		"development": "WordPress",
-		"agency": "Anders Björk GmbH"
+		"agency": "Anders Björk GmbH",
+		"link": "https://www.bjoerk.de/"
 	},
 	{
 		"title": "BST Bau GmbH",
 		"image": "./images/portfolio/bst.jpg",
 		"state": "Online",
 		"development": "JavaScript",
-		"agency": "ParrotMedia"
+		"agency": "ParrotMedia",
+		"link": "https://www.bst-bau.de/"
 	},
 	{
 		"title": "Delphos",
 		"image": "./images/portfolio/delphos.jpg",
 		"state": "Online",
 		"development": "WordPress",
-		"agency": "Anders Björk GmbH"
+		"agency": "Anders Björk GmbH",
+		"link": "https://www.delphos.de/"
 	},
 	{
 		"title": "Björk Movies",
 		"image": "./images/portfolio/bjoerk_movies.jpg",
 		"state": "Online",
 		"development": "JavaScript",
-		"agency": "Anders Björk GmbH"
+		"agency": "Anders Björk GmbH",
+		"link": "https://www.bjoerkmovies.de/"
 	},
 	{
 		"title": "Dorenburg",
 		"image": "./images/portfolio/dorenburg.jpg",
 		"state": "Online",
 		"development": "WordPress",
-		"agency": "Anders Björk GmbH"
+		"agency": "Anders Björk GmbH",
+		"link": "https://dorenburg-event.de/"
 	},
 	{
 		"title": "Kleine Auszeit",
 		"image": "./images/portfolio/eine-kleine-auszeit.jpg",
 		"state": "Online",
 		"development": "Contao",
-		"agency": "VICON Web Business"
+		"agency": "VICON Web Business",
+		"link": "https://www.eine-kleine-auszeit.de/"
 	},
 	{
 		"title": "Elvi",
 		"image": "./images/portfolio/elvi.jpg",
 		"state": "Online",
 		"development": "WordPress",
-		"agency": "VICON Web Business"
+		"agency": "VICON Web Business",
+		"link": "https://www.elvi.de/beratung/"
 	},
 	{
 		"title": "Erxleben",
 		"image": "./images/portfolio/erxleben.jpg",
 		"state": "Online",
 		"development": "Contao",
-		"agency": "VICON Web Business"
+		"agency": "VICON Web Business",
+		"link": "https://www.erxleben-art.com/"
 	},
 	{
 		"title": "Klingsporn",
 		"image": "./images/portfolio/klingsporn.jpg",
 		"state": "Online",
 		"development": "Contao",
-		"agency": "VICON Web Business"
+		"agency": "VICON Web Business",
+		"link": "https://www.architekt-klingsporn.de/"
 	},
 	{
 		"title": "Rot Haus",
 		"image": "./images/portfolio/rothaus.jpg",
 		"state": "Online",
 		"development": "Contao",
-		"agency": "VICON Web Business"
+		"agency": "VICON Web Business",
+		"link": "http://rothaus.developcon.de/"
 	},
 	{
 		"title": "Smartphones Shop",
 		"image": "./images/portfolio/smartphones-webshop.jpg",
 		"state": "Online",
 		"development": "React",
-		"agency": "Personal -Template-"
+		"agency": "Personal -Template-",
+		"link": "https://smartphones-webshop-solaiman.herokuapp.com/"
 	},
 	{
 		"title": "Themeforest Template",
 		"image": "./images/portfolio/themeforest-react-portfolio.jpg",
 		"state": "Online",
 		"development": "React",
-		"agency": "Personal -Template-"
+		"agency": "Personal -Template-",
+		"link": "https://themeforest-react-portfolio-template.netlify.com"
 	}
 ]

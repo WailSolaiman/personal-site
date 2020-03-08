@@ -37,8 +37,8 @@ const ContactForm = ({
   return (
     <div className="uk-section">
       <div className="uk-container uk-container-medium">
-        <h2 className="uk-text-center uk-margin-medium-bottom">
-          {firstFormTitle} <br />
+        <h3 className="uk-text-center uk-margin-remove">{firstFormTitle}</h3>
+        <h2 className="uk-text-center uk-margin-small-top uk-margin-medium-bottom">
           {secondFormTitle}
         </h2>
         <form

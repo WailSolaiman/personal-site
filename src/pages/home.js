@@ -21,6 +21,7 @@ const Home = () => {
             title
             development
             agency
+            link
             image {
               childImageSharp {
                 fluid {
@@ -51,6 +52,7 @@ const Home = () => {
           secondIntroSecondParagraph
           secondIntroLink
           portfolioTitleHome
+          portfolioSubtitleHome
         }
       }
     }
@@ -108,6 +110,7 @@ const Home = () => {
             <HomePortfolio
               portfolios={portfolios}
               portfolioTitleHome={locale.portfolioTitleHome}
+              portfolioSubtitleHome={locale.portfolioSubtitleHome}
             />
           </div>
         </Background>

@@ -29,7 +29,8 @@ const FooterBefore = () => {
   }, [websiteAllData, state])
   return (
     <div className={FooterBeforeStyles.footerBefore}>
-      <p className="uk-text-center uk-margin-small color-nr6">
+      <p
+        className={`uk-text-center color-nr6 ${FooterBeforeStyles.footerBeforeSubheader}`}>
         {beforeFooter.beforeFooterSubtitle}
       </p>
       <h1 className={FooterBeforeStyles.footerBeforeHeader}>

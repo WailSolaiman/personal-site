@@ -15,7 +15,7 @@ const defaultOptions = {
 const Loading = ({ children }) => {
   const [loading, setLoading] = useState(false)
   useEffect(() => {
-    const timer1 = setTimeout(() => setLoading(true), 3000)
+    const timer1 = setTimeout(() => setLoading(true), 1500)
     return () => {
       clearTimeout(timer1)
     }

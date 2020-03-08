@@ -19,17 +19,17 @@ const ProjectPreview = ({
         <div className="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
           <div className="projects__container">
             <p className="projects__title">{title}</p>
-            <p className="projects__agency">{agency}</p>
+            <p className="projects__agency">Agency: {agency}</p>
             <p
               className={
                 state2 === 'Online'
-                  ? 'uk-text-success uk-text-bold uk-margin-remove uk-text-uppercase projects__state'
-                  : 'uk-text-danger uk-text-bold uk-margin-remove uk-text-uppercase projects__state'
+                  ? 'uk-text-success uk-margin-remove projects__state'
+                  : 'uk-text-danger uk-margin-remove projects__state'
               }>
               {state2}
             </p>
             <div className="projects__tech">
-              <p className="projects__tech__header">Web Technologien:</p>
+              <p className="projects__tech__header">Web technologies:</p>
               <div className="projects__tech__list">
                 {description.map((item, index) => {
                   return (
@@ -41,7 +41,7 @@ const ProjectPreview = ({
               </div>
             </div>
             <a href={url} target="blank" className="projects__link">
-              Projekt online ansehen
+              View project online
             </a>
           </div>
         </div>

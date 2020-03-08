@@ -5,13 +5,24 @@
 }
 
 .footerBeforeHeader {
-	font-size: 4rem;
+	font-size: 3rem;
 	text-align: center !important;
 	margin-top: 0;
+	margin-bottom: 3rem;
 	color: $color-nr6 !important;
 
 	@media (max-width: 767.98px) {
-		font-size: 3rem;
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+}
+
+.footerBeforeSubheader {
+	font-size: 2rem;
+	margin-bottom: 2rem;
+
+	@media (max-width: 767.98px) {
+		font-size: 1.2rem;
 	}
 }
 

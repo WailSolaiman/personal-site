@@ -2,7 +2,7 @@ import React from 'react'
 import Image from 'gatsby-image'
 import '../../styles/portfolio.scss'
 
-function PortfolioPreview({ imageData, title, development, agency }) {
+function PortfolioPreview({ imageData, title, development, agency, link }) {
   return (
     <li
       className="uk-width-1-2 uk-width-1-3@s uk-width-1-4@m"
@@ -10,7 +10,13 @@ function PortfolioPreview({ imageData, title, development, agency }) {
       <div className="uk-transition-toggle">
         <Image fluid={imageData} alt={title} />
         <div className="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary uk-flex uk-flex-column uk-flex-center uk-flex-middle">
-          <p className="portfolio__title">{title}</p>
+          <a
+            className="portfolio__link"
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer">
+            <p className="portfolio__title">{title}</p>
+          </a>
           <p className="portfolio__agency">{agency}</p>
         </div>
       </div>
@@ -18,10 +24,15 @@ function PortfolioPreview({ imageData, title, development, agency }) {
   )
 }
 
-const Portfolio = ({ portfolios, portfolioTitleHome = '' }) => {
+const Portfolio = ({
+  portfolios,
+  portfolioTitleHome = '',
+  portfolioSubtitleHome = '',
+}) => {
   return (
     <div className="portfolio">
-      <h2 className="header">{portfolioTitleHome}</h2>
+      <h1 className="header">{portfolioTitleHome}</h1>
+      <h2 className="subheader">{portfolioSubtitleHome}</h2>
       <div uk-filter="target: .js-filter" style={{ minHeight: 700 }}>
         <ul className="uk-subnav uk-subnav-pill">
           <li className="uk-active" uk-filter-control="">
@@ -41,7 +52,7 @@ const Portfolio = ({ portfolios, portfolioTitleHome = '' }) => {
           </li>
           <li uk-filter-control="[data-dev='JavaScript']">
             <button className="uk-button uk-button-default" type="button">
-              Vanilla JS
+              JavaScript
             </button>
           </li>
           <li uk-filter-control="[data-dev='Contao']">
@@ -61,6 +72,7 @@ const Portfolio = ({ portfolios, portfolioTitleHome = '' }) => {
                 title={portfolio.title}
                 agency={portfolio.agency}
                 development={portfolio.development}
+                link={portfolio.link}
                 imageData={portfolio.image.childImageSharp.fluid}
               />
             )

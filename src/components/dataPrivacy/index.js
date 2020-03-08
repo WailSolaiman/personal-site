@@ -5,6 +5,7 @@ import HeroImageSmallStyles from '../heroImageSmall'
 import Background from '../background'
 import Loading from '../loading'
 import { GlobalStateLanguageContext } from '../../context/GlobalContextLanguageProvider'
+import DataPrivacyStyles from '../../styles/data-privacy.module.scss'
 
 const Index = () => {
   const data = useStaticQuery(graphql`
@@ -40,12 +41,13 @@ const Index = () => {
   }, [websiteAllData, state])
   return (
     <div>
-      <Head title="Impressum" />
+      <Head title="Data Privacy" />
       <HeroImageSmallStyles imageData={imageData} />
       <Loading>
         <div className="uk-container uk-container-medium">
           <Background background="uk-background-default" withPadding>
             <div
+              className={DataPrivacyStyles.container}
               // eslint-disable-next-line react/no-danger
               dangerouslySetInnerHTML={{
                 __html: dataPrivacy.dataPrivacyContent.html,

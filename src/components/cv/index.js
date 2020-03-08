@@ -32,6 +32,7 @@ const Index = () => {
           collegeHeader
           collegeTitle
           collegeSubtitle
+          collegeThirdTitle
           workExperienceHeader
           workExperienceData
           webTechniquesHeader
@@ -61,7 +62,7 @@ const Index = () => {
   }, [websiteAboutData, state])
   return (
     <>
-      <Head title="Lebenslauf" />
+      <Head title="About Me" />
       <HeroImageSmallStyles imageData={imageData} imagePosition="95%" />
       <Loading>
         <Background withPadding>
@@ -95,6 +96,7 @@ const Index = () => {
                       collegeHeader={locale.collegeHeader}
                       collegeTitle={locale.collegeTitle}
                       collegeSubtitle={locale.collegeSubtitle}
+                      collegeThirdTitle={locale.collegeThirdTitle}
                     />
                   </div>
                   <div className="uk-width-1-1">

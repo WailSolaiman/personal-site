@@ -3,10 +3,12 @@ import React from 'react'
 const Experience = ({ workExperienceHeader = '', workExperienceData = [] }) => {
   return (
     <>
-      <h3 className="uk-heading-small">{workExperienceHeader}</h3>
+      <h3 className="uk-margin-medium-top uk-heading-small">
+        {workExperienceHeader}
+      </h3>
       {workExperienceData.map(job => {
         return (
-          <div key={job.index}>
+          <div key={job.id}>
             <h4 className="uk-margin-remove">
               {job.startDate} - {job.endDate}
             </h4>

@@ -68,7 +68,7 @@ const Index = () => {
   }, [websitePortfolioData, state])
   return (
     <div>
-      <Head title="Projekte" />
+      <Head title="Projects" />
       <HeroImageSmallStyles imageData={imageData} />
       <Loading>
         <Background background="color-bg-nr6" withPadding>
