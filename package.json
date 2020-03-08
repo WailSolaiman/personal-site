@@ -34,6 +34,7 @@
         "gatsby-transformer-sharp": "^2.3.9",
         "google-map-react": "^1.1.6",
         "gsap": "^3.0.4",
+        "leaflet": "^1.6.0",
         "local-storage-fallback": "^4.1.1",
         "node-sass": "^4.13.0",
         "prettier": "^1.19.1",
@@ -45,6 +46,8 @@
         "react-flickity-component": "^3.4.0",
         "react-google-recaptcha": "^2.0.1",
         "react-helmet": "^5.2.1",
+        "react-leaflet": "^2.6.1",
+        "react-leaflet-enhanced-marker": "^1.0.12",
         "react-lottie": "^1.2.3",
         "uikit": "^3.2.6"
     },

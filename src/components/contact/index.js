@@ -5,7 +5,7 @@ import Head from '../head'
 import Avatar from '../home/avatar'
 import Background from '../background'
 import Section from '../section'
-import GoogleMap from '../googleMap'
+import LeafLetMap from './leafLetMap'
 import ContactForm from './contactForm'
 import Loading from '../loading'
 import { GlobalStateLanguageContext } from '../../context/GlobalContextLanguageProvider'
@@ -80,7 +80,7 @@ const Index = () => {
                 </div>
               </div>
               <div className="uk-width-1-1 uk-width-1-2@m">
-                <GoogleMap />
+                <LeafLetMap />
               </div>
             </div>
           </div>

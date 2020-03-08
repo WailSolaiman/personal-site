@@ -3,6 +3,7 @@
 @import '~uikit/dist/css/uikit-rtl.min.css';
 @import '~uikit/src/scss/uikit.scss';
 @import '~flickity/dist/flickity.min.css';
+@import '~leaflet/dist/leaflet.css';
 @import './variables.scss';
 
 body {
@@ -218,14 +219,6 @@ dt {
 .flickity-button:focus {
 	box-shadow: none;
 }
-
-// .flickity-prev-next-button.next {
-//     right: -5px;
-// }
-
-// .flickity-prev-next-button.previous {
-//     left: -5px;
-// }
 
 .flickity-page-dots {
 	bottom: -70px;

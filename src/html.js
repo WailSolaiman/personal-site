@@ -14,9 +14,9 @@ export default function HTML(props) {
         {props.headComponents}
         <script src="https://www.google.com/recaptcha/api.js" async defer />
         <script
-          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9HL-XBW0ak9kihukNoEOA06cYeivUNtk&callback=initMap"
-          async
-          defer
+          src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+          integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+          crossOrigin=""
         />
       </head>
       <body {...props.bodyAttributes}>
