@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'gatsby-image'
+import ProjectPreviewStyles from '../../styles/project-preview.module.scss'
 
 const ProjectPreview = ({
   imageData,
@@ -16,7 +17,8 @@ const ProjectPreview = ({
       data-dev={`${development}`}>
       <div className="uk-transition-toggle" style={{ position: 'relative' }}>
         <Image fluid={imageData} alt={title} />
-        <div className="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary">
+        <div
+          className={`uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary ${ProjectPreviewStyles.overlay}`}>
           <div className="projects__container">
             <p className="projects__title">{title}</p>
             <p className="projects__agency">Agency: {agency}</p>

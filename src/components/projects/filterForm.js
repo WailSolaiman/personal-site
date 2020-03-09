@@ -1,13 +1,15 @@
 import React from 'react'
 import Background from '../background'
 import ProjectPreview from './projectPreview'
+import FilterFormStyles from '../../styles/filter-form.module.scss'
 
 const FilterForm = ({ projects }) => {
   return (
     <div uk-filter="target: .js-filter" style={{ minHeight: 700 }}>
       <Background background="color-bg-nr9" withPadding={false}>
         <div className="uk-padding-small">
-          <ul className="uk-subnav uk-subnav-pill uk-margin-remove">
+          <ul
+            className={`uk-subnav uk-subnav-pill uk-margin-remove ${FilterFormStyles.filterItemsContainer}`}>
             <li className="uk-active" uk-filter-control="">
               <button
                 className="uk-button uk-button-default color-nr6"
@@ -47,9 +49,10 @@ const FilterForm = ({ projects }) => {
         </div>
       </Background>
       <div className="projects">
-        <div className="uk-container uk-container-large">
+        <div
+          className={`uk-container uk-container-xlarge ${FilterFormStyles.container}`}>
           <ul
-            className="js-filter"
+            className={`js-filter ${FilterFormStyles.grid}`}
             style={{ listStyle: 'none', padding: 0 }}
             uk-grid="">
             {projects.map(({ node: project }) => {

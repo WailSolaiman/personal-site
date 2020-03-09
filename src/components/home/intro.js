@@ -44,7 +44,7 @@ const Intro = ({
         <div
           className={`${IntroStyles.textContainer} ${
             state.locale === 'Ar'
-              ? IntroStyles.textContainerSecond
+              ? IntroStyles.textContainerFirstAr
               : IntroStyles.textContainerFirst
           }`}>
           <h3>{firstIntroHeader}</h3>
@@ -71,7 +71,7 @@ const Intro = ({
         <div
           className={`${IntroStyles.textContainer} ${
             state.locale === 'Ar'
-              ? IntroStyles.textContainerFirst
+              ? IntroStyles.textContainerSecondAr
               : IntroStyles.textContainerSecond
           }`}>
           <h3>{secondIntroHeader}</h3>

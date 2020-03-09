@@ -61,10 +61,10 @@ const Index = () => {
         </Background>
         <Background background="color-bg-nr7" withPadding>
           <div className="uk-container uk-container-medium">
-            <div uk-grid="">
+            <div className={ContactStyles.flex}>
               <div className="uk-width-1-1 uk-width-1-2@m">
                 <Avatar />
-                <div>
+                <div className={ContactStyles.textContainer}>
                   <h1
                     className={`uk-margin-small-top ${ContactStyles.alignCenter}`}>
                     {locale.name}

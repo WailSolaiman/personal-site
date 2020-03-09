@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Map, Popup, TileLayer } from 'react-leaflet'
 import Marker from 'react-leaflet-enhanced-marker'
 import MarkerImage from '../../data/images/marker.png'
+import MapStyles from '../../styles/map.module.scss'
 
 const LeafLetMap = () => {
   const [map] = useState({
@@ -11,10 +12,7 @@ const LeafLetMap = () => {
   })
   const position = [map.lat, map.lng]
   return (
-    <Map
-      center={position}
-      zoom={map.zoom}
-      style={{ height: '500px', width: '100%' }}>
+    <Map center={position} zoom={map.zoom} className={MapStyles.map}>
       <TileLayer
         attribution='&amp;copy <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

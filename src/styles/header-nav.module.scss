@@ -20,15 +20,10 @@
 	@media (max-width: 767.98px) {
 		justify-content: center;
 		margin-bottom: 1rem;
+	}
 
-		li {
-			&:last-child {
-				a {
-					margin: 0;
-				}
-			}
-		}
-
+	@media (max-width: 575.98px) {
+		margin-bottom: 0;
 	}
 }
 
@@ -40,6 +35,12 @@
 	margin-left: 0.5rem;
 	text-decoration: none;
 	cursor: pointer;
+
+	@media (max-width: 575.98px) {
+		margin-right: 0.3rem;
+		margin-left: 0.3rem;
+		font-size: 1rem;
+	}
 
 	&:hover {
 		color: $color-nr8 !important;

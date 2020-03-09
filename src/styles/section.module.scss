@@ -1,3 +1,9 @@
 .section {
-    display: block;
+	display: block;
+}
+
+.paragraph {
+	@media (max-width: 767.98px) {
+		font-size: 1.2rem;
+	}
 }
