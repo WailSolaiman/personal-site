@@ -1,8 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import HeroImageSmallStyles from '../components/heroImageSmall'
 import PageNotFoundStyles from '../styles/page-not-found.module.scss'
-
+import HeroImageSmallStyles from '../components/heroImageSmall'
 import Layout from '../components/layout'
 import Head from '../components/head'
 
@@ -31,9 +30,7 @@ const NotFound = () => {
         <p className="uk-text-bold uk-text-center uk-margin-small-bottom">
           The page you are looking for does not exist
         </p>
-        <a
-          className={`uk-button uk-button-default ${PageNotFoundStyles.button}`}
-          href="/">
+        <a className={`${PageNotFoundStyles.toHomeBtn}`} href="/">
           Back To Homepage
         </a>
       </div>

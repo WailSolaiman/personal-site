@@ -48,9 +48,7 @@ const Index = () => {
         <h2 className="uk-text-bold uk-text-center">
           {successMsgData.successMessageSubheader}
         </h2>
-        <a
-          className={`uk-button uk-button-default ${SuccessMsgStyles.button}`}
-          href="/">
+        <a className={`${SuccessMsgStyles.button}`} href="/">
           {successMsgData.successMessageButton}
         </a>
       </div>
