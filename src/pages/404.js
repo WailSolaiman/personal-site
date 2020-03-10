@@ -1,25 +1,42 @@
 import React from 'react'
-import { Link } from 'gatsby'
+import { graphql, useStaticQuery } from 'gatsby'
+import HeroImageSmallStyles from '../components/heroImageSmall'
+import PageNotFoundStyles from '../styles/success-msg.module.scss'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
 
 const NotFound = () => {
+  const data = useStaticQuery(graphql`
+    {
+      file(relativePath: { eq: "images/header/header.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 1920) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
+  const imageData = data.file.childImageSharp.fluid
   return (
     <Layout>
       <Head title="404" />
-      <h1 className="uk-text-center uk-text-bold uk-heading-2xlarge uk-margin-small-bottom color-nr3">
-        404
-      </h1>
-      <h1 className="uk-text-bold uk-text-center uk-margin-small-bottom">
-        Oops! Page not found
-      </h1>
-      <p className="uk-text-bold uk-text-center uk-margin-small-bottom">
-        Die von ihnen gesuchte seite existiert leider nicht.
-      </p>
-      <p className="uk-text-bold uk-text-center">
-        <Link to="/">Home</Link>
-      </p>
+      <HeroImageSmallStyles imageData={imageData} />
+      <div className="uk-container uk-container-medium">
+        <h1 className="uk-text-center uk-text-bold uk-heading-2xlarge uk-margin-medium-top uk-margin-small-bottom color-nr3">
+          404
+        </h1>
+        <h1 className="uk-text-bold uk-text-center">Oops! Page not found</h1>
+        <p className="uk-text-bold uk-text-center uk-margin-small-bottom">
+          The page you are looking for does not exist
+        </p>
+        <a
+          className={`uk-button uk-button-default ${PageNotFoundStyles.button}`}
+          href="/">
+          Back To Homepage
+        </a>
+      </div>
     </Layout>
   )
 }

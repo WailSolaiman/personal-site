@@ -41,11 +41,11 @@ const Index = () => {
     <>
       <Head title="Success" />
       <HeroImageSmallStyles imageData={imageData} />
-      <div style={{ minHeight: 300 }}>
-        <h1 className="uk-text-bold uk-text-center uk-margin-small-bottom uk-margin-large-top">
+      <div className="uk-container uk-container-medium">
+        <h1 className="uk-text-bold uk-text-center uk-margin-large-top uk-heading-medium">
           {successMsgData.successMessageHeader}
         </h1>
-        <h2 className="uk-text-bold uk-text-center uk-margin-large-bottom uk-margin-small-top">
+        <h2 className="uk-text-bold uk-text-center">
           {successMsgData.successMessageSubheader}
         </h2>
         <a
