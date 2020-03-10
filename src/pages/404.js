@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import HeroImageSmallStyles from '../components/heroImageSmall'
-import PageNotFoundStyles from '../styles/success-msg.module.scss'
+import PageNotFoundStyles from '../styles/page-not-found.module.scss'
 
 import Layout from '../components/layout'
 import Head from '../components/head'
