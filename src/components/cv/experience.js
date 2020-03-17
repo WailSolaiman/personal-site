@@ -9,7 +9,7 @@ const Experience = ({ workExperienceHeader = '', workExperienceData = [] }) => {
       {workExperienceData.map(job => {
         return (
           <div key={job.id}>
-            <h4 className="uk-margin-remove">
+            <h4 style={{ display: 'none' }} className="uk-margin-remove">
               {job.startDate} - {job.endDate}
             </h4>
             <h3 className="uk-margin-remove">{job.community}</h3>
