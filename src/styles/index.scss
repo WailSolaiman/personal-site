@@ -244,3 +244,15 @@ dt {
 .uk-overlay-primary {
 	background: $color-nr2 !important;
 }
+
+.uk-spinner {
+	color: $color-nr1 !important;
+	text-align: center !important;
+	display: block !important;
+
+	svg {
+		circle {
+			stroke-width: 2px !important;
+		}
+	}
+}

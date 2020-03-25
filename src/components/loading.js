@@ -1,16 +1,5 @@
 import React, { useState, useEffect } from 'react'
 import FadeIn from 'react-fade-in'
-import Lottie from 'react-lottie'
-import * as loadingData from '../data/loading.json'
-
-const defaultOptions = {
-  loop: true,
-  autoplay: true,
-  animationData: loadingData.default,
-  rendererSettings: {
-    preserveAspectRatio: 'xMidYMid slice',
-  },
-}
 
 const Loading = ({ children }) => {
   const [loading, setLoading] = useState(false)
@@ -24,8 +13,8 @@ const Loading = ({ children }) => {
     <div>
       {!loading ? (
         <FadeIn>
-          <div className="uk-margin-large-top">
-            <Lottie options={defaultOptions} height={300} width={300} />
+          <div className="uk-margin-xlarge-top">
+            <div className="uk-spinner" uk-spinner="ratio: 3" />
           </div>
         </FadeIn>
       ) : (

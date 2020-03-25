@@ -1,9 +1,9 @@
 import React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
-import PageNotFoundStyles from '../styles/page-not-found.module.scss'
-import HeroImageSmallStyles from '../components/heroImageSmall'
 import Layout from '../components/layout'
 import Head from '../components/head'
+import HeroImageSmall from '../components/heroImageSmall'
+import PageNotFoundStyles from '../styles/page-not-found.module.scss'
 
 const NotFound = () => {
   const data = useStaticQuery(graphql`
@@ -21,7 +21,7 @@ const NotFound = () => {
   return (
     <Layout>
       <Head title="404" />
-      <HeroImageSmallStyles imageData={imageData} />
+      <HeroImageSmall imageData={imageData} />
       <div className="uk-container uk-container-medium">
         <h1 className="uk-text-center uk-text-bold uk-heading-2xlarge uk-margin-medium-top uk-margin-small-bottom color-nr3">
           404
