@@ -32,7 +32,7 @@ const HeaderNav = () => {
   return (
     <nav className={HeaderNavStyles.nav}>
       <ul className={HeaderNavStyles.navList}>
-        <li>
+        <li className={HeaderNavStyles.navListItem}>
           <Link
             className={HeaderNavStyles.navItem}
             activeClassName={HeaderNavStyles.activeNavItem}
@@ -40,7 +40,7 @@ const HeaderNav = () => {
             {navData.homeNav}
           </Link>
         </li>
-        <li>
+        <li className={HeaderNavStyles.navListItem}>
           <Link
             className={HeaderNavStyles.navItem}
             activeClassName={HeaderNavStyles.activeNavItem}
@@ -48,7 +48,7 @@ const HeaderNav = () => {
             {navData.projectsNav}
           </Link>
         </li>
-        <li>
+        <li className={HeaderNavStyles.navListItem}>
           <Link
             className={HeaderNavStyles.navItem}
             activeClassName={HeaderNavStyles.activeNavItem}
@@ -56,7 +56,7 @@ const HeaderNav = () => {
             {navData.aboutNav}
           </Link>
         </li>
-        <li>
+        <li className={HeaderNavStyles.navListItem}>
           <Link
             className={HeaderNavStyles.navItem}
             activeClassName={HeaderNavStyles.activeNavItem}

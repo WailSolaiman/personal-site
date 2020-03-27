@@ -52,7 +52,7 @@ const Footer = () => {
       </Background>
       <div className={footerStyles.toTopBtn}>
         <button onClick={() => scrollTo('#nav')} type="button">
-          <span uk-icon="chevron-up" />
+          Top
         </button>
       </div>
     </>

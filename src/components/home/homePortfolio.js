@@ -36,27 +36,37 @@ const Portfolio = ({
       <div uk-filter="target: .js-filter" style={{ minHeight: 700 }}>
         <ul className="uk-subnav uk-subnav-pill">
           <li className="uk-active" uk-filter-control="">
-            <button className="uk-button uk-button-default" type="button">
+            <button
+              className="uk-button uk-button-default color-nr9"
+              type="button">
               All
             </button>
           </li>
           <li uk-filter-control="[data-dev='React']">
-            <button className="uk-button uk-button-default" type="button">
+            <button
+              className="uk-button uk-button-default color-nr9"
+              type="button">
               React
             </button>
           </li>
           <li uk-filter-control="[data-dev='WordPress']">
-            <button className="uk-button uk-button-default" type="button">
+            <button
+              className="uk-button uk-button-default color-nr9"
+              type="button">
               Wordpress
             </button>
           </li>
           <li uk-filter-control="[data-dev='JavaScript']">
-            <button className="uk-button uk-button-default" type="button">
+            <button
+              className="uk-button uk-button-default color-nr9"
+              type="button">
               JavaScript
             </button>
           </li>
           <li uk-filter-control="[data-dev='Contao']">
-            <button className="uk-button uk-button-default" type="button">
+            <button
+              className="uk-button uk-button-default color-nr9"
+              type="button">
               Contao
             </button>
           </li>

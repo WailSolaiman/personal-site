@@ -5,7 +5,7 @@
 	justify-content: flex-end;
 	align-items: center;
 
-	@media (max-width: 767.98px) {
+	@media (max-width: 991.98px) {
 		justify-content: center;
 		flex-direction: column;
 	}
@@ -17,14 +17,17 @@
 	margin: 0;
 	padding: 0;
 
-	@media (max-width: 767.98px) {
+	@media (max-width: 991.98px) {
 		justify-content: center;
-		margin-bottom: 1rem;
 	}
 
 	@media (max-width: 575.98px) {
 		margin-bottom: 0;
 	}
+}
+
+.navListItem {
+	line-height: 3;
 }
 
 .navItem {
@@ -33,6 +36,7 @@
 	color: $color-nr6 !important;
 	margin-right: 0.5rem;
 	margin-left: 0.5rem;
+	font-size: 1.5rem;
 	text-decoration: none;
 	cursor: pointer;
 
@@ -51,7 +55,7 @@
 		position: absolute;
 		left: 0;
 		display: inline-block;
-		height: 1em;
+		height: 1.6em;
 		width: 100%;
 		border-bottom: 1px solid;
 		margin-top: 10px;
