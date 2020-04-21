@@ -19,13 +19,15 @@ const Skills = ({
           <div className="uk-width-1-1 uk-width-1-2@m">
             <dl className="uk-description-list">
               {skillsInfosFirst &&
-                skillsInfosFirst.map(skill => {
+                skillsInfosFirst.map((skill) => {
                   return (
                     <React.Fragment key={skill.id}>
                       <dt className={SkillsStyles.dataTable}>
                         {skill.category}
                       </dt>
-                      <dd>{skill.skillsName}</dd>
+                      <dd className={SkillsStyles.dataDetail}>
+                        {skill.skillsName}
+                      </dd>
                     </React.Fragment>
                   )
                 })}
@@ -34,13 +36,15 @@ const Skills = ({
           <div className="uk-width-1-1 uk-width-1-2@m">
             <dl className="uk-description-list">
               {skillsInfosSecond &&
-                skillsInfosSecond.map(skill => {
+                skillsInfosSecond.map((skill) => {
                   return (
                     <React.Fragment key={skill.id}>
                       <dt className={SkillsStyles.dataTable}>
                         {skill.category}
                       </dt>
-                      <dd>{skill.skillsName}</dd>
+                      <dd className={SkillsStyles.dataDetail}>
+                        {skill.skillsName}
+                      </dd>
                     </React.Fragment>
                   )
                 })}
@@ -56,13 +60,15 @@ const Skills = ({
           <div className="uk-width-1-1 uk-width-1-2@m">
             <dl className="uk-description-list">
               {learningProcessFirst &&
-                learningProcessFirst.map(skill => {
+                learningProcessFirst.map((skill) => {
                   return (
                     <React.Fragment key={skill.id}>
                       <dt className={SkillsStyles.dataTable}>
                         {skill.category}
                       </dt>
-                      <dd>{skill.skillsName}</dd>
+                      <dd className={SkillsStyles.dataDetail}>
+                        {skill.skillsName}
+                      </dd>
                     </React.Fragment>
                   )
                 })}
@@ -71,13 +77,15 @@ const Skills = ({
           <div className="uk-width-1-1 uk-width-1-2@m">
             <dl className="uk-description-list">
               {learningProcessSecond &&
-                learningProcessSecond.map(skill => {
+                learningProcessSecond.map((skill) => {
                   return (
                     <React.Fragment key={skill.id}>
                       <dt className={SkillsStyles.dataTable}>
                         {skill.category}
                       </dt>
-                      <dd>{skill.skillsName}</dd>
+                      <dd className={SkillsStyles.dataDetail}>
+                        {skill.skillsName}
+                      </dd>
                     </React.Fragment>
                   )
                 })}
