@@ -176,6 +176,76 @@
     ]
   },
   {
+    "title": "Testful",
+    "slug": "testful",
+    "url": "https://github.com/WailSolaiman/tasteful",
+    "image": "./images/projects/testful.jpg",
+    "agency": "Personal -Template-",
+    "state": "under Development",
+    "development": "React",
+    "description": [
+      {
+        "tool": "React Native",
+        "isUsed": true
+      },
+      {
+        "tool": "Expo",
+        "isUsed": true
+      },
+      {
+        "tool": "HTML5",
+        "isUsed": true
+      },
+      {
+        "tool": "CSS3",
+        "isUsed": true
+      },
+      {
+        "tool": "Javascript/ES6",
+        "isUsed": true
+      },
+      {
+        "tool": "Node.js",
+        "isUsed": true
+      }
+    ]
+  },
+  {
+    "title": "DoneWithIt",
+    "slug": "donewithit",
+    "url": "https://github.com/WailSolaiman/doneWithIt",
+    "image": "./images/projects/doneWithIt.jpg",
+    "agency": "Personal -Template-",
+    "state": "under Development",
+    "development": "React",
+    "description": [
+      {
+        "tool": "React Native",
+        "isUsed": true
+      },
+      {
+        "tool": "Expo",
+        "isUsed": true
+      },
+      {
+        "tool": "HTML5",
+        "isUsed": true
+      },
+      {
+        "tool": "CSS3",
+        "isUsed": true
+      },
+      {
+        "tool": "Javascript/ES6",
+        "isUsed": true
+      },
+      {
+        "tool": "Node.js",
+        "isUsed": true
+      }
+    ]
+  },
+  {
     "title": "Backroads - Explore Tours",
     "slug": "backroads",
     "url": "https://backroads-ws.netlify.com/",
