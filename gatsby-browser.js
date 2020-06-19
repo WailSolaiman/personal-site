@@ -3,11 +3,11 @@ import { GlobalContextThemeProvider } from './src/context/GlobalContextThemeProv
 import { GlobalContextLanguageProvider } from './src/context/GlobalContextLanguageProvider'
 
 const wrapRootElement = ({ element }) => {
-  return (
-    <GlobalContextThemeProvider>
-      <GlobalContextLanguageProvider>{element}</GlobalContextLanguageProvider>
-    </GlobalContextThemeProvider>
-  )
+	return (
+		<GlobalContextThemeProvider>
+			<GlobalContextLanguageProvider>{element}</GlobalContextLanguageProvider>
+		</GlobalContextThemeProvider>
+	)
 }
 
 export default wrapRootElement
