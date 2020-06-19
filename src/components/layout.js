@@ -9,20 +9,20 @@ import '../styles/index.scss'
 import LayoutStyles from '../styles/layout.module.scss'
 
 const Layout = ({ children }) => {
-  useEffect(() => {
-    UIkit.use(Icons)
-  }, [])
-  return (
-    <GlobalContextThemeProvider>
-      <GlobalContextLanguageProvider>
-        <div className={LayoutStyles.container}>
-          <Header />
-          <main>{children}</main>
-        </div>
-        <Footer />
-      </GlobalContextLanguageProvider>
-    </GlobalContextThemeProvider>
-  )
+	useEffect(() => {
+		UIkit.use(Icons)
+	}, [])
+	return (
+		<GlobalContextThemeProvider>
+			<GlobalContextLanguageProvider>
+				<div className={LayoutStyles.container}>
+					<Header />
+					<main>{children}</main>
+				</div>
+				<Footer />
+			</GlobalContextLanguageProvider>
+		</GlobalContextThemeProvider>
+	)
 }
 
 export default Layout

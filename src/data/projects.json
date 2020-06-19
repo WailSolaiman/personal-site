@@ -1,1963 +1,2010 @@
 [
-  {
-    "title": "Björk GmbH",
-    "slug": "bjoerk-gmbh",
-    "url": "https://www.bjoerk.de/",
-    "image": "./images/projects/bjoerk.jpg",
-    "agency": "Anders Björk GmbH",
-    "state": "Online",
-    "development": "WordPress",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 3",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Wordpress CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Björk Movies",
-    "slug": "bjoerk-movies",
-    "url": "https://www.bjoerkmovies.de/",
-    "image": "./images/projects/bjoerk-movies.jpg",
-    "agency": "Anders Björk GmbH",
-    "state": "Online",
-    "development": "JavaScript",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Smartphones Web-Shop",
-    "slug": "smartphones-web-shop",
-    "url": "https://smartphones-webshop-solaiman.herokuapp.com/",
-    "image": "./images/projects/smartphones-webshop.jpg",
-    "agency": "Personal -Template-",
-    "state": "Online",
-    "development": "React",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES6",
-        "isUsed": true
-      },
-      {
-        "tool": "React Framework",
-        "isUsed": true
-      },
-      {
-        "tool": "Redux Framework",
-        "isUsed": true
-      },
-      {
-        "tool": "Node.js",
-        "isUsed": true
-      },
-      {
-        "tool": "Express",
-        "isUsed": true
-      },
-      {
-        "tool": "MongoDB",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "AppCovid19",
-    "slug": "appcovid19",
-    "url": "https://appcovid19-69a60.web.app/",
-    "image": "./images/projects/appcovid19.jpg",
-    "agency": "Personal -Template-",
-    "state": "Online",
-    "development": "React",
-    "description": [
-      {
-        "tool": "Ionic 4",
-        "isUsed": true
-      },
-      {
-        "tool": "Capacitor",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS 3",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES6",
-        "isUsed": true
-      },
-      {
-        "tool": "React Framework",
-        "isUsed": true
-      },
-      {
-        "tool": "Firebase DB (Firestore)",
-        "isUsed": true
-      },
-      {
-        "tool": "Firebase Auth.",
-        "isUsed": true
-      },
-      {
-        "tool": "Firebase Hosting",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Testful",
-    "slug": "testful",
-    "url": "https://github.com/WailSolaiman/tasteful",
-    "image": "./images/projects/testful.jpg",
-    "agency": "Personal -Template-",
-    "state": "under Development",
-    "development": "React",
-    "description": [
-      {
-        "tool": "React Native",
-        "isUsed": true
-      },
-      {
-        "tool": "Expo",
-        "isUsed": true
-      },
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES6",
-        "isUsed": true
-      },
-      {
-        "tool": "Node.js",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "DoneWithIt",
-    "slug": "donewithit",
-    "url": "https://github.com/WailSolaiman/doneWithIt",
-    "image": "./images/projects/doneWithIt.jpg",
-    "agency": "Personal -Template-",
-    "state": "under Development",
-    "development": "React",
-    "description": [
-      {
-        "tool": "React Native",
-        "isUsed": true
-      },
-      {
-        "tool": "Expo",
-        "isUsed": true
-      },
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES6",
-        "isUsed": true
-      },
-      {
-        "tool": "Node.js",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Backroads - Explore Tours",
-    "slug": "backroads",
-    "url": "https://backroads-ws.netlify.com/",
-    "image": "./images/projects/backroads.jpg",
-    "agency": "Personal -Template-",
-    "state": "under Development",
-    "development": "React",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES6",
-        "isUsed": true
-      },
-      {
-        "tool": "React Framework",
-        "isUsed": true
-      },
-      {
-        "tool": "Gatsby",
-        "isUsed": true
-      },
-      {
-        "tool": "GrapQL",
-        "isUsed": true
-      },
-      {
-        "tool": "Node.js",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Themeforest React Template",
-    "slug": "themeforest-react-template-portfolio",
-    "url": "https://themeforest-react-portfolio-template.netlify.com",
-    "image": "./images/projects/themeforest-react-portfolio.jpg",
-    "agency": "Personal -Template-",
-    "state": "under Development",
-    "development": "React",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "ANT Design",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES6",
-        "isUsed": true
-      },
-      {
-        "tool": "React Framework",
-        "isUsed": true
-      },
-      {
-        "tool": "Node.js",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "MERN SocialMedia",
-    "slug": "mern-social-media",
-    "url": "https://mern-social-media-solaiman.herokuapp.com/",
-    "image": "./images/projects/mern-social-media.jpg",
-    "agency": "Personal -Template-",
-    "state": "Online",
-    "development": "React",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES6",
-        "isUsed": true
-      },
-      {
-        "tool": "React Framework",
-        "isUsed": true
-      },
-      {
-        "tool": "Uikit",
-        "isUsed": true
-      },
-      {
-        "tool": "Node.js",
-        "isUsed": true
-      },
-      {
-        "tool": "Express",
-        "isUsed": true
-      },
-      {
-        "tool": "MongoDB",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "BST Bau GmbH",
-    "slug": "bst-bau-gmbh",
-    "url": "https://www.bst-bau.de/",
-    "image": "./images/projects/bst.jpg",
-    "agency": "ParrotMedia Werbeagentur",
-    "state": "Online",
-    "development": "JavaScript",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 3",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Dorenburg",
-    "slug": "dorenburg-event",
-    "url": "https://dorenburg-event.de/",
-    "image": "./images/projects/dorenburg.jpg",
-    "agency": "Anders Björk GmbH",
-    "state": "Online",
-    "development": "WordPress",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Wordpress CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Delphos",
-    "slug": "delphos",
-    "url": "https://www.delphos.de/",
-    "image": "./images/projects/delphos.jpg",
-    "agency": "Anders Björk GmbH",
-    "state": "Online",
-    "development": "WordPress",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Wordpress CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Zwei-Rad Küche",
-    "slug": "zwei-rad-kueche",
-    "url": "http://contao.zweiradkueche.de/",
-    "image": "./images/projects/zweiradkueche.jpg",
-    "agency": "VICON Web Business",
-    "state": "under Development",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Aerolingua",
-    "slug": "aerolingua",
-    "url": "https://www.aerolingua.de/home-de.html",
-    "image": "./images/projects/aerolingua.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Babenstieg",
-    "slug": "babenstieg",
-    "url": "https://www.babenstieg.de/",
-    "image": "./images/projects/babenstieg.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Dr. Beckmann Website",
-    "slug": "dr-beckmann",
-    "url": "https://www.drjuergenbeckmann.de/",
-    "image": "./images/projects/drjuergenbeckmann.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Chirurgie Bad Schwartau",
-    "slug": "chirurgie-bad-schwartau",
-    "url": "http://contao.chirurgie-bad-schwartau.de/",
-    "image": "./images/projects/chirurgie-bad-schwartau.jpg",
-    "agency": "VICON Web Business",
-    "state": "under Development",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Elvi",
-    "slug": "elvi",
-    "url": "https://www.elvi.de/beratung/",
-    "image": "./images/projects/elvi.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "WordPress",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Wordpress CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Erxleben",
-    "slug": "erxleben",
-    "url": "https://www.erxleben-art.com/",
-    "image": "./images/projects/erxleben.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Gampe",
-    "slug": "gampe",
-    "url": "https://www.gp-p.com/",
-    "image": "./images/projects/gampe.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Glücksbutze",
-    "slug": "gluecksbutze",
-    "url": "https://www.gluecksbutze.de/",
-    "image": "./images/projects/gluecksbutze.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Gutachtenpraxis",
-    "slug": "gutachtenpraxis",
-    "url": "https://www.gutachtenpraxis-luebeck.de/",
-    "image": "./images/projects/gutachtenpraxis.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Holzbau",
-    "slug": "holzbau",
-    "url": "http://shl-holzbau.developcon.de/startseite.html",
-    "image": "./images/projects/holzbau.jpg",
-    "agency": "VICON Web Business",
-    "state": "under Development",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Jugend GNZ",
-    "slug": "jugend-gestaltet-nachhaltige-zukunft",
-    "url": "https://www.jugend-gestaltet-nachhaltige-zukunft.de/",
-    "image": "./images/projects/jugend-gestaltet-nachhaltige-zukunft.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Kähler Galabau",
-    "slug": "kaehler-galabau",
-    "url": "https://www.kaehler-galabau.de/",
-    "image": "./images/projects/kaehler-galabau.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Eine Kleine Auszeit",
-    "slug": "eine-kleine-auszeit",
-    "url": "https://eine-kleine-auszeit.de/",
-    "image": "./images/projects/eine-kleine-auszeit.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Klingsporn",
-    "slug": "klingsporn",
-    "url": "https://www.architekt-klingsporn.de/",
-    "image": "./images/projects/klingsporn.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Lacasa",
-    "slug": "lacasa",
-    "url": "https://lacasa-cc.com/lacasa-cc-anmeldung.html",
-    "image": "./images/projects/lacasa.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Legate",
-    "slug": "legate",
-    "url": "https://www.legate-international.com/home.html",
-    "image": "./images/projects/legate.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Letkemann",
-    "slug": "letkemann",
-    "url": "https://www.dr-letkeman.de/",
-    "image": "./images/projects/letkeman.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "FAT Photolab",
-    "slug": "photolab",
-    "url": "https://www.fat-photolab.de/",
-    "image": "./images/projects/photolab.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "PSM",
-    "slug": "psm",
-    "url": "http://psm.developcon.de/",
-    "image": "./images/projects/psm.jpg",
-    "agency": "VICON Web Business",
-    "state": "under Development",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Rothaus",
-    "slug": "rothaus",
-    "url": "http://rothaus.developcon.de/",
-    "image": "./images/projects/rothaus.jpg",
-    "agency": "VICON Web Business",
-    "state": "under Development",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Schön Professional",
-    "slug": "schoen-professional",
-    "url": "https://www.schoen-professional.de/",
-    "image": "./images/projects/schoen-professional.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Schütt Gewerbebau",
-    "slug": "schuett",
-    "url": "https://www.grundstuecksentwicklung-schuett.de/",
-    "image": "./images/projects/schuett.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Shortysbike",
-    "slug": "shortysbike",
-    "url": "https://shortys-bikeshop.de/",
-    "image": "./images/projects/shortys-bikeshop.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "TWS",
-    "slug": "tws",
-    "url": "https://www.tws-ruegen.de/",
-    "image": "./images/projects/tws.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Wohnmobil Stellplatz",
-    "slug": "wohnmobilstellplatz",
-    "url": "http://contao.wohnmobilstellplatz-luebeck.de/",
-    "image": "./images/projects/wohnmobilstellplatz.jpg",
-    "agency": "VICON Web Business",
-    "state": "under Development",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Ki-Sigs",
-    "slug": "ki-sigs",
-    "url": "https://ki-sigs.de/",
-    "image": "./images/projects/ki-sigs.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Ostsee Urlaub Sierksdorf",
-    "slug": "ostsee-urlaub-sierksdorf",
-    "url": "http://contao.ostsee-urlaub-sierksdorf.de/home.html",
-    "image": "./images/projects/ostsee-urlaub-sierksdorf.jpg",
-    "agency": "VICON Web Business",
-    "state": "under Development",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "South Baltic Trans. Loops",
-    "slug": "south-baltic",
-    "url": "https://www.southbaltictransportloops.eu/",
-    "image": "./images/projects/southbaltictransportloops.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Chili Studios",
-    "slug": "chili-studios",
-    "url": "http://contao.chilistudios.de/",
-    "image": "./images/projects/chilistudios.jpg",
-    "agency": "VICON Web Business",
-    "state": "under Development",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  },
-  {
-    "title": "Tontalente",
-    "slug": "tontalente",
-    "url": "https://www.tontalente.de/",
-    "image": "./images/projects/tontalente.jpg",
-    "agency": "VICON Web Business",
-    "state": "Online",
-    "development": "Contao",
-    "description": [
-      {
-        "tool": "HTML5",
-        "isUsed": true
-      },
-      {
-        "tool": "CSS3",
-        "isUsed": true
-      },
-      {
-        "tool": "SASS",
-        "isUsed": true
-      },
-      {
-        "tool": "Bootstrap 4",
-        "isUsed": true
-      },
-      {
-        "tool": "jQuery",
-        "isUsed": true
-      },
-      {
-        "tool": "Javascript/ES5",
-        "isUsed": true
-      },
-      {
-        "tool": "Contao CMS",
-        "isUsed": true
-      },
-      {
-        "tool": "PHP",
-        "isUsed": true
-      },
-      {
-        "tool": "MySql",
-        "isUsed": true
-      }
-    ]
-  }
+	{
+		"title": "Personal website",
+		"slug": "personal-page",
+		"url": "https://wailsolaiman.com/",
+		"image": "./images/projects/personalPage.jpg",
+		"agency": "Personal -Template-",
+		"state": "Online",
+		"development": "ReactFramework",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "uikit",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES6",
+				"isUsed": true
+			},
+			{
+				"tool": "React Framework",
+				"isUsed": true
+			},
+			{
+				"tool": "Gatsby",
+				"isUsed": true
+			},
+			{
+				"tool": "Node.js",
+				"isUsed": true
+			},
+			{
+				"tool": "GraphQL",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Björk GmbH",
+		"slug": "bjoerk-gmbh",
+		"url": "https://www.bjoerk.de/",
+		"image": "./images/projects/bjoerk.jpg",
+		"agency": "Anders Björk GmbH",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 3",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Wordpress CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Björk Movies",
+		"slug": "bjoerk-movies",
+		"url": "https://www.bjoerkmovies.de/",
+		"image": "./images/projects/bjoerk-movies.jpg",
+		"agency": "Anders Björk GmbH",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Smartphones Web-Shop",
+		"slug": "smartphones-web-shop",
+		"url": "https://smartphones-webshop-solaiman.herokuapp.com/",
+		"image": "./images/projects/smartphones-webshop.jpg",
+		"agency": "Personal -Template-",
+		"state": "Online",
+		"development": "ReactFramework",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES6",
+				"isUsed": true
+			},
+			{
+				"tool": "React Framework",
+				"isUsed": true
+			},
+			{
+				"tool": "Redux Framework",
+				"isUsed": true
+			},
+			{
+				"tool": "Node.js",
+				"isUsed": true
+			},
+			{
+				"tool": "Express",
+				"isUsed": true
+			},
+			{
+				"tool": "MongoDB",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "AppCovid19",
+		"slug": "appcovid19",
+		"url": "https://appcovid19-69a60.web.app/",
+		"image": "./images/projects/appcovid19.jpg",
+		"agency": "Personal -Template-",
+		"state": "Online",
+		"development": "ReactFramework",
+		"description": [
+			{
+				"tool": "Ionic 4",
+				"isUsed": true
+			},
+			{
+				"tool": "Capacitor",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS 3",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES6",
+				"isUsed": true
+			},
+			{
+				"tool": "React Framework",
+				"isUsed": true
+			},
+			{
+				"tool": "Firebase DB (Firestore)",
+				"isUsed": true
+			},
+			{
+				"tool": "Firebase Auth.",
+				"isUsed": true
+			},
+			{
+				"tool": "Firebase Hosting",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Testful",
+		"slug": "testful",
+		"url": "https://github.com/WailSolaiman/tasteful",
+		"image": "./images/projects/testful.jpg",
+		"agency": "Personal -Template-",
+		"state": "under Development",
+		"development": "ReactFramework",
+		"description": [
+			{
+				"tool": "React Native",
+				"isUsed": true
+			},
+			{
+				"tool": "Expo",
+				"isUsed": true
+			},
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES6",
+				"isUsed": true
+			},
+			{
+				"tool": "Node.js",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "DoneWithIt",
+		"slug": "donewithit",
+		"url": "https://github.com/WailSolaiman/doneWithIt",
+		"image": "./images/projects/doneWithIt.jpg",
+		"agency": "Personal -Template-",
+		"state": "under Development",
+		"development": "ReactFramework",
+		"description": [
+			{
+				"tool": "React Native",
+				"isUsed": true
+			},
+			{
+				"tool": "Expo",
+				"isUsed": true
+			},
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES6",
+				"isUsed": true
+			},
+			{
+				"tool": "Node.js",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Backroads - Explore Tours",
+		"slug": "backroads",
+		"url": "https://backroads-ws.netlify.com/",
+		"image": "./images/projects/backroads.jpg",
+		"agency": "Personal -Template-",
+		"state": "under Development",
+		"development": "ReactFramework",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES6",
+				"isUsed": true
+			},
+			{
+				"tool": "React Framework",
+				"isUsed": true
+			},
+			{
+				"tool": "Gatsby",
+				"isUsed": true
+			},
+			{
+				"tool": "GrapQL",
+				"isUsed": true
+			},
+			{
+				"tool": "Node.js",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Themeforest React Template",
+		"slug": "themeforest-react-template-portfolio",
+		"url": "https://themeforest-react-portfolio-template.netlify.com",
+		"image": "./images/projects/themeforest-react-portfolio.jpg",
+		"agency": "Personal -Template-",
+		"state": "under Development",
+		"development": "ReactFramework",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "ANT Design",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES6",
+				"isUsed": true
+			},
+			{
+				"tool": "React Framework",
+				"isUsed": true
+			},
+			{
+				"tool": "Node.js",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "MERN SocialMedia",
+		"slug": "mern-social-media",
+		"url": "https://mern-social-media-solaiman.herokuapp.com/",
+		"image": "./images/projects/mern-social-media.jpg",
+		"agency": "Personal -Template-",
+		"state": "Online",
+		"development": "ReactFramework",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES6",
+				"isUsed": true
+			},
+			{
+				"tool": "React Framework",
+				"isUsed": true
+			},
+			{
+				"tool": "Uikit",
+				"isUsed": true
+			},
+			{
+				"tool": "Node.js",
+				"isUsed": true
+			},
+			{
+				"tool": "Express",
+				"isUsed": true
+			},
+			{
+				"tool": "MongoDB",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "BST Bau GmbH",
+		"slug": "bst-bau-gmbh",
+		"url": "https://www.bst-bau.de/",
+		"image": "./images/projects/bst.jpg",
+		"agency": "ParrotMedia Werbeagentur",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 3",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Dorenburg",
+		"slug": "dorenburg-event",
+		"url": "https://dorenburg-event.de/",
+		"image": "./images/projects/dorenburg.jpg",
+		"agency": "Anders Björk GmbH",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Wordpress CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Delphos",
+		"slug": "delphos",
+		"url": "https://www.delphos.de/",
+		"image": "./images/projects/delphos.jpg",
+		"agency": "Anders Björk GmbH",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Wordpress CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Zwei-Rad Küche",
+		"slug": "zwei-rad-kueche",
+		"url": "http://contao.zweiradkueche.de/",
+		"image": "./images/projects/zweiradkueche.jpg",
+		"agency": "VICON Web Business",
+		"state": "under Development",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Aerolingua",
+		"slug": "aerolingua",
+		"url": "https://www.aerolingua.de/home-de.html",
+		"image": "./images/projects/aerolingua.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Babenstieg",
+		"slug": "babenstieg",
+		"url": "https://www.babenstieg.de/",
+		"image": "./images/projects/babenstieg.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Dr. Beckmann Website",
+		"slug": "dr-beckmann",
+		"url": "https://www.drjuergenbeckmann.de/",
+		"image": "./images/projects/drjuergenbeckmann.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Chirurgie Bad Schwartau",
+		"slug": "chirurgie-bad-schwartau",
+		"url": "http://contao.chirurgie-bad-schwartau.de/",
+		"image": "./images/projects/chirurgie-bad-schwartau.jpg",
+		"agency": "VICON Web Business",
+		"state": "under Development",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Elvi",
+		"slug": "elvi",
+		"url": "https://www.elvi.de/beratung/",
+		"image": "./images/projects/elvi.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Wordpress CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Erxleben",
+		"slug": "erxleben",
+		"url": "https://www.erxleben-art.com/",
+		"image": "./images/projects/erxleben.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Gampe",
+		"slug": "gampe",
+		"url": "https://www.gp-p.com/",
+		"image": "./images/projects/gampe.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Glücksbutze",
+		"slug": "gluecksbutze",
+		"url": "https://www.gluecksbutze.de/",
+		"image": "./images/projects/gluecksbutze.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Gutachtenpraxis",
+		"slug": "gutachtenpraxis",
+		"url": "https://www.gutachtenpraxis-luebeck.de/",
+		"image": "./images/projects/gutachtenpraxis.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Holzbau",
+		"slug": "holzbau",
+		"url": "http://shl-holzbau.developcon.de/startseite.html",
+		"image": "./images/projects/holzbau.jpg",
+		"agency": "VICON Web Business",
+		"state": "under Development",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Jugend GNZ",
+		"slug": "jugend-gestaltet-nachhaltige-zukunft",
+		"url": "https://www.jugend-gestaltet-nachhaltige-zukunft.de/",
+		"image": "./images/projects/jugend-gestaltet-nachhaltige-zukunft.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Kähler Galabau",
+		"slug": "kaehler-galabau",
+		"url": "https://www.kaehler-galabau.de/",
+		"image": "./images/projects/kaehler-galabau.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Eine Kleine Auszeit",
+		"slug": "eine-kleine-auszeit",
+		"url": "https://eine-kleine-auszeit.de/",
+		"image": "./images/projects/eine-kleine-auszeit.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Klingsporn",
+		"slug": "klingsporn",
+		"url": "https://www.architekt-klingsporn.de/",
+		"image": "./images/projects/klingsporn.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Lacasa",
+		"slug": "lacasa",
+		"url": "https://lacasa-cc.com/lacasa-cc-anmeldung.html",
+		"image": "./images/projects/lacasa.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Legate",
+		"slug": "legate",
+		"url": "https://www.legate-international.com/home.html",
+		"image": "./images/projects/legate.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Letkemann",
+		"slug": "letkemann",
+		"url": "https://www.dr-letkeman.de/",
+		"image": "./images/projects/letkeman.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "FAT Photolab",
+		"slug": "photolab",
+		"url": "https://www.fat-photolab.de/",
+		"image": "./images/projects/photolab.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "PSM",
+		"slug": "psm",
+		"url": "http://psm.developcon.de/",
+		"image": "./images/projects/psm.jpg",
+		"agency": "VICON Web Business",
+		"state": "under Development",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Rothaus",
+		"slug": "rothaus",
+		"url": "http://rothaus.developcon.de/",
+		"image": "./images/projects/rothaus.jpg",
+		"agency": "VICON Web Business",
+		"state": "under Development",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Schön Professional",
+		"slug": "schoen-professional",
+		"url": "https://www.schoen-professional.de/",
+		"image": "./images/projects/schoen-professional.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Schütt Gewerbebau",
+		"slug": "schuett",
+		"url": "https://www.grundstuecksentwicklung-schuett.de/",
+		"image": "./images/projects/schuett.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Shortysbike",
+		"slug": "shortysbike",
+		"url": "https://shortys-bikeshop.de/",
+		"image": "./images/projects/shortys-bikeshop.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "TWS",
+		"slug": "tws",
+		"url": "https://www.tws-ruegen.de/",
+		"image": "./images/projects/tws.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Wohnmobil Stellplatz",
+		"slug": "wohnmobilstellplatz",
+		"url": "http://contao.wohnmobilstellplatz-luebeck.de/",
+		"image": "./images/projects/wohnmobilstellplatz.jpg",
+		"agency": "VICON Web Business",
+		"state": "under Development",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Ki-Sigs",
+		"slug": "ki-sigs",
+		"url": "https://ki-sigs.de/",
+		"image": "./images/projects/ki-sigs.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Ostsee Urlaub Sierksdorf",
+		"slug": "ostsee-urlaub-sierksdorf",
+		"url": "http://contao.ostsee-urlaub-sierksdorf.de/home.html",
+		"image": "./images/projects/ostsee-urlaub-sierksdorf.jpg",
+		"agency": "VICON Web Business",
+		"state": "under Development",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "South Baltic Trans. Loops",
+		"slug": "south-baltic",
+		"url": "https://www.southbaltictransportloops.eu/",
+		"image": "./images/projects/southbaltictransportloops.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Chili Studios",
+		"slug": "chili-studios",
+		"url": "http://contao.chilistudios.de/",
+		"image": "./images/projects/chilistudios.jpg",
+		"agency": "VICON Web Business",
+		"state": "under Development",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	},
+	{
+		"title": "Tontalente",
+		"slug": "tontalente",
+		"url": "https://www.tontalente.de/",
+		"image": "./images/projects/tontalente.jpg",
+		"agency": "VICON Web Business",
+		"state": "Online",
+		"development": "ContentManagementSystem",
+		"description": [
+			{
+				"tool": "HTML5",
+				"isUsed": true
+			},
+			{
+				"tool": "CSS3",
+				"isUsed": true
+			},
+			{
+				"tool": "SASS",
+				"isUsed": true
+			},
+			{
+				"tool": "Bootstrap 4",
+				"isUsed": true
+			},
+			{
+				"tool": "jQuery",
+				"isUsed": true
+			},
+			{
+				"tool": "Javascript/ES5",
+				"isUsed": true
+			},
+			{
+				"tool": "Contao CMS",
+				"isUsed": true
+			},
+			{
+				"tool": "PHP",
+				"isUsed": true
+			},
+			{
+				"tool": "MySql",
+				"isUsed": true
+			}
+		]
+	}
 ]

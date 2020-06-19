@@ -4,24 +4,24 @@ import Image from 'gatsby-image'
 import AvatarStyles from '../../styles/avatar.module.scss'
 
 const Avatar = () => {
-  const data = useStaticQuery(graphql`
-    {
-      file(relativePath: { eq: "images/avatar/wailsolaiman.jpg" }) {
-        childImageSharp {
-          fluid {
-            ...GatsbyImageSharpFluid
-          }
-        }
-      }
-    }
-  `)
-  const profileImsage = data.file.childImageSharp.fluid
+	const data = useStaticQuery(graphql`
+		{
+			file(relativePath: { eq: "images/avatar/wailsolaiman.jpg" }) {
+				childImageSharp {
+					fluid {
+						...GatsbyImageSharpFluid
+					}
+				}
+			}
+		}
+	`)
+	const profileImsage = data.file.childImageSharp.fluid
 
-  return (
-    <div className={AvatarStyles.avatar}>
-      <Image fluid={profileImsage} alt="profile-image" />
-    </div>
-  )
+	return (
+		<div className={AvatarStyles.avatar}>
+			<Image fluid={profileImsage} alt="profile-image" />
+		</div>
+	)
 }
 
 export default Avatar
