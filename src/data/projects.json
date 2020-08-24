@@ -146,14 +146,6 @@
 				"isUsed": true
 			},
 			{
-				"tool": "SASS",
-				"isUsed": false
-			},
-			{
-				"tool": "Bootstrap 4",
-				"isUsed": false
-			},
-			{
 				"tool": "Javascript/ES6",
 				"isUsed": true
 			},
@@ -162,16 +154,16 @@
 				"isUsed": true
 			},
 			{
-				"tool": "Gatsby",
-				"isUsed": false
+				"tool": "Axios",
+				"isUsed": true
 			},
 			{
-				"tool": "GrapQL",
-				"isUsed": false
+				"tool": "Chart.js",
+				"isUsed": true
 			},
 			{
-				"tool": "Node.js",
-				"isUsed": false
+				"tool": "Material-UI",
+				"isUsed": true
 			}
 		]
 	},
