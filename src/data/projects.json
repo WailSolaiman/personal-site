@@ -129,10 +129,10 @@
 		]
 	},
 	{
-		"title": "Smartphones Web-Shop",
-		"slug": "smartphones-web-shop",
-		"url": "https://smartphones-webshop-solaiman.herokuapp.com/",
-		"image": "./images/projects/smartphones-webshop.jpg",
+		"title": "AppCovid19",
+		"slug": "appcovid19",
+		"url": "https://clever-jepsen-6947ca.netlify.app/",
+		"image": "./images/projects/appcovid19.jpg",
 		"agency": "Personal -Template-",
 		"state": "Online",
 		"development": "ReactFramework",
@@ -147,11 +147,11 @@
 			},
 			{
 				"tool": "SASS",
-				"isUsed": true
+				"isUsed": false
 			},
 			{
 				"tool": "Bootstrap 4",
-				"isUsed": true
+				"isUsed": false
 			},
 			{
 				"tool": "Javascript/ES6",
@@ -162,133 +162,16 @@
 				"isUsed": true
 			},
 			{
-				"tool": "Redux Framework",
-				"isUsed": true
+				"tool": "Gatsby",
+				"isUsed": false
+			},
+			{
+				"tool": "GrapQL",
+				"isUsed": false
 			},
 			{
 				"tool": "Node.js",
-				"isUsed": true
-			},
-			{
-				"tool": "Express",
-				"isUsed": true
-			},
-			{
-				"tool": "MongoDB",
-				"isUsed": true
-			}
-		]
-	},
-	{
-		"title": "AppCovid19",
-		"slug": "appcovid19",
-		"url": "https://appcovid19-69a60.web.app/",
-		"image": "./images/projects/appcovid19.jpg",
-		"agency": "Personal -Template-",
-		"state": "Online",
-		"development": "ReactFramework",
-		"description": [
-			{
-				"tool": "Ionic 4",
-				"isUsed": true
-			},
-			{
-				"tool": "Capacitor",
-				"isUsed": true
-			},
-			{
-				"tool": "CSS 3",
-				"isUsed": true
-			},
-			{
-				"tool": "Javascript/ES6",
-				"isUsed": true
-			},
-			{
-				"tool": "React Framework",
-				"isUsed": true
-			},
-			{
-				"tool": "Firebase DB (Firestore)",
-				"isUsed": true
-			},
-			{
-				"tool": "Firebase Auth.",
-				"isUsed": true
-			},
-			{
-				"tool": "Firebase Hosting",
-				"isUsed": true
-			}
-		]
-	},
-	{
-		"title": "Testful",
-		"slug": "testful",
-		"url": "https://github.com/WailSolaiman/tasteful",
-		"image": "./images/projects/testful.jpg",
-		"agency": "Personal -Template-",
-		"state": "under Development",
-		"development": "ReactFramework",
-		"description": [
-			{
-				"tool": "React Native",
-				"isUsed": true
-			},
-			{
-				"tool": "Expo",
-				"isUsed": true
-			},
-			{
-				"tool": "HTML5",
-				"isUsed": true
-			},
-			{
-				"tool": "CSS3",
-				"isUsed": true
-			},
-			{
-				"tool": "Javascript/ES6",
-				"isUsed": true
-			},
-			{
-				"tool": "Node.js",
-				"isUsed": true
-			}
-		]
-	},
-	{
-		"title": "DoneWithIt",
-		"slug": "donewithit",
-		"url": "https://github.com/WailSolaiman/doneWithIt",
-		"image": "./images/projects/doneWithIt.jpg",
-		"agency": "Personal -Template-",
-		"state": "under Development",
-		"development": "ReactFramework",
-		"description": [
-			{
-				"tool": "React Native",
-				"isUsed": true
-			},
-			{
-				"tool": "Expo",
-				"isUsed": true
-			},
-			{
-				"tool": "HTML5",
-				"isUsed": true
-			},
-			{
-				"tool": "CSS3",
-				"isUsed": true
-			},
-			{
-				"tool": "Javascript/ES6",
-				"isUsed": true
-			},
-			{
-				"tool": "Node.js",
-				"isUsed": true
+				"isUsed": false
 			}
 		]
 	},
