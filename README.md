@@ -1,6 +1,6 @@
 ## Project Title
 
-Wail Solaiman - Personal Website
+Wail Solaiman - Personal Website (OLD)
 
 ## Description
 
